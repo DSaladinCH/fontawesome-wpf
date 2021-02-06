@@ -27,7 +27,7 @@ Current FontAwesome Version: 5.15.2
 #### Control Properties
 Rotate any FontAwesomeBox or FontAwesomeImage:  
 `<fa:FontAwesomeBox Icon="SolidArrowUp" FlipOrientation="Horizontal" Rotation="10" />`  
-![GitHub Logo](/images/FontAwesomeWPF_RotationProp.png)
+![Rotation Example](https://raw.githubusercontent.com/DSaladinCH/FontAwesomeWPF/master/images/FontAwesomeWPF_RotationProp.png)
 
 ## License Type
 MIT
