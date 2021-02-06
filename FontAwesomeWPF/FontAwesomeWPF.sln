@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30803.129
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesomeWPF", "FontAwesomeWPF\FontAwesomeWPF.csproj", "{6DDBC521-D43C-4687-B42B-D2930C1C0F00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesomeWPF", "FontAwesomeWPF\FontAwesomeWPF.csproj", "{33CE2465-7C67-4349-ABA7-EF8BA35E8641}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6DDBC521-D43C-4687-B42B-D2930C1C0F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DDBC521-D43C-4687-B42B-D2930C1C0F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DDBC521-D43C-4687-B42B-D2930C1C0F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DDBC521-D43C-4687-B42B-D2930C1C0F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CE2465-7C67-4349-ABA7-EF8BA35E8641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CE2465-7C67-4349-ABA7-EF8BA35E8641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CE2465-7C67-4349-ABA7-EF8BA35E8641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CE2465-7C67-4349-ABA7-EF8BA35E8641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7C2A8E0B-65F6-4906-A979-4FD7CE7E4C33}
+		SolutionGuid = {4EEAD1E5-158E-4145-9BC2-E431FEB47031}
 	EndGlobalSection
 EndGlobal

@@ -18,9 +18,9 @@ namespace DSaladin.FontAwesomeWPF
         /// <summary>
         /// FontAwesome FontFamily.
         /// </summary>
-        private static readonly FontFamily FontAwesomeSolid = new FontFamily("Font Awesome 5 Free Solid");
-        private static readonly FontFamily FontAwesomeRegular = new FontFamily("Font Awesome 5 Free Regular");
-        private static readonly FontFamily FontAwesomeBrand = new FontFamily("Font Awesome 5 Brands Regular");
+        public static readonly FontFamily FontAwesomeSolid = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Free Solid");
+        public static readonly FontFamily FontAwesomeRegular = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Free Regular");
+        public static readonly FontFamily FontAwesomeBrand = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Brands Regular");
 
         /// <summary>
         /// Typeface used to generate FontAwesome icon.
@@ -150,8 +150,13 @@ namespace DSaladin.FontAwesomeWPF
                 else if (iconID.StartsWith("fab"))
                     temp = FontAwesomeTypefaceBrand;
 
+#if (NET5_0 || NETCOREAPP3_1)
                 drawingContext.DrawText(new FormattedText(charIcon, CultureInfo.InvariantCulture, FlowDirection.LeftToRight, temp, emSize, foregroundBrush, 125)
                     { TextAlignment = TextAlignment.Center }, new Point(0, 0));
+#elif (NET45 || NET40)
+                drawingContext.DrawText(new FormattedText(charIcon, CultureInfo.InvariantCulture, FlowDirection.LeftToRight, temp, emSize, foregroundBrush)
+                { TextAlignment = TextAlignment.Center }, new Point(0, 0));
+#endif
             }
             return new DrawingImage(visual.Drawing);
         }

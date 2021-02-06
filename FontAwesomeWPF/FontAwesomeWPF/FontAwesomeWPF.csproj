@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>DSaladin.FontAwesomeWPF</RootNamespace>
+	<TargetFrameworks Condition="'$(LibraryFrameworks)'==''">net45;net40;netcoreapp3.1;net5.0-windows</TargetFrameworks>
+    <TargetFrameworks Condition="'$(LibraryFrameworks)'!=''">$(LibraryFrameworks)</TargetFrameworks>
+    <UseWPF>true</UseWPF>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageId>DSaladin.FontAwesome.WPF</PackageId>
+	<PackageId>DSaladin.FontAwesome.WPF</PackageId>
     <Authors>DSaladin</Authors>
     <Product>FontAwesome WPF</Product>
     <Description>Use all free FontAwesome Icons in WPF with custom controls and integrated properties</Description>
@@ -16,17 +16,19 @@
     <PackageTags>FontAwesome,Icon</PackageTags>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>FontAwesomeLogo.ico</ApplicationIcon>
+    <ApplicationIcon></ApplicationIcon>
+    <PackageProjectUrl>https://github.com/DSaladinCH/FontAwesomeWPF</PackageProjectUrl>
+    <PackageReleaseNotes>Created Project</PackageReleaseNotes>
+    <RootNamespace>DSaladin.FontAwesomeWPF</RootNamespace>
+    <AssemblyVersion>5.15.0.0</AssemblyVersion>
+    <FileVersion>5.15.0.0</FileVersion>
+    <Version>5.15.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Converters\**" />
-    <Compile Remove="icons-xml\**" />
-    <EmbeddedResource Remove="Converters\**" />
-    <EmbeddedResource Remove="icons-xml\**" />
-    <None Remove="Converters\**" />
-    <None Remove="icons-xml\**" />
+    <None Remove="fonts\FontAwesome5BrandsRegular.otf" />
+    <None Remove="fonts\FontAwesome5FreeRegular.otf" />
+    <None Remove="fonts\FontAwesome5FreeSolid.otf" />
     <None Include="FontAwesomeLogo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -34,29 +36,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="fonts\FontAwesome5BrandsRegular.otf" />
-    <None Remove="fonts\FontAwesome5FreeRegular.otf" />
-    <None Remove="fonts\FontAwesome5FreeSolid.otf" />
+    <Resource Include="FontAwesome5BrandsRegular.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="FontAwesome5FreeRegular.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="FontAwesome5FreeSolid.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="PresentationCore">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\PresentationCore.dll</HintPath>
-    </Reference>
-    <Reference Include="PresentationFramework">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\PresentationFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xaml">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\System.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="WindowsBase">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll</HintPath>
-    </Reference>
+    <Folder Include="fonts\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="fonts\FontAwesome5BrandsRegular.otf" />
-    <Resource Include="fonts\FontAwesome5FreeRegular.otf" />
-    <Resource Include="fonts\FontAwesome5FreeSolid.otf" />
-  </ItemGroup>
 </Project>

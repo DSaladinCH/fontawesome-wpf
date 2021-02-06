@@ -17,9 +17,9 @@ namespace DSaladin.FontAwesomeWPF
         /// <summary>
         /// FontAwesome FontFamily.
         /// </summary>
-        private static readonly FontFamily FontAwesomeSolid = new FontFamily("Font Awesome 5 Free Solid");
-        private static readonly FontFamily FontAwesomeRegular = new FontFamily("Font Awesome 5 Free Regular");
-        private static readonly FontFamily FontAwesomeBrand = new FontFamily("Font Awesome 5 Brands Regular");
+        public static readonly FontFamily FontAwesomeSolid = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Free Solid");
+        public static readonly FontFamily FontAwesomeRegular = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Free Regular");
+        public static readonly FontFamily FontAwesomeBrand = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Brands Regular");
 
         /// <summary>
         /// Identifies the FontAwesome.WPF.FontAwesome.Icon dependency property.
@@ -61,11 +61,20 @@ namespace DSaladin.FontAwesomeWPF
 
             string iconID = symbolIcon.GetIconID();
             if (iconID.StartsWith("far"))
+            {
                 d.SetValue(FontFamilyProperty, FontAwesomeRegular);
+                d.SetValue(FontWeightProperty, FontWeights.Regular);
+            }
             else if (iconID.StartsWith("fab"))
+            {
                 d.SetValue(FontFamilyProperty, FontAwesomeBrand);
+                d.SetValue(FontWeightProperty, FontWeights.Regular);
+            }
             else
+            {
                 d.SetValue(FontFamilyProperty, FontAwesomeSolid);
+                d.SetValue(FontWeightProperty, FontWeights.Normal);
+            }
 
             d.SetValue(TextAlignmentProperty, TextAlignment.Center);
             d.SetValue(TextProperty, char.ConvertFromUtf32((int)e.NewValue));
