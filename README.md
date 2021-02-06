@@ -1,4 +1,6 @@
 # FontAwesome for WPF
+[![NuGet version (DSaladin.FontAwesome.WPF)](https://img.shields.io/nuget/v/DSaladin.FontAwesome.WPF.svg?style=flat-square)](https://www.nuget.org/packages/DSaladin.FontAwesome.WPF/) 
+[![GitHub Release](https://img.shields.io/github/v/release/DSaladinCH/FontAwesomeWPF?style=flat-square)](https://github.com/DSaladinCH/FontAwesomeWPF/releases/latest)  
 
 WPF Controls with FontAwesome Icons.
 
