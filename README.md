@@ -4,7 +4,10 @@
 WPF Controls with FontAwesome Icons.
 
 FontAwesome Website: https://fontawesome.com/icons  
-Current FontAwesome Version: 5.15.2
+Current FontAwesome Version: 5.15.3
+
+## Changes in the newest version of FontAwesome
+https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md
 
 ## Usage
 ### Include in Window/Usercontrol

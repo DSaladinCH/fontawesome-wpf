@@ -10,7 +10,7 @@
     <Product>FontAwesome WPF</Product>
     <Description>Use all free FontAwesome Icons in WPF with custom controls and integrated properties</Description>
     <Copyright>Copyright © DSaladin 2021</Copyright>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseExpression></PackageLicenseExpression>
     <PackageIcon>FontAwesomeLogo.png</PackageIcon>
     <RepositoryUrl>https://github.com/DSaladinCH/FontAwesomeWPF</RepositoryUrl>
     <PackageTags>FontAwesome,Icon</PackageTags>
@@ -18,17 +18,26 @@
     <AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon></ApplicationIcon>
     <PackageProjectUrl>https://github.com/DSaladinCH/FontAwesomeWPF</PackageProjectUrl>
-    <PackageReleaseNotes>Created Project</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated FontAwesome version to 5.15.3</PackageReleaseNotes>
     <RootNamespace>DSaladin.FontAwesomeWPF</RootNamespace>
-    <AssemblyVersion>5.15.0.0</AssemblyVersion>
-    <FileVersion>5.15.0.0</FileVersion>
-    <Version>5.15.0</Version>
+    <AssemblyVersion>5.15.3.0</AssemblyVersion>
+    <FileVersion>5.15.3.0</FileVersion>
+    <Version>5.15.3</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="fonts\FontAwesome5BrandsRegular.otf" />
-    <None Remove="fonts\FontAwesome5FreeRegular.otf" />
-    <None Remove="fonts\FontAwesome5FreeSolid.otf" />
+    <Compile Remove="fonts\**" />
+    <EmbeddedResource Remove="fonts\**" />
+    <None Remove="fonts\**" />
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <Page Remove="fonts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="FontAwesomeLogo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -45,10 +54,6 @@
     <Resource Include="FontAwesome5FreeSolid.otf">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="fonts\" />
   </ItemGroup>
 
 </Project>
