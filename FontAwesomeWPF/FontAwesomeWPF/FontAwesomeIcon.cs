@@ -8,6 +8,7 @@ namespace DSaladin.FontAwesomeWPF
     public enum FontAwesomeIcon
     {
         ///<summary>Set this value to show no icon.</summary>
+        [Description("None"), IconID("none")]
         None = 0x0,
         ///<summary>Brands 500Px</summary>
         ///<see href="https://fontawesome.com/icons/500px?style=brands"/>
