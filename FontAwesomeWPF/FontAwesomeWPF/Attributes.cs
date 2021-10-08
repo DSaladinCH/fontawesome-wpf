@@ -8,8 +8,7 @@ namespace DSaladin.FontAwesomeWPF
     /// Represents the category of a fontawesome icon.
     /// </summary>
     [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = false)]
-    public class IconCategoryAttribute
-        : Attribute
+    public class IconCategoryAttribute : Attribute
     {
         /// <summary>
         /// Gets or sets the category of the icon.
@@ -28,16 +27,14 @@ namespace DSaladin.FontAwesomeWPF
     /// Represents the field is an alias of another icon.
     /// </summary>
     [AttributeUsage(AttributeTargets.All, AllowMultiple = false, Inherited = false)]
-    public class IconAliasAttribute
-        : Attribute
+    public class IconAliasAttribute : Attribute
     { }
 
     /// <summary>
     /// Represents the id (css class name) of the icon.
     /// </summary>
     [AttributeUsage(AttributeTargets.All, AllowMultiple = false, Inherited = false)]
-    public class IconIDAttribute
-        : Attribute
+    public class IconIDAttribute : Attribute
     {
         /// <summary>
         /// Gets or sets the id (css class name) of the icon.
@@ -51,6 +48,27 @@ namespace DSaladin.FontAwesomeWPF
         public IconIDAttribute(string id)
         {
             Id = id;
+        }
+    }
+
+    /// <summary>
+    /// Represents the unicode glyph of the icon.
+    /// </summary>
+    [AttributeUsage(AttributeTargets.All, AllowMultiple = false, Inherited = false)]
+    public class IconUnicodeGlyphAttribute : Attribute
+    {
+        /// <summary>
+        /// Gets or sets the unicode glyph of the icon.
+        /// </summary>
+        public char UnicodeGlyph { get; set; }
+
+        /// <summary>
+        /// Initializes a new instance of the FontAwesome.WPF.IconUnicodeGlyphAttribute class.
+        /// </summary>
+        /// <param name="unicodeGlyph">The unicode glyph</param>
+        public IconUnicodeGlyphAttribute(int unicodeGlyph)
+        {
+            UnicodeGlyph = (char)unicodeGlyph;
         }
     }
 }

@@ -14,15 +14,15 @@
     <PackageIcon>FontAwesomeLogo.png</PackageIcon>
     <RepositoryUrl>https://github.com/DSaladinCH/FontAwesomeWPF</RepositoryUrl>
     <PackageTags>FontAwesome,Icon</PackageTags>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon></ApplicationIcon>
     <PackageProjectUrl>https://github.com/DSaladinCH/FontAwesomeWPF</PackageProjectUrl>
     <PackageReleaseNotes>Fixed index out of range exception when setting foreground color on FontAwesomeImage</PackageReleaseNotes>
     <RootNamespace>DSaladin.FontAwesomeWPF</RootNamespace>
-    <AssemblyVersion>5.15.3.10</AssemblyVersion>
-    <FileVersion>5.15.3.10</FileVersion>
-    <Version>5.15.3.10</Version>
+    <AssemblyVersion>5.15.4.0</AssemblyVersion>
+    <FileVersion>5.15.4.0</FileVersion>
+    <Version>5.15.4.0</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 

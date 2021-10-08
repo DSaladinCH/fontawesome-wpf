@@ -57,7 +57,7 @@ namespace DSaladin.FontAwesomeWPF
 
             FontAwesomeIcon symbolIcon = (FontAwesomeIcon)evt.NewValue;
             int symbolCode = (int)symbolIcon;
-            char symbolChar = (char)symbolCode;
+            char symbolChar = symbolIcon.GetUnicode();
 
             string iconID = symbolIcon.GetIconID();
             if (iconID.StartsWith("far"))

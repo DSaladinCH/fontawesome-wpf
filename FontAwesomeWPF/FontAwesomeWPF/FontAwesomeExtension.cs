@@ -18,5 +18,16 @@ namespace DSaladin.FontAwesomeWPF
 
             return iconID;
         }
+
+        public static char GetUnicode(this FontAwesomeIcon icon)
+        {
+            var memberInfos = typeof(FontAwesomeIcon).GetMember(icon.ToString());
+            var enumValueMemberInfo = memberInfos.FirstOrDefault(m => m.DeclaringType == typeof(FontAwesomeIcon));
+            var valueAttributes =
+                  enumValueMemberInfo.GetCustomAttributes(typeof(IconUnicodeGlyphAttribute), false);
+            var iconID = ((IconUnicodeGlyphAttribute)valueAttributes[0]).UnicodeGlyph;
+
+            return iconID;
+        }
     }
 }
