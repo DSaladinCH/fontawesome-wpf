@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSaladin.FontAwesomeWPF
+namespace DSaladin.FontAwesome.WPF
 {
     public static class FontAwesomeExtension
     {

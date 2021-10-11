@@ -12,18 +12,19 @@
     <Copyright>Copyright © DSaladin 2021</Copyright>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageIcon>FontAwesomeLogo.png</PackageIcon>
-    <RepositoryUrl>https://github.com/DSaladinCH/FontAwesomeWPF</RepositoryUrl>
+    <RepositoryUrl>https://github.com/DSaladinCH/fontawesome-wpf</RepositoryUrl>
     <PackageTags>FontAwesome,Icon</PackageTags>
     <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon></ApplicationIcon>
-    <PackageProjectUrl>https://github.com/DSaladinCH/FontAwesomeWPF</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
     <PackageReleaseNotes>Fixed index out of range exception when setting foreground color on FontAwesomeImage</PackageReleaseNotes>
-    <RootNamespace>DSaladin.FontAwesomeWPF</RootNamespace>
-    <AssemblyVersion>5.15.4.0</AssemblyVersion>
-    <FileVersion>5.15.4.0</FileVersion>
-    <Version>5.15.4.0</Version>
+    <RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
+    <AssemblyVersion>5.15.4.1</AssemblyVersion>
+    <FileVersion>5.15.4.1</FileVersion>
+    <Version>5.15.4.1</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">

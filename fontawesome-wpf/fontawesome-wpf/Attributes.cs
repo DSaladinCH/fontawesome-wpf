@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DSaladin.FontAwesomeWPF
+namespace DSaladin.FontAwesome.WPF
 {
     /// <summary>
     /// Represents the category of a fontawesome icon.

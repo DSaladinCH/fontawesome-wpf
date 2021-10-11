@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace DSaladin.FontAwesomeWPF
+namespace DSaladin.FontAwesome.WPF
 {
     /// <summary>
     /// Defines the different flip orientations that a icon can have.

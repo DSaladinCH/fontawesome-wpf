@@ -1,8 +1,13 @@
 # Change Log
 
-## [5.15.4.0] - 10/09/2021
+## [5.15.4.1] - 10/11/2021
+### Fixed
+- Issue with FontAwesomeImage not showing the correct icon
+
+## [5.15.4] - 10/09/2021
 ### Updated
 - FontAwesome Version to 5.15.4
+
 ### Fixed
 - Solid and Regular are mixed
 
@@ -14,5 +19,7 @@
 ### Updated
 - FontAwesome Version to 5.15.3
 
-[5.15.3.10]: https://github.com/DSaladinCH/FontAwesomeWPF/compare/v5.15.3...v5.15.3.10
-[5.15.3]: https://github.com/DSaladinCH/FontAwesomeWPF/releases/tag/v5.15.3
+[5.15.4.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4...v5.15.4.1
+[5.15.4]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.3.10...v5.15.4
+[5.15.3.10]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.3...v5.15.3.10
+[5.15.3]: https://github.com/DSaladinCH/fontawesome-wpf/releases/tag/v5.15.3

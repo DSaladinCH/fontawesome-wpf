@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace DSaladin.FontAwesomeWPF
+namespace DSaladin.FontAwesome.WPF
 {
     /// <summary>
     /// Provides a TextBlock with a FontAwesome Icon
@@ -17,9 +17,9 @@ namespace DSaladin.FontAwesomeWPF
         /// <summary>
         /// FontAwesome FontFamily.
         /// </summary>
-        public static readonly FontFamily FontAwesomeSolid = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Free Solid");
-        public static readonly FontFamily FontAwesomeRegular = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Free Regular");
-        public static readonly FontFamily FontAwesomeBrand = new FontFamily(new Uri("pack://application:,,,/FontAwesomeWPF;component/"), "./#Font Awesome 5 Brands Regular");
+        public static readonly FontFamily FontAwesomeSolid = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Solid");
+        public static readonly FontFamily FontAwesomeRegular = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Regular");
+        public static readonly FontFamily FontAwesomeBrand = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Brands Regular");
 
         /// <summary>
         /// Identifies the FontAwesome.WPF.FontAwesome.Icon dependency property.
@@ -104,7 +104,7 @@ namespace DSaladin.FontAwesomeWPF
         private static object RotationCoerceValue(DependencyObject d, object value)
         {
             double val = (double)value;
-            return val < 0 ? 0d : (val > 360 ? 360d : value);
+            return val < 0 ? 0d : val > 360 ? 360d : value;
         }
         #endregion
 
