@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace DSaladin.FontAwesomeWPF
+namespace DSaladin.FontAwesome.WPF
 {
     /// <summary>
     /// Provides a ImageBox with a FontAwesome Icon
@@ -98,7 +98,7 @@ namespace DSaladin.FontAwesomeWPF
         private static object RotationCoerceValue(DependencyObject d, object value)
         {
             double val = (double)value;
-            return val < 0 ? 0d : (val > 360 ? 360d : value);
+            return val < 0 ? 0d : val > 360 ? 360d : value;
         }
 
         /// <summary>
@@ -152,7 +152,7 @@ namespace DSaladin.FontAwesomeWPF
 
 #if (NET5_0 || NETCOREAPP3_1)
                 drawingContext.DrawText(new FormattedText(charIcon, CultureInfo.InvariantCulture, FlowDirection.LeftToRight, temp, emSize, foregroundBrush, 125)
-                    { TextAlignment = TextAlignment.Center }, new Point(0, 0));
+                { TextAlignment = TextAlignment.Center }, new Point(0, 0));
 #elif (NET45 || NET40)
                 drawingContext.DrawText(new FormattedText(charIcon, CultureInfo.InvariantCulture, FlowDirection.LeftToRight, temp, emSize, foregroundBrush)
                 { TextAlignment = TextAlignment.Center }, new Point(0, 0));
