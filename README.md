@@ -11,7 +11,7 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md
 
 ## Usage
 ### Include in Window/Usercontrol
-`xmlns:fa="clr-namespace:DSaladin.FontAwesomeWPF;assembly=FontAwesomeWPF"`
+`xmlns:fa="clr-namespace:DSaladin.FontAwesome.WPF;assembly=DSaladin.FontAwesome.WPF"`
 
 ### In Controls
 (ex. Label)  
@@ -31,7 +31,7 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md
 #### Control Properties
 Rotate any FontAwesomeBox or FontAwesomeImage:  
 `<fa:FontAwesomeBox Icon="SolidArrowUp" FlipOrientation="Horizontal" Rotation="10" />`  
-![Rotation Example](https://raw.githubusercontent.com/DSaladinCH/FontAwesomeWPF/master/images/FontAwesomeWPF_RotationProp.png)
+![Rotation Example](https://raw.githubusercontent.com/DSaladinCH/fontawesome-wpf/master/images/FontAwesomeWPF_RotationProp.png)
 
 ## License Type
 MIT
