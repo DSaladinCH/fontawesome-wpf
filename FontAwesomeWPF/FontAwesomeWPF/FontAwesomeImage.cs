@@ -138,7 +138,7 @@ namespace DSaladin.FontAwesomeWPF
         /// <returns>A new System.Windows.Media.ImageSource</returns>
         public static ImageSource CreateImageSource(FontAwesomeIcon icon, Brush foregroundBrush, double emSize = 100)
         {
-            var charIcon = char.ConvertFromUtf32((int)icon);
+            var charIcon = char.ConvertFromUtf32(icon.GetUnicode());
 
             var visual = new DrawingVisual();
             using (var drawingContext = visual.RenderOpen())
