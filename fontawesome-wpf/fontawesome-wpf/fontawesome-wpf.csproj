@@ -18,7 +18,7 @@
     <AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon></ApplicationIcon>
     <PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
-    <PackageReleaseNotes>Fixed index out of range exception when setting foreground color on FontAwesomeImage</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed FontAwesomeImage showing no icon</PackageReleaseNotes>
     <RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
     <AssemblyVersion>5.15.4.2</AssemblyVersion>
     <FileVersion>5.15.4.2</FileVersion>

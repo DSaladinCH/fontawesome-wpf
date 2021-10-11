@@ -1,5 +1,9 @@
 # Change Log
 
+## [5.15.4.2] - 10/11/2021
+### Fixed
+- Issue with FontAwesomeImage not showing any icon
+
 ## [5.15.4.1] - 10/11/2021
 ### Fixed
 - Issue with FontAwesomeImage not showing the correct icon
@@ -19,6 +23,7 @@
 ### Updated
 - FontAwesome Version to 5.15.3
 
+[5.15.4.2]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4.1...v5.15.4.2
 [5.15.4.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4...v5.15.4.1
 [5.15.4]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.3.10...v5.15.4
 [5.15.3.10]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.3...v5.15.3.10
