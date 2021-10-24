@@ -3,35 +3,37 @@
 
 WPF Controls with FontAwesome Icons.
 
-FontAwesome Website: https://fontawesome.com/icons  
-Current FontAwesome Version: 5.15.4
+**FontAwesome Website:** https://fontawesome.com/icons  
+**Current FontAwesome Version:** 5.15.4
 
-## Changes in the newest version of FontAwesome
+### Changes in the newest version of FontAwesome
 https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md
 
-## Usage
-### Include in Window/Usercontrol
-`xmlns:fa="clr-namespace:DSaladin.FontAwesome.WPF;assembly=DSaladin.FontAwesome.WPF"`
-
-### In Controls
-(ex. Label)  
+## How to use
+### Include in Window / UserControl / ResourceDictionary
 ```
-// instead of using Content
-<Label fa:Icon.Content="SolidArrowUp" />
-// instead of using Text
-<Button fa:Icon.Content="SolidArrowUp" />
+xmlns:fa="clr-namespace:DSaladin.FontAwesome.WPF;assembly=DSaladin.FontAwesome.WPF"
 ```
 
-### Custom Controls
+### Step 2 - Set icon in Control
 ```
-<fa:FontAwesomeBox Icon="SolidArrowUp" />
+<Label fa:Content.Icon="SolidArrowUp" />
+<Button fa:Content.Icon="SolidArrowUp" />
+```
+
+### (Optional) Step 3 - Set rotation
+```
+<Label fa:Content.Icon="SolidArrowUp" fa:Content.IconRotation="45" />
+<Button fa:Content.Icon="SolidArrowUp" fa:Content.IconRotation="69" />
+```
+
+## FontAwesome Controls
+This package also contains two custom controls.
+#### FontAwesome Controls
+```
+<fa:FontAwesomeBox Icon="SolidArrowUp" FlipOrientation="Horizontal" Rotation="10" />
 <fa:FontAwesomeImage Icon="SolidArrowUp" />
 ```
-
-#### Control Properties
-Rotate any FontAwesomeBox or FontAwesomeImage:  
-`<fa:FontAwesomeBox Icon="SolidArrowUp" FlipOrientation="Horizontal" Rotation="10" />`  
-![Rotation Example](https://raw.githubusercontent.com/DSaladinCH/fontawesome-wpf/master/images/FontAwesomeWPF_RotationProp.png)
 
 ## License Type
 MIT
