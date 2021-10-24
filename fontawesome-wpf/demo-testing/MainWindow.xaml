@@ -1,0 +1,16 @@
+﻿<Window x:Class="demo_testing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="clr-namespace:DSaladin.FontAwesome.WPF;assembly=DSaladin.FontAwesome.WPF"
+        xmlns:local="clr-namespace:demo_testing"
+        mc:Ignorable="d"
+        Background="Black"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Center">
+        <Label Height="50" Width="200" fa:Content.Icon="SolidArrowUp" FontSize="40" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               fa:Content.IconRotation="45" x:Name="lblIcon" />
+        <fa:FontAwesomeImage Icon="SolidArrowUp" Height="50" Width="200" Foreground="White" Rotation="45" />
+    </StackPanel>
+</Window>
