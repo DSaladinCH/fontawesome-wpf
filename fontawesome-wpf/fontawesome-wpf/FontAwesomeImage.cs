@@ -92,7 +92,7 @@ namespace DSaladin.FontAwesome.WPF
             if (null == imageAwesome || !(e.NewValue is double) || e.NewValue.Equals(e.OldValue))
                 return;
 
-            imageAwesome.SetRotation();
+            imageAwesome.SetRotation((double)e.NewValue);
         }
 
         private static object RotationCoerceValue(DependencyObject d, object value)

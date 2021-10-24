@@ -1,5 +1,12 @@
 # Change Log
 
+## [5.15.4.3] - 10/24/2021
+### Added
+- Support for control rotation with Content.IconRotation
+
+### Changed
+- The property Icon.Content to Content.Icon
+
 ## [5.15.4.2] - 10/11/2021
 ### Fixed
 - Issue with FontAwesomeImage not showing any icon

@@ -6,7 +6,7 @@ using System.Windows.Media;
 
 namespace DSaladin.FontAwesome.WPF
 {
-    public static class Icon
+    public static class Content
     {
         /// <summary>
         /// FontAwesome FontFamily.
@@ -15,24 +15,25 @@ namespace DSaladin.FontAwesome.WPF
         public static readonly FontFamily FontAwesomeRegular = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Regular");
         public static readonly FontFamily FontAwesomeBrand = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Brands Regular");
 
+        #region Icon
         /// <summary>
-        /// Identifies the FontAwesome.WPF.Awesome.Content attached dependency property.
+        /// The dependencyproperty for a FontAwesome icon on a ContentControl
         /// </summary>
-        public static readonly DependencyProperty ContentProperty =
+        public static readonly DependencyProperty IconProperty =
             DependencyProperty.RegisterAttached(
-                "Content",
+                "Icon",
                 typeof(FontAwesomeIcon),
-                typeof(Icon),
-                new PropertyMetadata(DEFAULT_CONTENT, ContentChanged));
+                typeof(ContentControl),
+                new PropertyMetadata(FontAwesomeIcon.None, IconChanged));
 
         /// <summary>
         /// Gets the content of a ContentControl, expressed as a FontAwesome icon.
         /// </summary>
         /// <param name="target">The ContentControl subject of the query</param>
         /// <returns>FontAwesome icon found as content</returns>
-        public static FontAwesomeIcon GetContent(DependencyObject target)
+        public static FontAwesomeIcon GetIcon(DependencyObject target)
         {
-            return (FontAwesomeIcon)target.GetValue(ContentProperty);
+            return (FontAwesomeIcon)target.GetValue(IconProperty);
         }
 
         /// <summary>
@@ -40,19 +41,50 @@ namespace DSaladin.FontAwesome.WPF
         /// </summary>
         /// <param name="target">The ContentControl where to set the content</param>
         /// <param name="value">FontAwesome icon to set as content</param>
-        public static void SetContent(DependencyObject target, FontAwesomeIcon value)
+        public static void SetIcon(DependencyObject target, FontAwesomeIcon value)
         {
-            target.SetValue(ContentProperty, value);
+            target.SetValue(IconProperty, value);
+        }
+        #endregion
+
+        #region IconRotation
+        /// <summary>
+        /// The dependencyproperty for the icon rotation on a ContentControl
+        /// </summary>
+        public static readonly DependencyProperty IconRotationProperty =
+            DependencyProperty.RegisterAttached(
+                "IconRotation",
+                typeof(double),
+                typeof(ContentControl),
+                new PropertyMetadata(default(double), RotationChanged));
+
+        /// <summary>
+        /// Gets the icon rotation of the ContentControl
+        /// </summary>
+        /// <param name="target">The target ContentControl</param>
+        /// <returns>Returns the current icon rotation</returns>
+        public static double GetIconRotation(DependencyObject target)
+        {
+            return (double)target.GetValue(IconRotationProperty);
         }
 
-        private static void ContentChanged(DependencyObject sender, DependencyPropertyChangedEventArgs evt)
+        /// <summary>
+        /// Sets the icon rotation on the ContentControl
+        /// </summary>
+        /// <param name="target">The target ContentControl</param>
+        /// <param name="value">The new icon rotation value</param>
+        public static void SetIconRotation(DependencyObject target, double value)
         {
-            // If target is not a ContenControl just ignore: Awesome.Content property can only be set on a ContentControl element
+            target.SetValue(IconRotationProperty, value);
+        }
+        #endregion
+
+        private static void IconChanged(DependencyObject sender, DependencyPropertyChangedEventArgs evt)
+        {
             if (!(sender is ContentControl)) return;
 
             ContentControl target = (ContentControl)sender;
 
-            // If value is not a FontAwesomeIcon just ignore: Awesome.Content property can only be set to a FontAwesomeIcon value
             if (!(evt.NewValue is FontAwesomeIcon)) return;
 
             FontAwesomeIcon symbolIcon = (FontAwesomeIcon)evt.NewValue;
@@ -70,6 +102,14 @@ namespace DSaladin.FontAwesome.WPF
             target.Content = symbolChar;
         }
 
-        private const FontAwesomeIcon DEFAULT_CONTENT = FontAwesomeIcon.None;
+        private static void RotationChanged(DependencyObject sender, DependencyPropertyChangedEventArgs evt)
+        {
+            if (!(sender is ContentControl)) return;
+
+            ContentControl target = (ContentControl)sender;
+
+            if (!double.TryParse(evt.NewValue.ToString(), out double value)) return;
+            target.SetRotation(value);
+        }
     }
 }

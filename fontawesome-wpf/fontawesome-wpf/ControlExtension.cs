@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace DSaladin.FontAwesome.WPF
@@ -15,8 +16,7 @@ namespace DSaladin.FontAwesome.WPF
         /// </summary>
         /// <typeparam name="T">FrameworkElement and IRotatable</typeparam>
         /// <param name="control">Control to apply the rotation</param>
-        public static void SetRotation<T>(this T control)
-            where T : FrameworkElement, IRotatable
+        public static void SetRotation<T>(this T control, double rotation) where T : FrameworkElement, IRotatable
         {
             var transformGroup = control.RenderTransform as TransformGroup ?? new TransformGroup();
 
@@ -24,11 +24,31 @@ namespace DSaladin.FontAwesome.WPF
 
             if (rotateTransform != null)
             {
-                rotateTransform.Angle = control.Rotation;
+                rotateTransform.Angle = rotation;
             }
             else
             {
-                transformGroup.Children.Add(new RotateTransform(control.Rotation));
+                transformGroup.Children.Add(new RotateTransform(rotation));
+                control.RenderTransform = transformGroup;
+                control.RenderTransformOrigin = new Point(0.5, 0.5);
+            }
+        }
+
+        /// <summary>
+        /// Set a rotation to the control
+        /// </summary>
+        /// <param name="control">The control</param>
+        /// <param name="rotation">The new rotation for the control</param>
+        public static void SetRotation(this ContentControl control, double rotation)
+        {
+            var transformGroup = control.RenderTransform as TransformGroup ?? new TransformGroup();
+            var rotateTransform = transformGroup.Children.OfType<RotateTransform>().FirstOrDefault();
+
+            if (rotateTransform != null)
+                rotateTransform.Angle = rotation;
+            else
+            {
+                transformGroup.Children.Add(new RotateTransform(rotation));
                 control.RenderTransform = transformGroup;
                 control.RenderTransformOrigin = new Point(0.5, 0.5);
             }
