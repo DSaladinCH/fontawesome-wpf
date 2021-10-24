@@ -34,6 +34,11 @@ namespace DSaladin.FontAwesome.WPF
             }
         }
 
+        /// <summary>
+        /// Set a rotation to the control
+        /// </summary>
+        /// <param name="control">The control</param>
+        /// <param name="rotation">The new rotation for the control</param>
         public static void SetRotation(this ContentControl control, double rotation)
         {
             var transformGroup = control.RenderTransform as TransformGroup ?? new TransformGroup();

@@ -17,7 +17,7 @@ namespace DSaladin.FontAwesome.WPF
 
         #region Icon
         /// <summary>
-        /// Identifies the FontAwesome.WPF.Awesome.Content attached dependency property.
+        /// The dependencyproperty for a FontAwesome icon on a ContentControl
         /// </summary>
         public static readonly DependencyProperty IconProperty =
             DependencyProperty.RegisterAttached(
@@ -48,6 +48,9 @@ namespace DSaladin.FontAwesome.WPF
         #endregion
 
         #region IconRotation
+        /// <summary>
+        /// The dependencyproperty for the icon rotation on a ContentControl
+        /// </summary>
         public static readonly DependencyProperty IconRotationProperty =
             DependencyProperty.RegisterAttached(
                 "IconRotation",
@@ -55,11 +58,21 @@ namespace DSaladin.FontAwesome.WPF
                 typeof(ContentControl),
                 new PropertyMetadata(default(double), RotationChanged));
 
+        /// <summary>
+        /// Gets the icon rotation of the ContentControl
+        /// </summary>
+        /// <param name="target">The target ContentControl</param>
+        /// <returns>Returns the current icon rotation</returns>
         public static double GetIconRotation(DependencyObject target)
         {
             return (double)target.GetValue(IconRotationProperty);
         }
 
+        /// <summary>
+        /// Sets the icon rotation on the ContentControl
+        /// </summary>
+        /// <param name="target">The target ContentControl</param>
+        /// <param name="value">The new icon rotation value</param>
         public static void SetIconRotation(DependencyObject target, double value)
         {
             target.SetValue(IconRotationProperty, value);
