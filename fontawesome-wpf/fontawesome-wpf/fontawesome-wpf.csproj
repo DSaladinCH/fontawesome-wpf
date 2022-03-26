@@ -26,7 +26,7 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <TargetFrameworks>net45;net40;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net40;net452;net462;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
@@ -47,6 +47,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="FontAwesome6BrandsRegular.otf" />
+    <None Remove="FontAwesome6FreeRegular.otf" />
+    <None Remove="FontAwesome6FreeSolid.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -55,6 +61,18 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="FontAwesome6BrandsRegular.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="FontAwesome6FreeRegular.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="FontAwesome6FreeSolid.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
