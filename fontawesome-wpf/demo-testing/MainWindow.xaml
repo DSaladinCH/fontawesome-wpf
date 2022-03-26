@@ -9,8 +9,7 @@
         Background="Black"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel VerticalAlignment="Center">
-        <Label Height="50" Width="200" fa:Content.Icon="SolidArrowsTurnRight" FontSize="40" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-               fa:Content.IconRotation="45" x:Name="lblIcon" />
+        <Label Height="50" Width="200" fa:Content.Icon="SolidArrowsTurnRight" FontSize="40" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblIcon" />
         <fa:FontAwesomeImage Icon="SolidArrowsTurnRight" Height="50" Width="200" Foreground="White" Rotation="45" />
     </StackPanel>
 </Window>

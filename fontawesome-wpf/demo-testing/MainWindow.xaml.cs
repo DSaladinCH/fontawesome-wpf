@@ -24,7 +24,7 @@ namespace demo_testing
         public MainWindow()
         {
             InitializeComponent();
-            lblIcon.SetRotation(90);
+            //lblIcon.SetRotation(90);
         }
     }
 }
