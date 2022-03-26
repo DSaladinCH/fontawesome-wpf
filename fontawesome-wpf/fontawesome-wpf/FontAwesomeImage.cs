@@ -16,18 +16,11 @@ namespace DSaladin.FontAwesome.WPF
     public class FontAwesomeImage : Image, IRotatable, IFlippable
     {
         /// <summary>
-        /// FontAwesome FontFamily.
-        /// </summary>
-        public static readonly FontFamily FontAwesomeSolid = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Solid");
-        public static readonly FontFamily FontAwesomeRegular = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Regular");
-        public static readonly FontFamily FontAwesomeBrand = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Brands Regular");
-
-        /// <summary>
         /// Typeface used to generate FontAwesome icon.
         /// </summary>
-        private static readonly Typeface FontAwesomeTypefaceSolid = new Typeface(FontAwesomeSolid, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
-        private static readonly Typeface FontAwesomeTypefaceRegular = new Typeface(FontAwesomeRegular, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
-        private static readonly Typeface FontAwesomeTypefaceBrand = new Typeface(FontAwesomeBrand, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+        private static readonly Typeface FontAwesomeTypefaceSolid = new Typeface(Management.FontAwesomeSolid, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+        private static readonly Typeface FontAwesomeTypefaceRegular = new Typeface(Management.FontAwesomeRegular, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+        private static readonly Typeface FontAwesomeTypefaceBrand = new Typeface(Management.FontAwesomeBrand, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
 
         /// <summary>
         /// Identifies the FontAwesome.WPF.ImageAwesome.Foreground dependency property.
