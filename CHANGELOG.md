@@ -7,6 +7,9 @@
 ### Updated
 - FontAwesome version to the new release 6.0 (6.1.1)
 
+### Removed
+- Dependency Property "Rotation" which was causing rotation of the control itself
+
 ## [5.15.4.3] - 10/24/2021
 ### Added
 - Support for control rotation with Content.IconRotation

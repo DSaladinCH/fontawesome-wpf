@@ -21,12 +21,6 @@ xmlns:fa="https://dsaladin.dev/products/fontawesome/wpf/xaml"
 <Button fa:Content.Icon="SolidArrowUp" />
 ```
 
-### (Optional) Step 3 - Set rotation
-```
-<Label fa:Content.Icon="SolidArrowUp" fa:Content.IconRotation="45" />
-<Button fa:Content.Icon="SolidArrowUp" fa:Content.IconRotation="69" />
-```
-
 ## FontAwesome Controls
 This package also contains two custom controls.
 #### FontAwesome Controls
