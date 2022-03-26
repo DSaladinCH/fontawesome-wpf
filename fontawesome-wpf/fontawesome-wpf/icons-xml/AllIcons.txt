@@ -79,7 +79,7 @@ RegularAddressCard = 18,
 ///<summary>Brands App.net</summary>
 ///<see href="https://fontawesome.com/icons/adn?style=brands"/>
 [Description("Brands App.net"), IconID("fab-adn"), IconUnicodeGlyph(0xf170)]
-BrandsAppNet = 19,
+BrandsAdn = 19,
 ///<summary>Brands Adversal</summary>
 ///<see href="https://fontawesome.com/icons/adversal?style=brands"/>
 [Description("Brands Adversal"), IconID("fab-adversal"), IconUnicodeGlyph(0xf36a)]
@@ -191,7 +191,7 @@ SolidAnglesUp = 46,
 ///<summary>Brands Angry Creative</summary>
 ///<see href="https://fontawesome.com/icons/angrycreative?style=brands"/>
 [Description("Brands Angry Creative"), IconID("fab-angrycreative"), IconUnicodeGlyph(0xf36e)]
-BrandsAngryCreative = 47,
+BrandsAngrycreative = 47,
 ///<summary>Brands Angular</summary>
 ///<see href="https://fontawesome.com/icons/angular?style=brands"/>
 [Description("Brands Angular"), IconID("fab-angular"), IconUnicodeGlyph(0xf420)]
@@ -207,11 +207,11 @@ BrandsAppStore = 50,
 ///<summary>Brands iOS App Store</summary>
 ///<see href="https://fontawesome.com/icons/app-store-ios?style=brands"/>
 [Description("Brands iOS App Store"), IconID("fab-app-store-ios"), IconUnicodeGlyph(0xf370)]
-BrandsIosAppStore = 51,
+BrandsAppStoreIos = 51,
 ///<summary>Brands Apper Systems AB</summary>
 ///<see href="https://fontawesome.com/icons/apper?style=brands"/>
 [Description("Brands Apper Systems AB"), IconID("fab-apper"), IconUnicodeGlyph(0xf371)]
-BrandsApperSystemsAB = 52,
+BrandsApper = 52,
 ///<summary>Brands Apple</summary>
 ///<see href="https://fontawesome.com/icons/apple?style=brands"/>
 [Description("Brands Apple"), IconID("fab-apple"), IconUnicodeGlyph(0xf179)]
@@ -451,7 +451,7 @@ SolidAsterisk = 111,
 ///<summary>Brands Asymmetrik, Ltd.</summary>
 ///<see href="https://fontawesome.com/icons/asymmetrik?style=brands"/>
 [Description("Brands Asymmetrik, Ltd."), IconID("fab-asymmetrik"), IconUnicodeGlyph(0xf372)]
-BrandsAsymmetrikLtd = 112,
+BrandsAsymmetrik = 112,
 ///<summary>Solid At</summary>
 ///<see href="https://fontawesome.com/icons/at?style=solid"/>
 [Description("Solid At"), IconID("fas-at"), IconUnicodeGlyph(0x40)]
@@ -471,7 +471,7 @@ BrandsAudible = 116,
 ///<summary>Solid Rectangle audio description</summary>
 ///<see href="https://fontawesome.com/icons/audio-description?style=solid"/>
 [Description("Solid Rectangle audio description"), IconID("fas-audio-description"), IconUnicodeGlyph(0xf29e)]
-SolidRectangleAudioDescription = 117,
+SolidAudioDescription = 117,
 ///<summary>Solid Austral Sign</summary>
 ///<see href="https://fontawesome.com/icons/austral-sign?style=solid"/>
 [Description("Solid Austral Sign"), IconID("fas-austral-sign"), IconUnicodeGlyph(0xe0a9)]
@@ -495,7 +495,7 @@ SolidAward = 122,
 ///<summary>Brands Amazon Web Services (AWS)</summary>
 ///<see href="https://fontawesome.com/icons/aws?style=brands"/>
 [Description("Brands Amazon Web Services (AWS)"), IconID("fab-aws"), IconUnicodeGlyph(0xf375)]
-BrandsAmazonWebServicesAWS = 123,
+BrandsAws = 123,
 ///<summary>Solid B</summary>
 ///<see href="https://fontawesome.com/icons/b?style=solid"/>
 [Description("Solid B"), IconID("fas-b"), IconUnicodeGlyph(0x42)]
@@ -539,7 +539,7 @@ SolidBagShopping = 133,
 ///<summary>Solid Bahá'í</summary>
 ///<see href="https://fontawesome.com/icons/bahai?style=solid"/>
 [Description("Solid Bahá'í"), IconID("fas-bahai"), IconUnicodeGlyph(0xf666)]
-SolidBah = 134,
+SolidBahai = 134,
 ///<summary>Solid Baht Sign</summary>
 ///<see href="https://fontawesome.com/icons/baht-sign?style=solid"/>
 [Description("Solid Baht Sign"), IconID("fas-baht-sign"), IconUnicodeGlyph(0xe0ac)]
@@ -579,7 +579,7 @@ SolidBarsStaggered = 143,
 ///<summary>Solid Baseball Ball</summary>
 ///<see href="https://fontawesome.com/icons/baseball?style=solid"/>
 [Description("Solid Baseball Ball"), IconID("fas-baseball"), IconUnicodeGlyph(0xf433)]
-SolidBaseballBall = 144,
+SolidBaseball = 144,
 ///<summary>Solid Baseball bat ball</summary>
 ///<see href="https://fontawesome.com/icons/baseball-bat-ball?style=solid"/>
 [Description("Solid Baseball bat ball"), IconID("fas-baseball-bat-ball"), IconUnicodeGlyph(0xf432)]
@@ -591,7 +591,7 @@ SolidBasketShopping = 146,
 ///<summary>Solid Basketball Ball</summary>
 ///<see href="https://fontawesome.com/icons/basketball?style=solid"/>
 [Description("Solid Basketball Ball"), IconID("fas-basketball"), IconUnicodeGlyph(0xf434)]
-SolidBasketballBall = 147,
+SolidBasketball = 147,
 ///<summary>Solid Bath</summary>
 ///<see href="https://fontawesome.com/icons/bath?style=solid"/>
 [Description("Solid Bath"), IconID("fas-bath"), IconUnicodeGlyph(0xf2cd)]
@@ -607,15 +607,15 @@ SolidBatteryFull = 150,
 ///<summary>Solid Battery 1/2 Full</summary>
 ///<see href="https://fontawesome.com/icons/battery-half?style=solid"/>
 [Description("Solid Battery 1/2 Full"), IconID("fas-battery-half"), IconUnicodeGlyph(0xf242)]
-SolidBattery12Full = 151,
+SolidBatteryHalf = 151,
 ///<summary>Solid Battery 1/4 Full</summary>
 ///<see href="https://fontawesome.com/icons/battery-quarter?style=solid"/>
 [Description("Solid Battery 1/4 Full"), IconID("fas-battery-quarter"), IconUnicodeGlyph(0xf243)]
-SolidBattery14Full = 152,
+SolidBatteryQuarter = 152,
 ///<summary>Solid Battery 3/4 Full</summary>
 ///<see href="https://fontawesome.com/icons/battery-three-quarters?style=solid"/>
 [Description("Solid Battery 3/4 Full"), IconID("fas-battery-three-quarters"), IconUnicodeGlyph(0xf241)]
-SolidBattery34Full = 153,
+SolidBatteryThreeQuarters = 153,
 ///<summary>Brands Battle.net</summary>
 ///<see href="https://fontawesome.com/icons/battle-net?style=brands"/>
 [Description("Brands Battle.net"), IconID("fab-battle-net"), IconUnicodeGlyph(0xf835)]
@@ -703,7 +703,7 @@ BrandsBity = 174,
 ///<summary>Brands Font Awesome Black Tie</summary>
 ///<see href="https://fontawesome.com/icons/black-tie?style=brands"/>
 [Description("Brands Font Awesome Black Tie"), IconID("fab-black-tie"), IconUnicodeGlyph(0xf27e)]
-BrandsFontAwesomeBlackTie = 175,
+BrandsBlackTie = 175,
 ///<summary>Brands BlackBerry</summary>
 ///<see href="https://fontawesome.com/icons/blackberry?style=brands"/>
 [Description("Brands BlackBerry"), IconID("fab-blackberry"), IconUnicodeGlyph(0xf37b)]
@@ -735,7 +735,7 @@ BrandsBluetooth = 182,
 ///<summary>Brands Bluetooth</summary>
 ///<see href="https://fontawesome.com/icons/bluetooth-b?style=brands"/>
 [Description("Brands Bluetooth"), IconID("fab-bluetooth-b"), IconUnicodeGlyph(0xf294)]
-BrandsBluetooth = 183,
+BrandsBluetoothB = 183,
 ///<summary>Solid bold</summary>
 ///<see href="https://fontawesome.com/icons/bold?style=solid"/>
 [Description("Solid bold"), IconID("fas-bold"), IconUnicodeGlyph(0xf032)]
@@ -747,7 +747,7 @@ SolidBolt = 185,
 ///<summary>Solid Lightning Bolt</summary>
 ///<see href="https://fontawesome.com/icons/bolt-lightning?style=solid"/>
 [Description("Solid Lightning Bolt"), IconID("fas-bolt-lightning"), IconUnicodeGlyph(0xe0b7)]
-SolidLightningBolt = 186,
+SolidBoltLightning = 186,
 ///<summary>Solid Bomb</summary>
 ///<see href="https://fontawesome.com/icons/bomb?style=solid"/>
 [Description("Solid Bomb"), IconID("fas-bomb"), IconUnicodeGlyph(0xf1e2)]
@@ -783,7 +783,7 @@ SolidBookJournalWhills = 194,
 ///<summary>Solid Medical Book</summary>
 ///<see href="https://fontawesome.com/icons/book-medical?style=solid"/>
 [Description("Solid Medical Book"), IconID("fas-book-medical"), IconUnicodeGlyph(0xf7e6)]
-SolidMedicalBook = 195,
+SolidBookMedical = 195,
 ///<summary>Solid Book Open</summary>
 ///<see href="https://fontawesome.com/icons/book-open?style=solid"/>
 [Description("Solid Book Open"), IconID("fas-book-open"), IconUnicodeGlyph(0xf518)]
@@ -867,7 +867,7 @@ SolidBoxOpen = 215,
 ///<summary>Solid Tissue Box</summary>
 ///<see href="https://fontawesome.com/icons/box-tissue?style=solid"/>
 [Description("Solid Tissue Box"), IconID("fas-box-tissue"), IconUnicodeGlyph(0xe05b)]
-SolidTissueBox = 216,
+SolidBoxTissue = 216,
 ///<summary>Solid Boxes Packing</summary>
 ///<see href="https://fontawesome.com/icons/boxes-packing?style=solid"/>
 [Description("Solid Boxes Packing"), IconID("fas-boxes-packing"), IconUnicodeGlyph(0xe4c7)]
@@ -923,7 +923,7 @@ SolidBriefcase = 229,
 ///<summary>Solid Medical Briefcase</summary>
 ///<see href="https://fontawesome.com/icons/briefcase-medical?style=solid"/>
 [Description("Solid Medical Briefcase"), IconID("fas-briefcase-medical"), IconUnicodeGlyph(0xf469)]
-SolidMedicalBriefcase = 230,
+SolidBriefcaseMedical = 230,
 ///<summary>Solid Broom</summary>
 ///<see href="https://fontawesome.com/icons/broom?style=solid"/>
 [Description("Solid Broom"), IconID("fas-broom"), IconUnicodeGlyph(0xf51a)]
@@ -931,7 +931,7 @@ SolidBroom = 231,
 ///<summary>Solid Broom and Ball</summary>
 ///<see href="https://fontawesome.com/icons/broom-ball?style=solid"/>
 [Description("Solid Broom and Ball"), IconID("fas-broom-ball"), IconUnicodeGlyph(0xf458)]
-SolidBroomAndBall = 232,
+SolidBroomBall = 232,
 ///<summary>Solid Brush</summary>
 ///<see href="https://fontawesome.com/icons/brush?style=solid"/>
 [Description("Solid Brush"), IconID("fas-brush"), IconUnicodeGlyph(0xf55d)]
@@ -939,7 +939,7 @@ SolidBrush = 233,
 ///<summary>Brands BTC</summary>
 ///<see href="https://fontawesome.com/icons/btc?style=brands"/>
 [Description("Brands BTC"), IconID("fab-btc"), IconUnicodeGlyph(0xf15a)]
-BrandsBTC = 234,
+BrandsBtc = 234,
 ///<summary>Solid Bucket</summary>
 ///<see href="https://fontawesome.com/icons/bucket?style=solid"/>
 [Description("Solid Bucket"), IconID("fas-bucket"), IconUnicodeGlyph(0xe4cf)]
@@ -987,7 +987,7 @@ SolidBuildingCircleXmark = 245,
 ///<summary>Solid Building with Columns</summary>
 ///<see href="https://fontawesome.com/icons/building-columns?style=solid"/>
 [Description("Solid Building with Columns"), IconID("fas-building-columns"), IconUnicodeGlyph(0xf19c)]
-SolidBuildingWithColumns = 246,
+SolidBuildingColumns = 246,
 ///<summary>Solid Building Flag</summary>
 ///<see href="https://fontawesome.com/icons/building-flag?style=solid"/>
 [Description("Solid Building Flag"), IconID("fas-building-flag"), IconUnicodeGlyph(0xe4d5)]
@@ -1031,7 +1031,7 @@ SolidBurger = 256,
 ///<summary>Brands Büromöbel-Experte GmbH & Co. KG.</summary>
 ///<see href="https://fontawesome.com/icons/buromobelexperte?style=brands"/>
 [Description("Brands Büromöbel-Experte GmbH & Co. KG."), IconID("fab-buromobelexperte"), IconUnicodeGlyph(0xf37f)]
-BrandsBRomBelExperteGmbhCoKG = 257,
+BrandsBuromobelexperte = 257,
 ///<summary>Solid Burst</summary>
 ///<see href="https://fontawesome.com/icons/burst?style=solid"/>
 [Description("Solid Burst"), IconID("fas-burst"), IconUnicodeGlyph(0xe4dc)]
@@ -1047,7 +1047,7 @@ SolidBusSimple = 260,
 ///<summary>Solid Briefcase clock</summary>
 ///<see href="https://fontawesome.com/icons/business-time?style=solid"/>
 [Description("Solid Briefcase clock"), IconID("fas-business-time"), IconUnicodeGlyph(0xf64a)]
-SolidBriefcaseClock = 261,
+SolidBusinessTime = 261,
 ///<summary>Brands Buy n Large</summary>
 ///<see href="https://fontawesome.com/icons/buy-n-large?style=brands"/>
 [Description("Brands Buy n Large"), IconID("fab-buy-n-large"), IconUnicodeGlyph(0xf8a6)]
@@ -1087,7 +1087,7 @@ RegularCalendarCheck = 270,
 ///<summary>Solid Calendar with Day Focus</summary>
 ///<see href="https://fontawesome.com/icons/calendar-day?style=solid"/>
 [Description("Solid Calendar with Day Focus"), IconID("fas-calendar-day"), IconUnicodeGlyph(0xf783)]
-SolidCalendarWithDayFocus = 271,
+SolidCalendarDay = 271,
 ///<summary>Solid Calendar Days</summary>
 ///<see href="https://fontawesome.com/icons/calendar-days?style=solid"/>
 [Description("Solid Calendar Days"), IconID("fas-calendar-days"), IconUnicodeGlyph(0xf073)]
@@ -1115,15 +1115,15 @@ RegularCalendarPlus = 277,
 ///<summary>Solid Calendar with Week Focus</summary>
 ///<see href="https://fontawesome.com/icons/calendar-week?style=solid"/>
 [Description("Solid Calendar with Week Focus"), IconID("fas-calendar-week"), IconUnicodeGlyph(0xf784)]
-SolidCalendarWithWeekFocus = 278,
+SolidCalendarWeek = 278,
 ///<summary>Solid Calendar X Mark</summary>
 ///<see href="https://fontawesome.com/icons/calendar-xmark?style=solid"/>
 [Description("Solid Calendar X Mark"), IconID("fas-calendar-xmark"), IconUnicodeGlyph(0xf273)]
-SolidCalendarXMark = 279,
+SolidCalendarXmark = 279,
 ///<summary>Regular Calendar X Mark</summary>
 ///<see href="https://fontawesome.com/icons/calendar-xmark?style=regular"/>
 [Description("Regular Calendar X Mark"), IconID("far-calendar-xmark"), IconUnicodeGlyph(0xf273)]
-RegularCalendarXMark = 280,
+RegularCalendarXmark = 280,
 ///<summary>Solid camera</summary>
 ///<see href="https://fontawesome.com/icons/camera?style=solid"/>
 [Description("Solid camera"), IconID("fas-camera"), IconUnicodeGlyph(0xf030)]
@@ -1131,7 +1131,7 @@ SolidCamera = 281,
 ///<summary>Solid Retro Camera</summary>
 ///<see href="https://fontawesome.com/icons/camera-retro?style=solid"/>
 [Description("Solid Retro Camera"), IconID("fas-camera-retro"), IconUnicodeGlyph(0xf083)]
-SolidRetroCamera = 282,
+SolidCameraRetro = 282,
 ///<summary>Solid Camera Rotate</summary>
 ///<see href="https://fontawesome.com/icons/camera-rotate?style=solid"/>
 [Description("Solid Camera Rotate"), IconID("fas-camera-rotate"), IconUnicodeGlyph(0xe0d8)]
@@ -1167,7 +1167,7 @@ SolidCarBattery = 290,
 ///<summary>Solid Car Crash</summary>
 ///<see href="https://fontawesome.com/icons/car-burst?style=solid"/>
 [Description("Solid Car Crash"), IconID("fas-car-burst"), IconUnicodeGlyph(0xf5e1)]
-SolidCarCrash = 291,
+SolidCarBurst = 291,
 ///<summary>Solid Car On</summary>
 ///<see href="https://fontawesome.com/icons/car-on?style=solid"/>
 [Description("Solid Car On"), IconID("fas-car-on"), IconUnicodeGlyph(0xe4dd)]
@@ -1211,7 +1211,7 @@ SolidCarrot = 301,
 ///<summary>Solid Shopping Cart Arrow Down</summary>
 ///<see href="https://fontawesome.com/icons/cart-arrow-down?style=solid"/>
 [Description("Solid Shopping Cart Arrow Down"), IconID("fas-cart-arrow-down"), IconUnicodeGlyph(0xf218)]
-SolidShoppingCartArrowDown = 302,
+SolidCartArrowDown = 302,
 ///<summary>Solid Cart flatbed</summary>
 ///<see href="https://fontawesome.com/icons/cart-flatbed?style=solid"/>
 [Description("Solid Cart flatbed"), IconID("fas-cart-flatbed"), IconUnicodeGlyph(0xf474)]
@@ -1223,7 +1223,7 @@ SolidCartFlatbedSuitcase = 304,
 ///<summary>Solid Add to Shopping Cart</summary>
 ///<see href="https://fontawesome.com/icons/cart-plus?style=solid"/>
 [Description("Solid Add to Shopping Cart"), IconID("fas-cart-plus"), IconUnicodeGlyph(0xf217)]
-SolidAddToShoppingCart = 305,
+SolidCartPlus = 305,
 ///<summary>Solid Cart shopping</summary>
 ///<see href="https://fontawesome.com/icons/cart-shopping?style=solid"/>
 [Description("Solid Cart shopping"), IconID("fas-cart-shopping"), IconUnicodeGlyph(0xf07a)]
@@ -1239,43 +1239,43 @@ SolidCat = 308,
 ///<summary>Brands Amazon Pay Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-amazon-pay?style=brands"/>
 [Description("Brands Amazon Pay Credit Card"), IconID("fab-cc-amazon-pay"), IconUnicodeGlyph(0xf42d)]
-BrandsAmazonPayCreditCard = 309,
+BrandsCcAmazonPay = 309,
 ///<summary>Brands American Express Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-amex?style=brands"/>
 [Description("Brands American Express Credit Card"), IconID("fab-cc-amex"), IconUnicodeGlyph(0xf1f3)]
-BrandsAmericanExpressCreditCard = 310,
+BrandsCcAmex = 310,
 ///<summary>Brands Apple Pay Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-apple-pay?style=brands"/>
 [Description("Brands Apple Pay Credit Card"), IconID("fab-cc-apple-pay"), IconUnicodeGlyph(0xf416)]
-BrandsApplePayCreditCard = 311,
+BrandsCcApplePay = 311,
 ///<summary>Brands Diner's Club Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-diners-club?style=brands"/>
 [Description("Brands Diner's Club Credit Card"), IconID("fab-cc-diners-club"), IconUnicodeGlyph(0xf24c)]
-BrandsDinerSClubCreditCard = 312,
+BrandsCcDinersClub = 312,
 ///<summary>Brands Discover Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-discover?style=brands"/>
 [Description("Brands Discover Credit Card"), IconID("fab-cc-discover"), IconUnicodeGlyph(0xf1f2)]
-BrandsDiscoverCreditCard = 313,
+BrandsCcDiscover = 313,
 ///<summary>Brands JCB Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-jcb?style=brands"/>
 [Description("Brands JCB Credit Card"), IconID("fab-cc-jcb"), IconUnicodeGlyph(0xf24b)]
-BrandsJCBCreditCard = 314,
+BrandsCcJcb = 314,
 ///<summary>Brands MasterCard Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-mastercard?style=brands"/>
 [Description("Brands MasterCard Credit Card"), IconID("fab-cc-mastercard"), IconUnicodeGlyph(0xf1f1)]
-BrandsMastercardCreditCard = 315,
+BrandsCcMastercard = 315,
 ///<summary>Brands Paypal Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-paypal?style=brands"/>
 [Description("Brands Paypal Credit Card"), IconID("fab-cc-paypal"), IconUnicodeGlyph(0xf1f4)]
-BrandsPaypalCreditCard = 316,
+BrandsCcPaypal = 316,
 ///<summary>Brands Stripe Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-stripe?style=brands"/>
 [Description("Brands Stripe Credit Card"), IconID("fab-cc-stripe"), IconUnicodeGlyph(0xf1f5)]
-BrandsStripeCreditCard = 317,
+BrandsCcStripe = 317,
 ///<summary>Brands Visa Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/cc-visa?style=brands"/>
 [Description("Brands Visa Credit Card"), IconID("fab-cc-visa"), IconUnicodeGlyph(0xf1f0)]
-BrandsVisaCreditCard = 318,
+BrandsCcVisa = 318,
 ///<summary>Solid Cedi Sign</summary>
 ///<see href="https://fontawesome.com/icons/cedi-sign?style=solid"/>
 [Description("Solid Cedi Sign"), IconID("fas-cedi-sign"), IconUnicodeGlyph(0xe0df)]
@@ -1319,15 +1319,15 @@ SolidChargingStation = 328,
 ///<summary>Solid Area Chart</summary>
 ///<see href="https://fontawesome.com/icons/chart-area?style=solid"/>
 [Description("Solid Area Chart"), IconID("fas-chart-area"), IconUnicodeGlyph(0xf1fe)]
-SolidAreaChart = 329,
+SolidChartArea = 329,
 ///<summary>Solid Bar Chart</summary>
 ///<see href="https://fontawesome.com/icons/chart-bar?style=solid"/>
 [Description("Solid Bar Chart"), IconID("fas-chart-bar"), IconUnicodeGlyph(0xf080)]
-SolidBarChart = 330,
+SolidChartBar = 330,
 ///<summary>Regular Bar Chart</summary>
 ///<see href="https://fontawesome.com/icons/chart-bar?style=regular"/>
 [Description("Regular Bar Chart"), IconID("far-chart-bar"), IconUnicodeGlyph(0xf080)]
-RegularBarChart = 331,
+RegularChartBar = 331,
 ///<summary>Solid Chart Column</summary>
 ///<see href="https://fontawesome.com/icons/chart-column?style=solid"/>
 [Description("Solid Chart Column"), IconID("fas-chart-column"), IconUnicodeGlyph(0xe0e3)]
@@ -1339,11 +1339,11 @@ SolidChartGantt = 333,
 ///<summary>Solid Line Chart</summary>
 ///<see href="https://fontawesome.com/icons/chart-line?style=solid"/>
 [Description("Solid Line Chart"), IconID("fas-chart-line"), IconUnicodeGlyph(0xf201)]
-SolidLineChart = 334,
+SolidChartLine = 334,
 ///<summary>Solid Pie Chart</summary>
 ///<see href="https://fontawesome.com/icons/chart-pie?style=solid"/>
 [Description("Solid Pie Chart"), IconID("fas-chart-pie"), IconUnicodeGlyph(0xf200)]
-SolidPieChart = 335,
+SolidChartPie = 335,
 ///<summary>Solid Chart Simple</summary>
 ///<see href="https://fontawesome.com/icons/chart-simple?style=solid"/>
 [Description("Solid Chart Simple"), IconID("fas-chart-simple"), IconUnicodeGlyph(0xe473)]
@@ -1355,7 +1355,7 @@ SolidCheck = 337,
 ///<summary>Solid Double Check</summary>
 ///<see href="https://fontawesome.com/icons/check-double?style=solid"/>
 [Description("Solid Double Check"), IconID("fas-check-double"), IconUnicodeGlyph(0xf560)]
-SolidDoubleCheck = 338,
+SolidCheckDouble = 338,
 ///<summary>Solid Check to Slot</summary>
 ///<see href="https://fontawesome.com/icons/check-to-slot?style=solid"/>
 [Description("Solid Check to Slot"), IconID("fas-check-to-slot"), IconUnicodeGlyph(0xf772)]
@@ -1563,7 +1563,7 @@ SolidCircleNodes = 389,
 ///<summary>Solid Circle Notched</summary>
 ///<see href="https://fontawesome.com/icons/circle-notch?style=solid"/>
 [Description("Solid Circle Notched"), IconID("fas-circle-notch"), IconUnicodeGlyph(0xf1ce)]
-SolidCircleNotched = 390,
+SolidCircleNotch = 390,
 ///<summary>Solid Circle pause</summary>
 ///<see href="https://fontawesome.com/icons/circle-pause?style=solid"/>
 [Description("Solid Circle pause"), IconID("fas-circle-pause"), IconUnicodeGlyph(0xf28b)]
@@ -1631,11 +1631,11 @@ RegularCircleUser = 406,
 ///<summary>Solid Circle X Mark</summary>
 ///<see href="https://fontawesome.com/icons/circle-xmark?style=solid"/>
 [Description("Solid Circle X Mark"), IconID("fas-circle-xmark"), IconUnicodeGlyph(0xf057)]
-SolidCircleXMark = 407,
+SolidCircleXmark = 407,
 ///<summary>Regular Circle X Mark</summary>
 ///<see href="https://fontawesome.com/icons/circle-xmark?style=regular"/>
 [Description("Regular Circle X Mark"), IconID("far-circle-xmark"), IconUnicodeGlyph(0xf057)]
-RegularCircleXMark = 408,
+RegularCircleXmark = 408,
 ///<summary>Solid City</summary>
 ///<see href="https://fontawesome.com/icons/city?style=solid"/>
 [Description("Solid City"), IconID("fas-city"), IconUnicodeGlyph(0xf64f)]
@@ -1655,7 +1655,7 @@ RegularClipboard = 412,
 ///<summary>Solid Clipboard with Check</summary>
 ///<see href="https://fontawesome.com/icons/clipboard-check?style=solid"/>
 [Description("Solid Clipboard with Check"), IconID("fas-clipboard-check"), IconUnicodeGlyph(0xf46c)]
-SolidClipboardWithCheck = 413,
+SolidClipboardCheck = 413,
 ///<summary>Solid Clipboard List</summary>
 ///<see href="https://fontawesome.com/icons/clipboard-list?style=solid"/>
 [Description("Solid Clipboard List"), IconID("fas-clipboard-list"), IconUnicodeGlyph(0xf46d)]
@@ -1667,7 +1667,7 @@ SolidClipboardQuestion = 415,
 ///<summary>Solid Clipboard with User</summary>
 ///<see href="https://fontawesome.com/icons/clipboard-user?style=solid"/>
 [Description("Solid Clipboard with User"), IconID("fas-clipboard-user"), IconUnicodeGlyph(0xf7f3)]
-SolidClipboardWithUser = 416,
+SolidClipboardUser = 416,
 ///<summary>Solid Clock</summary>
 ///<see href="https://fontawesome.com/icons/clock?style=solid"/>
 [Description("Solid Clock"), IconID("fas-clock"), IconUnicodeGlyph(0xf017)]
@@ -1715,23 +1715,23 @@ SolidCloudBolt = 427,
 ///<summary>Solid Cloud with (a chance of) Meatball</summary>
 ///<see href="https://fontawesome.com/icons/cloud-meatball?style=solid"/>
 [Description("Solid Cloud with (a chance of) Meatball"), IconID("fas-cloud-meatball"), IconUnicodeGlyph(0xf73b)]
-SolidCloudWithAChanceOfMeatball = 428,
+SolidCloudMeatball = 428,
 ///<summary>Solid Cloud with Moon</summary>
 ///<see href="https://fontawesome.com/icons/cloud-moon?style=solid"/>
 [Description("Solid Cloud with Moon"), IconID("fas-cloud-moon"), IconUnicodeGlyph(0xf6c3)]
-SolidCloudWithMoon = 429,
+SolidCloudMoon = 429,
 ///<summary>Solid Cloud with Moon and Rain</summary>
 ///<see href="https://fontawesome.com/icons/cloud-moon-rain?style=solid"/>
 [Description("Solid Cloud with Moon and Rain"), IconID("fas-cloud-moon-rain"), IconUnicodeGlyph(0xf73c)]
-SolidCloudWithMoonAndRain = 430,
+SolidCloudMoonRain = 430,
 ///<summary>Solid Cloud with Rain</summary>
 ///<see href="https://fontawesome.com/icons/cloud-rain?style=solid"/>
 [Description("Solid Cloud with Rain"), IconID("fas-cloud-rain"), IconUnicodeGlyph(0xf73d)]
-SolidCloudWithRain = 431,
+SolidCloudRain = 431,
 ///<summary>Solid Cloud with Heavy Showers</summary>
 ///<see href="https://fontawesome.com/icons/cloud-showers-heavy?style=solid"/>
 [Description("Solid Cloud with Heavy Showers"), IconID("fas-cloud-showers-heavy"), IconUnicodeGlyph(0xf740)]
-SolidCloudWithHeavyShowers = 432,
+SolidCloudShowersHeavy = 432,
 ///<summary>Solid Cloud Showers-water</summary>
 ///<see href="https://fontawesome.com/icons/cloud-showers-water?style=solid"/>
 [Description("Solid Cloud Showers-water"), IconID("fas-cloud-showers-water"), IconUnicodeGlyph(0xe4e4)]
@@ -1739,11 +1739,11 @@ SolidCloudShowersWater = 433,
 ///<summary>Solid Cloud with Sun</summary>
 ///<see href="https://fontawesome.com/icons/cloud-sun?style=solid"/>
 [Description("Solid Cloud with Sun"), IconID("fas-cloud-sun"), IconUnicodeGlyph(0xf6c4)]
-SolidCloudWithSun = 434,
+SolidCloudSun = 434,
 ///<summary>Solid Cloud with Sun and Rain</summary>
 ///<see href="https://fontawesome.com/icons/cloud-sun-rain?style=solid"/>
 [Description("Solid Cloud with Sun and Rain"), IconID("fas-cloud-sun-rain"), IconUnicodeGlyph(0xf743)]
-SolidCloudWithSunAndRain = 435,
+SolidCloudSunRain = 435,
 ///<summary>Brands Cloudflare</summary>
 ///<see href="https://fontawesome.com/icons/cloudflare?style=brands"/>
 [Description("Brands Cloudflare"), IconID("fab-cloudflare"), IconUnicodeGlyph(0xe07d)]
@@ -1751,7 +1751,7 @@ BrandsCloudflare = 436,
 ///<summary>Brands cloudscale.ch</summary>
 ///<see href="https://fontawesome.com/icons/cloudscale?style=brands"/>
 [Description("Brands cloudscale.ch"), IconID("fab-cloudscale"), IconUnicodeGlyph(0xf383)]
-BrandsCloudscaleCh = 437,
+BrandsCloudscale = 437,
 ///<summary>Brands Cloudsmith</summary>
 ///<see href="https://fontawesome.com/icons/cloudsmith?style=brands"/>
 [Description("Brands Cloudsmith"), IconID("fab-cloudsmith"), IconUnicodeGlyph(0xf384)]
@@ -1803,7 +1803,7 @@ BrandsCodepen = 449,
 ///<summary>Brands Codie Pie</summary>
 ///<see href="https://fontawesome.com/icons/codiepie?style=brands"/>
 [Description("Brands Codie Pie"), IconID("fab-codiepie"), IconUnicodeGlyph(0xf284)]
-BrandsCodiePie = 450,
+BrandsCodiepie = 450,
 ///<summary>Solid Coins</summary>
 ///<see href="https://fontawesome.com/icons/coins?style=solid"/>
 [Description("Solid Coins"), IconID("fas-coins"), IconUnicodeGlyph(0xf51e)]
@@ -1835,7 +1835,7 @@ RegularCommentDots = 457,
 ///<summary>Solid Alternate Medical Chat</summary>
 ///<see href="https://fontawesome.com/icons/comment-medical?style=solid"/>
 [Description("Solid Alternate Medical Chat"), IconID("fas-comment-medical"), IconUnicodeGlyph(0xf7f5)]
-SolidAlternateMedicalChat = 458,
+SolidCommentMedical = 458,
 ///<summary>Solid Comment Slash</summary>
 ///<see href="https://fontawesome.com/icons/comment-slash?style=solid"/>
 [Description("Solid Comment Slash"), IconID("fas-comment-slash"), IconUnicodeGlyph(0xf4b3)]
@@ -1891,7 +1891,7 @@ BrandsConfluence = 471,
 ///<summary>Brands Connect Develop</summary>
 ///<see href="https://fontawesome.com/icons/connectdevelop?style=brands"/>
 [Description("Brands Connect Develop"), IconID("fab-connectdevelop"), IconUnicodeGlyph(0xf20e)]
-BrandsConnectDevelop = 472,
+BrandsConnectdevelop = 472,
 ///<summary>Brands Contao</summary>
 ///<see href="https://fontawesome.com/icons/contao?style=brands"/>
 [Description("Brands Contao"), IconID("fab-contao"), IconUnicodeGlyph(0xf26d)]
@@ -1943,31 +1943,31 @@ BrandsCreativeCommons = 484,
 ///<summary>Brands Creative Commons Attribution</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-by?style=brands"/>
 [Description("Brands Creative Commons Attribution"), IconID("fab-creative-commons-by"), IconUnicodeGlyph(0xf4e7)]
-BrandsCreativeCommonsAttribution = 485,
+BrandsCreativeCommonsBy = 485,
 ///<summary>Brands Creative Commons Noncommercial</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-nc?style=brands"/>
 [Description("Brands Creative Commons Noncommercial"), IconID("fab-creative-commons-nc"), IconUnicodeGlyph(0xf4e8)]
-BrandsCreativeCommonsNoncommercial = 486,
+BrandsCreativeCommonsNc = 486,
 ///<summary>Brands Creative Commons Noncommercial (Euro Sign)</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-nc-eu?style=brands"/>
 [Description("Brands Creative Commons Noncommercial (Euro Sign)"), IconID("fab-creative-commons-nc-eu"), IconUnicodeGlyph(0xf4e9)]
-BrandsCreativeCommonsNoncommercialEuroSign = 487,
+BrandsCreativeCommonsNcEu = 487,
 ///<summary>Brands Creative Commons Noncommercial (Yen Sign)</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-nc-jp?style=brands"/>
 [Description("Brands Creative Commons Noncommercial (Yen Sign)"), IconID("fab-creative-commons-nc-jp"), IconUnicodeGlyph(0xf4ea)]
-BrandsCreativeCommonsNoncommercialYenSign = 488,
+BrandsCreativeCommonsNcJp = 488,
 ///<summary>Brands Creative Commons No Derivative Works</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-nd?style=brands"/>
 [Description("Brands Creative Commons No Derivative Works"), IconID("fab-creative-commons-nd"), IconUnicodeGlyph(0xf4eb)]
-BrandsCreativeCommonsNoDerivativeWorks = 489,
+BrandsCreativeCommonsNd = 489,
 ///<summary>Brands Creative Commons Public Domain</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-pd?style=brands"/>
 [Description("Brands Creative Commons Public Domain"), IconID("fab-creative-commons-pd"), IconUnicodeGlyph(0xf4ec)]
-BrandsCreativeCommonsPublicDomain = 490,
+BrandsCreativeCommonsPd = 490,
 ///<summary>Brands Alternate Creative Commons Public Domain</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-pd-alt?style=brands"/>
 [Description("Brands Alternate Creative Commons Public Domain"), IconID("fab-creative-commons-pd-alt"), IconUnicodeGlyph(0xf4ed)]
-BrandsAlternateCreativeCommonsPublicDomain = 491,
+BrandsCreativeCommonsPdAlt = 491,
 ///<summary>Brands Creative Commons Remix</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-remix?style=brands"/>
 [Description("Brands Creative Commons Remix"), IconID("fab-creative-commons-remix"), IconUnicodeGlyph(0xf4ee)]
@@ -1975,7 +1975,7 @@ BrandsCreativeCommonsRemix = 492,
 ///<summary>Brands Creative Commons Share Alike</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-sa?style=brands"/>
 [Description("Brands Creative Commons Share Alike"), IconID("fab-creative-commons-sa"), IconUnicodeGlyph(0xf4ef)]
-BrandsCreativeCommonsShareAlike = 493,
+BrandsCreativeCommonsSa = 493,
 ///<summary>Brands Creative Commons Sampling</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-sampling?style=brands"/>
 [Description("Brands Creative Commons Sampling"), IconID("fab-creative-commons-sampling"), IconUnicodeGlyph(0xf4f0)]
@@ -1983,7 +1983,7 @@ BrandsCreativeCommonsSampling = 494,
 ///<summary>Brands Creative Commons Sampling +</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-sampling-plus?style=brands"/>
 [Description("Brands Creative Commons Sampling +"), IconID("fab-creative-commons-sampling-plus"), IconUnicodeGlyph(0xf4f1)]
-BrandsCreativeCommonsSampling = 495,
+BrandsCreativeCommonsSamplingPlus = 495,
 ///<summary>Brands Creative Commons Share</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-share?style=brands"/>
 [Description("Brands Creative Commons Share"), IconID("fab-creative-commons-share"), IconUnicodeGlyph(0xf4f2)]
@@ -1991,7 +1991,7 @@ BrandsCreativeCommonsShare = 496,
 ///<summary>Brands Creative Commons CC0</summary>
 ///<see href="https://fontawesome.com/icons/creative-commons-zero?style=brands"/>
 [Description("Brands Creative Commons CC0"), IconID("fab-creative-commons-zero"), IconUnicodeGlyph(0xf4f3)]
-BrandsCreativeCommonsCC0 = 497,
+BrandsCreativeCommonsZero = 497,
 ///<summary>Solid Credit Card</summary>
 ///<see href="https://fontawesome.com/icons/credit-card?style=solid"/>
 [Description("Solid Credit Card"), IconID("fas-credit-card"), IconUnicodeGlyph(0xf09d)]
@@ -2039,11 +2039,11 @@ SolidCruzeiroSign = 508,
 ///<summary>Brands CSS 3 Logo</summary>
 ///<see href="https://fontawesome.com/icons/css3?style=brands"/>
 [Description("Brands CSS 3 Logo"), IconID("fab-css3"), IconUnicodeGlyph(0xf13c)]
-BrandsCSS3Logo = 509,
+BrandsCss3 = 509,
 ///<summary>Brands Alternate CSS3 Logo</summary>
 ///<see href="https://fontawesome.com/icons/css3-alt?style=brands"/>
 [Description("Brands Alternate CSS3 Logo"), IconID("fab-css3-alt"), IconUnicodeGlyph(0xf38b)]
-BrandsAlternateCSS3Logo = 510,
+BrandsCss3Alt = 510,
 ///<summary>Solid Cube</summary>
 ///<see href="https://fontawesome.com/icons/cube?style=solid"/>
 [Description("Solid Cube"), IconID("fas-cube"), IconUnicodeGlyph(0xf1b2)]
@@ -2067,11 +2067,11 @@ SolidD = 515,
 ///<summary>Brands Dungeons & Dragons</summary>
 ///<see href="https://fontawesome.com/icons/d-and-d?style=brands"/>
 [Description("Brands Dungeons & Dragons"), IconID("fab-d-and-d"), IconUnicodeGlyph(0xf38d)]
-BrandsDungeonsDragons = 516,
+BrandsDAndD = 516,
 ///<summary>Brands D&D Beyond</summary>
 ///<see href="https://fontawesome.com/icons/d-and-d-beyond?style=brands"/>
 [Description("Brands D&D Beyond"), IconID("fab-d-and-d-beyond"), IconUnicodeGlyph(0xf6ca)]
-BrandsDDBeyond = 517,
+BrandsDAndDBeyond = 517,
 ///<summary>Brands dailymotion</summary>
 ///<see href="https://fontawesome.com/icons/dailymotion?style=brands"/>
 [Description("Brands dailymotion"), IconID("fab-dailymotion"), IconUnicodeGlyph(0xe052)]
@@ -2103,7 +2103,7 @@ SolidDemocrat = 524,
 ///<summary>Brands deploy.dog</summary>
 ///<see href="https://fontawesome.com/icons/deploydog?style=brands"/>
 [Description("Brands deploy.dog"), IconID("fab-deploydog"), IconUnicodeGlyph(0xf38e)]
-BrandsDeployDog = 525,
+BrandsDeploydog = 525,
 ///<summary>Brands Deskpro</summary>
 ///<see href="https://fontawesome.com/icons/deskpro?style=brands"/>
 [Description("Brands Deskpro"), IconID("fab-deskpro"), IconUnicodeGlyph(0xf38f)]
@@ -2115,7 +2115,7 @@ SolidDesktop = 527,
 ///<summary>Brands DEV</summary>
 ///<see href="https://fontawesome.com/icons/dev?style=brands"/>
 [Description("Brands DEV"), IconID("fab-dev"), IconUnicodeGlyph(0xf6cc)]
-BrandsDEV = 528,
+BrandsDev = 528,
 ///<summary>Brands deviantART</summary>
 ///<see href="https://fontawesome.com/icons/deviantart?style=brands"/>
 [Description("Brands deviantART"), IconID("fab-deviantart"), IconUnicodeGlyph(0xf1bd)]
@@ -2127,7 +2127,7 @@ SolidDharmachakra = 530,
 ///<summary>Brands DHL</summary>
 ///<see href="https://fontawesome.com/icons/dhl?style=brands"/>
 [Description("Brands DHL"), IconID("fab-dhl"), IconUnicodeGlyph(0xf790)]
-BrandsDHL = 531,
+BrandsDhl = 531,
 ///<summary>Solid Diagram Next</summary>
 ///<see href="https://fontawesome.com/icons/diagram-next?style=solid"/>
 [Description("Solid Diagram Next"), IconID("fas-diagram-next"), IconUnicodeGlyph(0xe476)]
@@ -2139,7 +2139,7 @@ SolidDiagramPredecessor = 533,
 ///<summary>Solid Project Diagram</summary>
 ///<see href="https://fontawesome.com/icons/diagram-project?style=solid"/>
 [Description("Solid Project Diagram"), IconID("fas-diagram-project"), IconUnicodeGlyph(0xf542)]
-SolidProjectDiagram = 534,
+SolidDiagramProject = 534,
 ///<summary>Solid Diagram Successor</summary>
 ///<see href="https://fontawesome.com/icons/diagram-successor?style=solid"/>
 [Description("Solid Diagram Successor"), IconID("fas-diagram-successor"), IconUnicodeGlyph(0xe47a)]
@@ -2195,7 +2195,7 @@ SolidDiceTwo = 547,
 ///<summary>Brands Digg Logo</summary>
 ///<see href="https://fontawesome.com/icons/digg?style=brands"/>
 [Description("Brands Digg Logo"), IconID("fab-digg"), IconUnicodeGlyph(0xf1a6)]
-BrandsDiggLogo = 548,
+BrandsDigg = 548,
 ///<summary>Brands Digital Ocean</summary>
 ///<see href="https://fontawesome.com/icons/digital-ocean?style=brands"/>
 [Description("Brands Digital Ocean"), IconID("fab-digital-ocean"), IconUnicodeGlyph(0xf391)]
@@ -2223,7 +2223,7 @@ SolidDivide = 554,
 ///<summary>Solid DNA</summary>
 ///<see href="https://fontawesome.com/icons/dna?style=solid"/>
 [Description("Solid DNA"), IconID("fas-dna"), IconUnicodeGlyph(0xf471)]
-SolidDNA = 555,
+SolidDna = 555,
 ///<summary>Brands DocHub</summary>
 ///<see href="https://fontawesome.com/icons/dochub?style=brands"/>
 [Description("Brands DocHub"), IconID("fab-dochub"), IconUnicodeGlyph(0xf394)]
@@ -2315,11 +2315,11 @@ SolidDrumSteelpan = 577,
 ///<summary>Solid Drumstick with Bite Taken Out</summary>
 ///<see href="https://fontawesome.com/icons/drumstick-bite?style=solid"/>
 [Description("Solid Drumstick with Bite Taken Out"), IconID("fas-drumstick-bite"), IconUnicodeGlyph(0xf6d7)]
-SolidDrumstickWithBiteTakenOut = 578,
+SolidDrumstickBite = 578,
 ///<summary>Brands Drupal Logo</summary>
 ///<see href="https://fontawesome.com/icons/drupal?style=brands"/>
 [Description("Brands Drupal Logo"), IconID("fab-drupal"), IconUnicodeGlyph(0xf1a9)]
-BrandsDrupalLogo = 579,
+BrandsDrupal = 579,
 ///<summary>Solid Dumbbell</summary>
 ///<see href="https://fontawesome.com/icons/dumbbell?style=solid"/>
 [Description("Solid Dumbbell"), IconID("fas-dumbbell"), IconUnicodeGlyph(0xf44b)]
@@ -2383,11 +2383,11 @@ BrandsEbay = 594,
 ///<summary>Brands Edge Browser</summary>
 ///<see href="https://fontawesome.com/icons/edge?style=brands"/>
 [Description("Brands Edge Browser"), IconID("fab-edge"), IconUnicodeGlyph(0xf282)]
-BrandsEdgeBrowser = 595,
+BrandsEdge = 595,
 ///<summary>Brands Edge Legacy Browser</summary>
 ///<see href="https://fontawesome.com/icons/edge-legacy?style=brands"/>
 [Description("Brands Edge Legacy Browser"), IconID("fab-edge-legacy"), IconUnicodeGlyph(0xe078)]
-BrandsEdgeLegacyBrowser = 596,
+BrandsEdgeLegacy = 596,
 ///<summary>Solid Egg</summary>
 ///<see href="https://fontawesome.com/icons/egg?style=solid"/>
 [Description("Solid Egg"), IconID("fas-egg"), IconUnicodeGlyph(0xf7fb)]
@@ -2423,7 +2423,7 @@ BrandsEmber = 604,
 ///<summary>Brands Galactic Empire</summary>
 ///<see href="https://fontawesome.com/icons/empire?style=brands"/>
 [Description("Brands Galactic Empire"), IconID("fab-empire"), IconUnicodeGlyph(0xf1d1)]
-BrandsGalacticEmpire = 605,
+BrandsEmpire = 605,
 ///<summary>Solid Envelope</summary>
 ///<see href="https://fontawesome.com/icons/envelope?style=solid"/>
 [Description("Solid Envelope"), IconID("fas-envelope"), IconUnicodeGlyph(0xf0e0)]
@@ -2455,7 +2455,7 @@ SolidEnvelopesBulk = 612,
 ///<summary>Brands Envira Gallery</summary>
 ///<see href="https://fontawesome.com/icons/envira?style=brands"/>
 [Description("Brands Envira Gallery"), IconID("fab-envira"), IconUnicodeGlyph(0xf299)]
-BrandsEnviraGallery = 613,
+BrandsEnvira = 613,
 ///<summary>Solid Equals</summary>
 ///<see href="https://fontawesome.com/icons/equals?style=solid"/>
 [Description("Solid Equals"), IconID("fas-equals"), IconUnicodeGlyph(0x3d)]
@@ -2899,11 +2899,11 @@ SolidFileArrowUp = 723,
 ///<summary>Solid Audio File</summary>
 ///<see href="https://fontawesome.com/icons/file-audio?style=solid"/>
 [Description("Solid Audio File"), IconID("fas-file-audio"), IconUnicodeGlyph(0xf1c7)]
-SolidAudioFile = 724,
+SolidFileAudio = 724,
 ///<summary>Regular Audio File</summary>
 ///<see href="https://fontawesome.com/icons/file-audio?style=regular"/>
 [Description("Regular Audio File"), IconID("far-file-audio"), IconUnicodeGlyph(0xf1c7)]
-RegularAudioFile = 725,
+RegularFileAudio = 725,
 ///<summary>Solid File Circle-Check</summary>
 ///<see href="https://fontawesome.com/icons/file-circle-check?style=solid"/>
 [Description("Solid File Circle-Check"), IconID("fas-file-circle-check"), IconUnicodeGlyph(0xe493)]
@@ -2931,11 +2931,11 @@ SolidFileCircleXmark = 731,
 ///<summary>Solid Code File</summary>
 ///<see href="https://fontawesome.com/icons/file-code?style=solid"/>
 [Description("Solid Code File"), IconID("fas-file-code"), IconUnicodeGlyph(0xf1c9)]
-SolidCodeFile = 732,
+SolidFileCode = 732,
 ///<summary>Regular Code File</summary>
 ///<see href="https://fontawesome.com/icons/file-code?style=regular"/>
 [Description("Regular Code File"), IconID("far-file-code"), IconUnicodeGlyph(0xf1c9)]
-RegularCodeFile = 733,
+RegularFileCode = 733,
 ///<summary>Solid File Contract</summary>
 ///<see href="https://fontawesome.com/icons/file-contract?style=solid"/>
 [Description("Solid File Contract"), IconID("fas-file-contract"), IconUnicodeGlyph(0xf56c)]
@@ -2943,15 +2943,15 @@ SolidFileContract = 734,
 ///<summary>Solid File CSV</summary>
 ///<see href="https://fontawesome.com/icons/file-csv?style=solid"/>
 [Description("Solid File CSV"), IconID("fas-file-csv"), IconUnicodeGlyph(0xf6dd)]
-SolidFileCSV = 735,
+SolidFileCsv = 735,
 ///<summary>Solid Excel File</summary>
 ///<see href="https://fontawesome.com/icons/file-excel?style=solid"/>
 [Description("Solid Excel File"), IconID("fas-file-excel"), IconUnicodeGlyph(0xf1c3)]
-SolidExcelFile = 736,
+SolidFileExcel = 736,
 ///<summary>Regular Excel File</summary>
 ///<see href="https://fontawesome.com/icons/file-excel?style=regular"/>
 [Description("Regular Excel File"), IconID("far-file-excel"), IconUnicodeGlyph(0xf1c3)]
-RegularExcelFile = 737,
+RegularFileExcel = 737,
 ///<summary>Solid File Export</summary>
 ///<see href="https://fontawesome.com/icons/file-export?style=solid"/>
 [Description("Solid File Export"), IconID("fas-file-export"), IconUnicodeGlyph(0xf56e)]
@@ -2959,11 +2959,11 @@ SolidFileExport = 738,
 ///<summary>Solid Image File</summary>
 ///<see href="https://fontawesome.com/icons/file-image?style=solid"/>
 [Description("Solid Image File"), IconID("fas-file-image"), IconUnicodeGlyph(0xf1c5)]
-SolidImageFile = 739,
+SolidFileImage = 739,
 ///<summary>Regular Image File</summary>
 ///<see href="https://fontawesome.com/icons/file-image?style=regular"/>
 [Description("Regular Image File"), IconID("far-file-image"), IconUnicodeGlyph(0xf1c5)]
-RegularImageFile = 740,
+RegularFileImage = 740,
 ///<summary>Solid File Import</summary>
 ///<see href="https://fontawesome.com/icons/file-import?style=solid"/>
 [Description("Solid File Import"), IconID("fas-file-import"), IconUnicodeGlyph(0xf56f)]
@@ -2975,7 +2975,7 @@ SolidFileInvoice = 742,
 ///<summary>Solid File Invoice with US Dollar</summary>
 ///<see href="https://fontawesome.com/icons/file-invoice-dollar?style=solid"/>
 [Description("Solid File Invoice with US Dollar"), IconID("fas-file-invoice-dollar"), IconUnicodeGlyph(0xf571)]
-SolidFileInvoiceWithUSDollar = 743,
+SolidFileInvoiceDollar = 743,
 ///<summary>Solid File lines</summary>
 ///<see href="https://fontawesome.com/icons/file-lines?style=solid"/>
 [Description("Solid File lines"), IconID("fas-file-lines"), IconUnicodeGlyph(0xf15c)]
@@ -2987,15 +2987,15 @@ RegularFileLines = 745,
 ///<summary>Solid Medical File</summary>
 ///<see href="https://fontawesome.com/icons/file-medical?style=solid"/>
 [Description("Solid Medical File"), IconID("fas-file-medical"), IconUnicodeGlyph(0xf477)]
-SolidMedicalFile = 746,
+SolidFileMedical = 746,
 ///<summary>Solid PDF File</summary>
 ///<see href="https://fontawesome.com/icons/file-pdf?style=solid"/>
 [Description("Solid PDF File"), IconID("fas-file-pdf"), IconUnicodeGlyph(0xf1c1)]
-SolidPDFFile = 747,
+SolidFilePdf = 747,
 ///<summary>Regular PDF File</summary>
 ///<see href="https://fontawesome.com/icons/file-pdf?style=regular"/>
 [Description("Regular PDF File"), IconID("far-file-pdf"), IconUnicodeGlyph(0xf1c1)]
-RegularPDFFile = 748,
+RegularFilePdf = 748,
 ///<summary>Solid File pen</summary>
 ///<see href="https://fontawesome.com/icons/file-pen?style=solid"/>
 [Description("Solid File pen"), IconID("fas-file-pen"), IconUnicodeGlyph(0xf31c)]
@@ -3003,11 +3003,11 @@ SolidFilePen = 749,
 ///<summary>Solid Powerpoint File</summary>
 ///<see href="https://fontawesome.com/icons/file-powerpoint?style=solid"/>
 [Description("Solid Powerpoint File"), IconID("fas-file-powerpoint"), IconUnicodeGlyph(0xf1c4)]
-SolidPowerpointFile = 750,
+SolidFilePowerpoint = 750,
 ///<summary>Regular Powerpoint File</summary>
 ///<see href="https://fontawesome.com/icons/file-powerpoint?style=regular"/>
 [Description("Regular Powerpoint File"), IconID("far-file-powerpoint"), IconUnicodeGlyph(0xf1c4)]
-RegularPowerpointFile = 751,
+RegularFilePowerpoint = 751,
 ///<summary>Solid File Prescription</summary>
 ///<see href="https://fontawesome.com/icons/file-prescription?style=solid"/>
 [Description("Solid File Prescription"), IconID("fas-file-prescription"), IconUnicodeGlyph(0xf572)]
@@ -3023,11 +3023,11 @@ SolidFileSignature = 754,
 ///<summary>Solid Video File</summary>
 ///<see href="https://fontawesome.com/icons/file-video?style=solid"/>
 [Description("Solid Video File"), IconID("fas-file-video"), IconUnicodeGlyph(0xf1c8)]
-SolidVideoFile = 755,
+SolidFileVideo = 755,
 ///<summary>Regular Video File</summary>
 ///<see href="https://fontawesome.com/icons/file-video?style=regular"/>
 [Description("Regular Video File"), IconID("far-file-video"), IconUnicodeGlyph(0xf1c8)]
-RegularVideoFile = 756,
+RegularFileVideo = 756,
 ///<summary>Solid File waveform</summary>
 ///<see href="https://fontawesome.com/icons/file-waveform?style=solid"/>
 [Description("Solid File waveform"), IconID("fas-file-waveform"), IconUnicodeGlyph(0xf478)]
@@ -3035,11 +3035,11 @@ SolidFileWaveform = 757,
 ///<summary>Solid Word File</summary>
 ///<see href="https://fontawesome.com/icons/file-word?style=solid"/>
 [Description("Solid Word File"), IconID("fas-file-word"), IconUnicodeGlyph(0xf1c2)]
-SolidWordFile = 758,
+SolidFileWord = 758,
 ///<summary>Regular Word File</summary>
 ///<see href="https://fontawesome.com/icons/file-word?style=regular"/>
 [Description("Regular Word File"), IconID("far-file-word"), IconUnicodeGlyph(0xf1c2)]
-RegularWordFile = 759,
+RegularFileWord = 759,
 ///<summary>Solid File zipper</summary>
 ///<see href="https://fontawesome.com/icons/file-zipper?style=solid"/>
 [Description("Solid File zipper"), IconID("fas-file-zipper"), IconUnicodeGlyph(0xf1c6)]
@@ -3071,7 +3071,7 @@ SolidFilterCircleDollar = 766,
 ///<summary>Solid Filter Circle X Mark</summary>
 ///<see href="https://fontawesome.com/icons/filter-circle-xmark?style=solid"/>
 [Description("Solid Filter Circle X Mark"), IconID("fas-filter-circle-xmark"), IconUnicodeGlyph(0xe17b)]
-SolidFilterCircleXMark = 767,
+SolidFilterCircleXmark = 767,
 ///<summary>Solid Fingerprint</summary>
 ///<see href="https://fontawesome.com/icons/fingerprint?style=solid"/>
 [Description("Solid Fingerprint"), IconID("fas-fingerprint"), IconUnicodeGlyph(0xf577)]
@@ -3111,7 +3111,7 @@ BrandsFirstOrder = 776,
 ///<summary>Brands Alternate First Order</summary>
 ///<see href="https://fontawesome.com/icons/first-order-alt?style=brands"/>
 [Description("Brands Alternate First Order"), IconID("fab-first-order-alt"), IconUnicodeGlyph(0xf50a)]
-BrandsAlternateFirstOrder = 777,
+BrandsFirstOrderAlt = 777,
 ///<summary>Brands firstdraft</summary>
 ///<see href="https://fontawesome.com/icons/firstdraft?style=brands"/>
 [Description("Brands firstdraft"), IconID("fab-firstdraft"), IconUnicodeGlyph(0xf3a1)]
@@ -3139,7 +3139,7 @@ SolidFlagCheckered = 783,
 ///<summary>Solid United States of America Flag</summary>
 ///<see href="https://fontawesome.com/icons/flag-usa?style=solid"/>
 [Description("Solid United States of America Flag"), IconID("fas-flag-usa"), IconUnicodeGlyph(0xf74d)]
-SolidUnitedStatesOfAmericaFlag = 784,
+SolidFlagUsa = 784,
 ///<summary>Solid Flask</summary>
 ///<see href="https://fontawesome.com/icons/flask?style=solid"/>
 [Description("Solid Flask"), IconID("fas-flask"), IconUnicodeGlyph(0xf0c3)]
@@ -3147,7 +3147,7 @@ SolidFlask = 785,
 ///<summary>Solid Flask and Vial</summary>
 ///<see href="https://fontawesome.com/icons/flask-vial?style=solid"/>
 [Description("Solid Flask and Vial"), IconID("fas-flask-vial"), IconUnicodeGlyph(0xe4f3)]
-SolidFlaskAndVial = 786,
+SolidFlaskVial = 786,
 ///<summary>Brands Flickr</summary>
 ///<see href="https://fontawesome.com/icons/flickr?style=brands"/>
 [Description("Brands Flickr"), IconID("fab-flickr"), IconUnicodeGlyph(0xf16e)]
@@ -3235,7 +3235,7 @@ BrandsFonticonsFi = 807,
 ///<summary>Solid Football Ball</summary>
 ///<see href="https://fontawesome.com/icons/football?style=solid"/>
 [Description("Solid Football Ball"), IconID("fas-football"), IconUnicodeGlyph(0xf44e)]
-SolidFootballBall = 808,
+SolidFootball = 808,
 ///<summary>Brands Fort Awesome</summary>
 ///<see href="https://fontawesome.com/icons/fort-awesome?style=brands"/>
 [Description("Brands Fort Awesome"), IconID("fab-fort-awesome"), IconUnicodeGlyph(0xf286)]
@@ -3243,7 +3243,7 @@ BrandsFortAwesome = 809,
 ///<summary>Brands Alternate Fort Awesome</summary>
 ///<see href="https://fontawesome.com/icons/fort-awesome-alt?style=brands"/>
 [Description("Brands Alternate Fort Awesome"), IconID("fab-fort-awesome-alt"), IconUnicodeGlyph(0xf3a3)]
-BrandsAlternateFortAwesome = 810,
+BrandsFortAwesomeAlt = 810,
 ///<summary>Brands Forumbee</summary>
 ///<see href="https://fontawesome.com/icons/forumbee?style=brands"/>
 [Description("Brands Forumbee"), IconID("fab-forumbee"), IconUnicodeGlyph(0xf211)]
@@ -3271,7 +3271,7 @@ SolidFrancSign = 816,
 ///<summary>Brands freeCodeCamp</summary>
 ///<see href="https://fontawesome.com/icons/free-code-camp?style=brands"/>
 [Description("Brands freeCodeCamp"), IconID("fab-free-code-camp"), IconUnicodeGlyph(0xf2c5)]
-BrandsFreecodecamp = 817,
+BrandsFreeCodeCamp = 817,
 ///<summary>Brands FreeBSD</summary>
 ///<see href="https://fontawesome.com/icons/freebsd?style=brands"/>
 [Description("Brands FreeBSD"), IconID("fab-freebsd"), IconUnicodeGlyph(0xf3a4)]
@@ -3287,11 +3287,11 @@ BrandsFulcrum = 820,
 ///<summary>Solid Futbol ball</summary>
 ///<see href="https://fontawesome.com/icons/futbol?style=solid"/>
 [Description("Solid Futbol ball"), IconID("fas-futbol"), IconUnicodeGlyph(0xf1e3)]
-SolidFutbolBall = 821,
+SolidFutbol = 821,
 ///<summary>Regular Futbol ball</summary>
 ///<see href="https://fontawesome.com/icons/futbol?style=regular"/>
 [Description("Regular Futbol ball"), IconID("far-futbol"), IconUnicodeGlyph(0xf1e3)]
-RegularFutbolBall = 822,
+RegularFutbol = 822,
 ///<summary>Solid G</summary>
 ///<see href="https://fontawesome.com/icons/g?style=solid"/>
 [Description("Solid G"), IconID("fas-g"), IconUnicodeGlyph(0x47)]
@@ -3315,19 +3315,19 @@ SolidGasPump = 827,
 ///<summary>Solid Gauge med</summary>
 ///<see href="https://fontawesome.com/icons/gauge?style=solid"/>
 [Description("Solid Gauge med"), IconID("fas-gauge"), IconUnicodeGlyph(0xf624)]
-SolidGaugeMed = 828,
+SolidGauge = 828,
 ///<summary>Solid Gauge</summary>
 ///<see href="https://fontawesome.com/icons/gauge-high?style=solid"/>
 [Description("Solid Gauge"), IconID("fas-gauge-high"), IconUnicodeGlyph(0xf625)]
-SolidGauge = 829,
+SolidGaugeHigh = 829,
 ///<summary>Solid Gauge simple med</summary>
 ///<see href="https://fontawesome.com/icons/gauge-simple?style=solid"/>
 [Description("Solid Gauge simple med"), IconID("fas-gauge-simple"), IconUnicodeGlyph(0xf629)]
-SolidGaugeSimpleMed = 830,
+SolidGaugeSimple = 830,
 ///<summary>Solid Gauge simple</summary>
 ///<see href="https://fontawesome.com/icons/gauge-simple-high?style=solid"/>
 [Description("Solid Gauge simple"), IconID("fas-gauge-simple-high"), IconUnicodeGlyph(0xf62a)]
-SolidGaugeSimple = 831,
+SolidGaugeSimpleHigh = 831,
 ///<summary>Solid Gavel</summary>
 ///<see href="https://fontawesome.com/icons/gavel?style=solid"/>
 [Description("Solid Gavel"), IconID("fas-gavel"), IconUnicodeGlyph(0xf0e3)]
@@ -3359,11 +3359,11 @@ BrandsGetPocket = 838,
 ///<summary>Brands GG Currency</summary>
 ///<see href="https://fontawesome.com/icons/gg?style=brands"/>
 [Description("Brands GG Currency"), IconID("fab-gg"), IconUnicodeGlyph(0xf260)]
-BrandsGGCurrency = 839,
+BrandsGg = 839,
 ///<summary>Brands GG Currency Circle</summary>
 ///<see href="https://fontawesome.com/icons/gg-circle?style=brands"/>
 [Description("Brands GG Currency Circle"), IconID("fab-gg-circle"), IconUnicodeGlyph(0xf261)]
-BrandsGGCurrencyCircle = 840,
+BrandsGgCircle = 840,
 ///<summary>Solid Ghost</summary>
 ///<see href="https://fontawesome.com/icons/ghost?style=solid"/>
 [Description("Solid Ghost"), IconID("fas-ghost"), IconUnicodeGlyph(0xf6e2)]
@@ -3395,7 +3395,7 @@ BrandsGithub = 847,
 ///<summary>Brands Alternate GitHub</summary>
 ///<see href="https://fontawesome.com/icons/github-alt?style=brands"/>
 [Description("Brands Alternate GitHub"), IconID("fab-github-alt"), IconUnicodeGlyph(0xf113)]
-BrandsAlternateGithub = 848,
+BrandsGithubAlt = 848,
 ///<summary>Brands GitHub Square</summary>
 ///<see href="https://fontawesome.com/icons/github-square?style=brands"/>
 [Description("Brands GitHub Square"), IconID("fab-github-square"), IconUnicodeGlyph(0xf092)]
@@ -3443,7 +3443,7 @@ BrandsGofore = 859,
 ///<summary>Brands Go</summary>
 ///<see href="https://fontawesome.com/icons/golang?style=brands"/>
 [Description("Brands Go"), IconID("fab-golang"), IconUnicodeGlyph(0xe40f)]
-BrandsGo = 860,
+BrandsGolang = 860,
 ///<summary>Solid Golf ball tee</summary>
 ///<see href="https://fontawesome.com/icons/golf-ball-tee?style=solid"/>
 [Description("Solid Golf ball tee"), IconID("fas-golf-ball-tee"), IconUnicodeGlyph(0xf450)]
@@ -3459,7 +3459,7 @@ BrandsGoodreadsG = 863,
 ///<summary>Brands Google Logo</summary>
 ///<see href="https://fontawesome.com/icons/google?style=brands"/>
 [Description("Brands Google Logo"), IconID("fab-google"), IconUnicodeGlyph(0xf1a0)]
-BrandsGoogleLogo = 864,
+BrandsGoogle = 864,
 ///<summary>Brands Google Drive</summary>
 ///<see href="https://fontawesome.com/icons/google-drive?style=brands"/>
 [Description("Brands Google Drive"), IconID("fab-google-drive"), IconUnicodeGlyph(0xf3aa)]
@@ -3499,7 +3499,7 @@ SolidGraduationCap = 873,
 ///<summary>Brands Gratipay (Gittip)</summary>
 ///<see href="https://fontawesome.com/icons/gratipay?style=brands"/>
 [Description("Brands Gratipay (Gittip)"), IconID("fab-gratipay"), IconUnicodeGlyph(0xf184)]
-BrandsGratipayGittip = 874,
+BrandsGratipay = 874,
 ///<summary>Brands Grav</summary>
 ///<see href="https://fontawesome.com/icons/grav?style=brands"/>
 [Description("Brands Grav"), IconID("fab-grav"), IconUnicodeGlyph(0xf2d6)]
@@ -3511,7 +3511,7 @@ SolidGreaterThan = 876,
 ///<summary>Solid Greater Than Equal To</summary>
 ///<see href="https://fontawesome.com/icons/greater-than-equal?style=solid"/>
 [Description("Solid Greater Than Equal To"), IconID("fas-greater-than-equal"), IconUnicodeGlyph(0xf532)]
-SolidGreaterThanEqualTo = 877,
+SolidGreaterThanEqual = 877,
 ///<summary>Solid Grip</summary>
 ///<see href="https://fontawesome.com/icons/grip?style=solid"/>
 [Description("Solid Grip"), IconID("fas-grip"), IconUnicodeGlyph(0xf58d)]
@@ -3531,7 +3531,7 @@ SolidGripVertical = 881,
 ///<summary>Brands Gripfire, Inc.</summary>
 ///<see href="https://fontawesome.com/icons/gripfire?style=brands"/>
 [Description("Brands Gripfire, Inc."), IconID("fab-gripfire"), IconUnicodeGlyph(0xf3ac)]
-BrandsGripfireInc = 882,
+BrandsGripfire = 882,
 ///<summary>Solid Group Arrows-rotate</summary>
 ///<see href="https://fontawesome.com/icons/group-arrows-rotate?style=solid"/>
 [Description("Solid Group Arrows-rotate"), IconID("fas-group-arrows-rotate"), IconUnicodeGlyph(0xe4f6)]
@@ -3587,19 +3587,19 @@ SolidHamsa = 895,
 ///<summary>Solid Paper (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand?style=solid"/>
 [Description("Solid Paper (Hand)"), IconID("fas-hand"), IconUnicodeGlyph(0xf256)]
-SolidPaperHand = 896,
+SolidHand = 896,
 ///<summary>Regular Paper (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand?style=regular"/>
 [Description("Regular Paper (Hand)"), IconID("far-hand"), IconUnicodeGlyph(0xf256)]
-RegularPaperHand = 897,
+RegularHand = 897,
 ///<summary>Solid Rock (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-back-fist?style=solid"/>
 [Description("Solid Rock (Hand)"), IconID("fas-hand-back-fist"), IconUnicodeGlyph(0xf255)]
-SolidRockHand = 898,
+SolidHandBackFist = 898,
 ///<summary>Regular Rock (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-back-fist?style=regular"/>
 [Description("Regular Rock (Hand)"), IconID("far-hand-back-fist"), IconUnicodeGlyph(0xf255)]
-RegularRockHand = 899,
+RegularHandBackFist = 899,
 ///<summary>Solid Hand dots</summary>
 ///<see href="https://fontawesome.com/icons/hand-dots?style=solid"/>
 [Description("Solid Hand dots"), IconID("fas-hand-dots"), IconUnicodeGlyph(0xf461)]
@@ -3607,7 +3607,7 @@ SolidHandDots = 900,
 ///<summary>Solid Raised Fist</summary>
 ///<see href="https://fontawesome.com/icons/hand-fist?style=solid"/>
 [Description("Solid Raised Fist"), IconID("fas-hand-fist"), IconUnicodeGlyph(0xf6de)]
-SolidRaisedFist = 901,
+SolidHandFist = 901,
 ///<summary>Solid Hand Holding</summary>
 ///<see href="https://fontawesome.com/icons/hand-holding?style=solid"/>
 [Description("Solid Hand Holding"), IconID("fas-hand-holding"), IconUnicodeGlyph(0xf4bd)]
@@ -3631,75 +3631,75 @@ SolidHandHoldingHeart = 906,
 ///<summary>Solid Hand Holding Medical Cross</summary>
 ///<see href="https://fontawesome.com/icons/hand-holding-medical?style=solid"/>
 [Description("Solid Hand Holding Medical Cross"), IconID("fas-hand-holding-medical"), IconUnicodeGlyph(0xe05c)]
-SolidHandHoldingMedicalCross = 907,
+SolidHandHoldingMedical = 907,
 ///<summary>Solid Lizard (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-lizard?style=solid"/>
 [Description("Solid Lizard (Hand)"), IconID("fas-hand-lizard"), IconUnicodeGlyph(0xf258)]
-SolidLizardHand = 908,
+SolidHandLizard = 908,
 ///<summary>Regular Lizard (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-lizard?style=regular"/>
 [Description("Regular Lizard (Hand)"), IconID("far-hand-lizard"), IconUnicodeGlyph(0xf258)]
-RegularLizardHand = 909,
+RegularHandLizard = 909,
 ///<summary>Solid Hand with Middle Finger Raised</summary>
 ///<see href="https://fontawesome.com/icons/hand-middle-finger?style=solid"/>
 [Description("Solid Hand with Middle Finger Raised"), IconID("fas-hand-middle-finger"), IconUnicodeGlyph(0xf806)]
-SolidHandWithMiddleFingerRaised = 910,
+SolidHandMiddleFinger = 910,
 ///<summary>Solid Peace (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-peace?style=solid"/>
 [Description("Solid Peace (Hand)"), IconID("fas-hand-peace"), IconUnicodeGlyph(0xf25b)]
-SolidPeaceHand = 911,
+SolidHandPeace = 911,
 ///<summary>Regular Peace (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-peace?style=regular"/>
 [Description("Regular Peace (Hand)"), IconID("far-hand-peace"), IconUnicodeGlyph(0xf25b)]
-RegularPeaceHand = 912,
+RegularHandPeace = 912,
 ///<summary>Solid Hand Pointing Down</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-down?style=solid"/>
 [Description("Solid Hand Pointing Down"), IconID("fas-hand-point-down"), IconUnicodeGlyph(0xf0a7)]
-SolidHandPointingDown = 913,
+SolidHandPointDown = 913,
 ///<summary>Regular Hand Pointing Down</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-down?style=regular"/>
 [Description("Regular Hand Pointing Down"), IconID("far-hand-point-down"), IconUnicodeGlyph(0xf0a7)]
-RegularHandPointingDown = 914,
+RegularHandPointDown = 914,
 ///<summary>Solid Hand Pointing Left</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-left?style=solid"/>
 [Description("Solid Hand Pointing Left"), IconID("fas-hand-point-left"), IconUnicodeGlyph(0xf0a5)]
-SolidHandPointingLeft = 915,
+SolidHandPointLeft = 915,
 ///<summary>Regular Hand Pointing Left</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-left?style=regular"/>
 [Description("Regular Hand Pointing Left"), IconID("far-hand-point-left"), IconUnicodeGlyph(0xf0a5)]
-RegularHandPointingLeft = 916,
+RegularHandPointLeft = 916,
 ///<summary>Solid Hand Pointing Right</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-right?style=solid"/>
 [Description("Solid Hand Pointing Right"), IconID("fas-hand-point-right"), IconUnicodeGlyph(0xf0a4)]
-SolidHandPointingRight = 917,
+SolidHandPointRight = 917,
 ///<summary>Regular Hand Pointing Right</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-right?style=regular"/>
 [Description("Regular Hand Pointing Right"), IconID("far-hand-point-right"), IconUnicodeGlyph(0xf0a4)]
-RegularHandPointingRight = 918,
+RegularHandPointRight = 918,
 ///<summary>Solid Hand Pointing Up</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-up?style=solid"/>
 [Description("Solid Hand Pointing Up"), IconID("fas-hand-point-up"), IconUnicodeGlyph(0xf0a6)]
-SolidHandPointingUp = 919,
+SolidHandPointUp = 919,
 ///<summary>Regular Hand Pointing Up</summary>
 ///<see href="https://fontawesome.com/icons/hand-point-up?style=regular"/>
 [Description("Regular Hand Pointing Up"), IconID("far-hand-point-up"), IconUnicodeGlyph(0xf0a6)]
-RegularHandPointingUp = 920,
+RegularHandPointUp = 920,
 ///<summary>Solid Pointer (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-pointer?style=solid"/>
 [Description("Solid Pointer (Hand)"), IconID("fas-hand-pointer"), IconUnicodeGlyph(0xf25a)]
-SolidPointerHand = 921,
+SolidHandPointer = 921,
 ///<summary>Regular Pointer (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-pointer?style=regular"/>
 [Description("Regular Pointer (Hand)"), IconID("far-hand-pointer"), IconUnicodeGlyph(0xf25a)]
-RegularPointerHand = 922,
+RegularHandPointer = 922,
 ///<summary>Solid Scissors (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-scissors?style=solid"/>
 [Description("Solid Scissors (Hand)"), IconID("fas-hand-scissors"), IconUnicodeGlyph(0xf257)]
-SolidScissorsHand = 923,
+SolidHandScissors = 923,
 ///<summary>Regular Scissors (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-scissors?style=regular"/>
 [Description("Regular Scissors (Hand)"), IconID("far-hand-scissors"), IconUnicodeGlyph(0xf257)]
-RegularScissorsHand = 924,
+RegularHandScissors = 924,
 ///<summary>Solid Hand Sparkles</summary>
 ///<see href="https://fontawesome.com/icons/hand-sparkles?style=solid"/>
 [Description("Solid Hand Sparkles"), IconID("fas-hand-sparkles"), IconUnicodeGlyph(0xe05d)]
@@ -3707,11 +3707,11 @@ SolidHandSparkles = 925,
 ///<summary>Solid Spock (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-spock?style=solid"/>
 [Description("Solid Spock (Hand)"), IconID("fas-hand-spock"), IconUnicodeGlyph(0xf259)]
-SolidSpockHand = 926,
+SolidHandSpock = 926,
 ///<summary>Regular Spock (Hand)</summary>
 ///<see href="https://fontawesome.com/icons/hand-spock?style=regular"/>
 [Description("Regular Spock (Hand)"), IconID("far-hand-spock"), IconUnicodeGlyph(0xf259)]
-RegularSpockHand = 927,
+RegularHandSpock = 927,
 ///<summary>Solid Handcuffs</summary>
 ///<see href="https://fontawesome.com/icons/handcuffs?style=solid"/>
 [Description("Solid Handcuffs"), IconID("fas-handcuffs"), IconUnicodeGlyph(0xe4f8)]
@@ -3723,7 +3723,7 @@ SolidHands = 929,
 ///<summary>Solid Hands american sign language interpreting</summary>
 ///<see href="https://fontawesome.com/icons/hands-asl-interpreting?style=solid"/>
 [Description("Solid Hands american sign language interpreting"), IconID("fas-hands-asl-interpreting"), IconUnicodeGlyph(0xf2a3)]
-SolidHandsAmericanSignLanguageInterpreting = 930,
+SolidHandsAslInterpreting = 930,
 ///<summary>Solid Hands Bound</summary>
 ///<see href="https://fontawesome.com/icons/hands-bound?style=solid"/>
 [Description("Solid Hands Bound"), IconID("fas-hands-bound"), IconUnicodeGlyph(0xe4f9)]
@@ -3799,15 +3799,15 @@ SolidHashtag = 948,
 ///<summary>Solid Cowboy Hat</summary>
 ///<see href="https://fontawesome.com/icons/hat-cowboy?style=solid"/>
 [Description("Solid Cowboy Hat"), IconID("fas-hat-cowboy"), IconUnicodeGlyph(0xf8c0)]
-SolidCowboyHat = 949,
+SolidHatCowboy = 949,
 ///<summary>Solid Cowboy Hat Side</summary>
 ///<see href="https://fontawesome.com/icons/hat-cowboy-side?style=solid"/>
 [Description("Solid Cowboy Hat Side"), IconID("fas-hat-cowboy-side"), IconUnicodeGlyph(0xf8c1)]
-SolidCowboyHatSide = 950,
+SolidHatCowboySide = 950,
 ///<summary>Solid Wizard's Hat</summary>
 ///<see href="https://fontawesome.com/icons/hat-wizard?style=solid"/>
 [Description("Solid Wizard's Hat"), IconID("fas-hat-wizard"), IconUnicodeGlyph(0xf6e8)]
-SolidWizardSHat = 951,
+SolidHatWizard = 951,
 ///<summary>Solid Head Side Cough</summary>
 ///<see href="https://fontawesome.com/icons/head-side-cough?style=solid"/>
 [Description("Solid Head Side Cough"), IconID("fas-head-side-cough"), IconUnicodeGlyph(0xe061)]
@@ -3919,11 +3919,11 @@ BrandsHips = 978,
 ///<summary>Brands HireAHelper</summary>
 ///<see href="https://fontawesome.com/icons/hire-a-helper?style=brands"/>
 [Description("Brands HireAHelper"), IconID("fab-hire-a-helper"), IconUnicodeGlyph(0xf3b0)]
-BrandsHireahelper = 979,
+BrandsHireAHelper = 979,
 ///<summary>Brands Hive Blockchain Network</summary>
 ///<see href="https://fontawesome.com/icons/hive?style=brands"/>
 [Description("Brands Hive Blockchain Network"), IconID("fab-hive"), IconUnicodeGlyph(0xe07f)]
-BrandsHiveBlockchainNetwork = 980,
+BrandsHive = 980,
 ///<summary>Solid Hockey Puck</summary>
 ///<see href="https://fontawesome.com/icons/hockey-puck?style=solid"/>
 [Description("Solid Hockey Puck"), IconID("fas-hockey-puck"), IconUnicodeGlyph(0xf453)]
@@ -3959,7 +3959,7 @@ RegularHospital = 988,
 ///<summary>Solid Hospital with User</summary>
 ///<see href="https://fontawesome.com/icons/hospital-user?style=solid"/>
 [Description("Solid Hospital with User"), IconID("fas-hospital-user"), IconUnicodeGlyph(0xf80d)]
-SolidHospitalWithUser = 989,
+SolidHospitalUser = 989,
 ///<summary>Solid Hot tub person</summary>
 ///<see href="https://fontawesome.com/icons/hot-tub-person?style=solid"/>
 [Description("Solid Hot tub person"), IconID("fas-hot-tub-person"), IconUnicodeGlyph(0xf593)]
@@ -3967,7 +3967,7 @@ SolidHotTubPerson = 990,
 ///<summary>Solid Hot Dog</summary>
 ///<see href="https://fontawesome.com/icons/hotdog?style=solid"/>
 [Description("Solid Hot Dog"), IconID("fas-hotdog"), IconUnicodeGlyph(0xf80f)]
-SolidHotDog = 991,
+SolidHotdog = 991,
 ///<summary>Solid Hotel</summary>
 ///<see href="https://fontawesome.com/icons/hotel?style=solid"/>
 [Description("Solid Hotel"), IconID("fas-hotel"), IconUnicodeGlyph(0xf594)]
@@ -4007,19 +4007,19 @@ SolidHouseChimney = 1000,
 ///<summary>Solid House crack</summary>
 ///<see href="https://fontawesome.com/icons/house-chimney-crack?style=solid"/>
 [Description("Solid House crack"), IconID("fas-house-chimney-crack"), IconUnicodeGlyph(0xf6f1)]
-SolidHouseCrack = 1001,
+SolidHouseChimneyCrack = 1001,
 ///<summary>Solid House medical</summary>
 ///<see href="https://fontawesome.com/icons/house-chimney-medical?style=solid"/>
 [Description("Solid House medical"), IconID("fas-house-chimney-medical"), IconUnicodeGlyph(0xf7f2)]
-SolidHouseMedical = 1002,
+SolidHouseChimneyMedical = 1002,
 ///<summary>Solid House User</summary>
 ///<see href="https://fontawesome.com/icons/house-chimney-user?style=solid"/>
 [Description("Solid House User"), IconID("fas-house-chimney-user"), IconUnicodeGlyph(0xe065)]
-SolidHouseUser = 1003,
+SolidHouseChimneyUser = 1003,
 ///<summary>Solid House with Window + Chimney</summary>
 ///<see href="https://fontawesome.com/icons/house-chimney-window?style=solid"/>
 [Description("Solid House with Window + Chimney"), IconID("fas-house-chimney-window"), IconUnicodeGlyph(0xe00d)]
-SolidHouseWithWindowChimney = 1004,
+SolidHouseChimneyWindow = 1004,
 ///<summary>Solid House Circle-check</summary>
 ///<see href="https://fontawesome.com/icons/house-circle-check?style=solid"/>
 [Description("Solid House Circle-check"), IconID("fas-house-circle-check"), IconUnicodeGlyph(0xe509)]
@@ -4035,7 +4035,7 @@ SolidHouseCircleXmark = 1007,
 ///<summary>Solid House Simple Crack</summary>
 ///<see href="https://fontawesome.com/icons/house-crack?style=solid"/>
 [Description("Solid House Simple Crack"), IconID("fas-house-crack"), IconUnicodeGlyph(0xe3b1)]
-SolidHouseSimpleCrack = 1008,
+SolidHouseCrack = 1008,
 ///<summary>Solid House Fire</summary>
 ///<see href="https://fontawesome.com/icons/house-fire?style=solid"/>
 [Description("Solid House Fire"), IconID("fas-house-fire"), IconUnicodeGlyph(0xe50c)]
@@ -4047,11 +4047,11 @@ SolidHouseFlag = 1010,
 ///<summary>Solid House Flood</summary>
 ///<see href="https://fontawesome.com/icons/house-flood-water?style=solid"/>
 [Description("Solid House Flood"), IconID("fas-house-flood-water"), IconUnicodeGlyph(0xe50e)]
-SolidHouseFlood = 1011,
+SolidHouseFloodWater = 1011,
 ///<summary>Solid House Flood-circle-arrow-right</summary>
 ///<see href="https://fontawesome.com/icons/house-flood-water-circle-arrow-right?style=solid"/>
 [Description("Solid House Flood-circle-arrow-right"), IconID("fas-house-flood-water-circle-arrow-right"), IconUnicodeGlyph(0xe50f)]
-SolidHouseFloodCircleArrowRight = 1012,
+SolidHouseFloodWaterCircleArrowRight = 1012,
 ///<summary>Solid House laptop</summary>
 ///<see href="https://fontawesome.com/icons/house-laptop?style=solid"/>
 [Description("Solid House laptop"), IconID("fas-house-laptop"), IconUnicodeGlyph(0xe066)]
@@ -4063,7 +4063,7 @@ SolidHouseLock = 1014,
 ///<summary>Solid House Simple Medical</summary>
 ///<see href="https://fontawesome.com/icons/house-medical?style=solid"/>
 [Description("Solid House Simple Medical"), IconID("fas-house-medical"), IconUnicodeGlyph(0xe3b2)]
-SolidHouseSimpleMedical = 1015,
+SolidHouseMedical = 1015,
 ///<summary>Solid House Medical-circle-check</summary>
 ///<see href="https://fontawesome.com/icons/house-medical-circle-check?style=solid"/>
 [Description("Solid House Medical-circle-check"), IconID("fas-house-medical-circle-check"), IconUnicodeGlyph(0xe511)]
@@ -4091,7 +4091,7 @@ SolidHouseTsunami = 1021,
 ///<summary>Solid Home User</summary>
 ///<see href="https://fontawesome.com/icons/house-user?style=solid"/>
 [Description("Solid Home User"), IconID("fas-house-user"), IconUnicodeGlyph(0xe1b0)]
-SolidHomeUser = 1022,
+SolidHouseUser = 1022,
 ///<summary>Brands Houzz</summary>
 ///<see href="https://fontawesome.com/icons/houzz?style=brands"/>
 [Description("Brands Houzz"), IconID("fab-houzz"), IconUnicodeGlyph(0xf27c)]
@@ -4103,7 +4103,7 @@ SolidHryvniaSign = 1024,
 ///<summary>Brands HTML 5 Logo</summary>
 ///<see href="https://fontawesome.com/icons/html5?style=brands"/>
 [Description("Brands HTML 5 Logo"), IconID("fab-html5"), IconUnicodeGlyph(0xf13b)]
-BrandsHTML5Logo = 1025,
+BrandsHtml5 = 1025,
 ///<summary>Brands HubSpot</summary>
 ///<see href="https://fontawesome.com/icons/hubspot?style=brands"/>
 [Description("Brands HubSpot"), IconID("fab-hubspot"), IconUnicodeGlyph(0xf3b2)]
@@ -4119,7 +4119,7 @@ SolidI = 1028,
 ///<summary>Solid I Beam Cursor</summary>
 ///<see href="https://fontawesome.com/icons/i-cursor?style=solid"/>
 [Description("Solid I Beam Cursor"), IconID("fas-i-cursor"), IconUnicodeGlyph(0xf246)]
-SolidIBeamCursor = 1029,
+SolidICursor = 1029,
 ///<summary>Solid Ice Cream</summary>
 ///<see href="https://fontawesome.com/icons/ice-cream?style=solid"/>
 [Description("Solid Ice Cream"), IconID("fas-ice-cream"), IconUnicodeGlyph(0xf810)]
@@ -4135,19 +4135,19 @@ SolidIcons = 1032,
 ///<summary>Solid Identification Badge</summary>
 ///<see href="https://fontawesome.com/icons/id-badge?style=solid"/>
 [Description("Solid Identification Badge"), IconID("fas-id-badge"), IconUnicodeGlyph(0xf2c1)]
-SolidIdentificationBadge = 1033,
+SolidIdBadge = 1033,
 ///<summary>Regular Identification Badge</summary>
 ///<see href="https://fontawesome.com/icons/id-badge?style=regular"/>
 [Description("Regular Identification Badge"), IconID("far-id-badge"), IconUnicodeGlyph(0xf2c1)]
-RegularIdentificationBadge = 1034,
+RegularIdBadge = 1034,
 ///<summary>Solid Identification Card</summary>
 ///<see href="https://fontawesome.com/icons/id-card?style=solid"/>
 [Description("Solid Identification Card"), IconID("fas-id-card"), IconUnicodeGlyph(0xf2c2)]
-SolidIdentificationCard = 1035,
+SolidIdCard = 1035,
 ///<summary>Regular Identification Card</summary>
 ///<see href="https://fontawesome.com/icons/id-card?style=regular"/>
 [Description("Regular Identification Card"), IconID("far-id-card"), IconUnicodeGlyph(0xf2c2)]
-RegularIdentificationCard = 1036,
+RegularIdCard = 1036,
 ///<summary>Solid Id card clip</summary>
 ///<see href="https://fontawesome.com/icons/id-card-clip?style=solid"/>
 [Description("Solid Id card clip"), IconID("fas-id-card-clip"), IconUnicodeGlyph(0xf47f)]
@@ -4183,7 +4183,7 @@ RegularImages = 1044,
 ///<summary>Brands IMDB</summary>
 ///<see href="https://fontawesome.com/icons/imdb?style=brands"/>
 [Description("Brands IMDB"), IconID("fab-imdb"), IconUnicodeGlyph(0xf2d8)]
-BrandsIMDB = 1045,
+BrandsImdb = 1045,
 ///<summary>Solid inbox</summary>
 ///<see href="https://fontawesome.com/icons/inbox?style=solid"/>
 [Description("Solid inbox"), IconID("fas-inbox"), IconUnicodeGlyph(0xf01c)]
@@ -4279,7 +4279,7 @@ BrandsJediOrder = 1068,
 ///<summary>Brands Jenkis</summary>
 ///<see href="https://fontawesome.com/icons/jenkins?style=brands"/>
 [Description("Brands Jenkis"), IconID("fab-jenkins"), IconUnicodeGlyph(0xf3b6)]
-BrandsJenkis = 1069,
+BrandsJenkins = 1069,
 ///<summary>Solid Jet fighter</summary>
 ///<see href="https://fontawesome.com/icons/jet-fighter?style=solid"/>
 [Description("Solid Jet fighter"), IconID("fas-jet-fighter"), IconUnicodeGlyph(0xf0fb)]
@@ -4303,15 +4303,15 @@ SolidJoint = 1074,
 ///<summary>Brands Joomla Logo</summary>
 ///<see href="https://fontawesome.com/icons/joomla?style=brands"/>
 [Description("Brands Joomla Logo"), IconID("fab-joomla"), IconUnicodeGlyph(0xf1aa)]
-BrandsJoomlaLogo = 1075,
+BrandsJoomla = 1075,
 ///<summary>Brands JavaScript (JS)</summary>
 ///<see href="https://fontawesome.com/icons/js?style=brands"/>
 [Description("Brands JavaScript (JS)"), IconID("fab-js"), IconUnicodeGlyph(0xf3b8)]
-BrandsJavascriptJS = 1076,
+BrandsJs = 1076,
 ///<summary>Brands JavaScript (JS) Square</summary>
 ///<see href="https://fontawesome.com/icons/js-square?style=brands"/>
 [Description("Brands JavaScript (JS) Square"), IconID("fab-js-square"), IconUnicodeGlyph(0xf3b9)]
-BrandsJavascriptJSSquare = 1077,
+BrandsJsSquare = 1077,
 ///<summary>Brands jsFiddle</summary>
 ///<see href="https://fontawesome.com/icons/jsfiddle?style=brands"/>
 [Description("Brands jsFiddle"), IconID("fab-jsfiddle"), IconUnicodeGlyph(0xf1cc)]
@@ -4383,7 +4383,7 @@ SolidKiwiBird = 1094,
 ///<summary>Brands KORVUE</summary>
 ///<see href="https://fontawesome.com/icons/korvue?style=brands"/>
 [Description("Brands KORVUE"), IconID("fab-korvue"), IconUnicodeGlyph(0xf42f)]
-BrandsKORVUE = 1095,
+BrandsKorvue = 1095,
 ///<summary>Solid L</summary>
 ///<see href="https://fontawesome.com/icons/l?style=solid"/>
 [Description("Solid L"), IconID("fas-l"), IconUnicodeGlyph(0x4c)]
@@ -4435,11 +4435,11 @@ SolidLariSign = 1107,
 ///<summary>Brands last.fm</summary>
 ///<see href="https://fontawesome.com/icons/lastfm?style=brands"/>
 [Description("Brands last.fm"), IconID("fab-lastfm"), IconUnicodeGlyph(0xf202)]
-BrandsLastFm = 1108,
+BrandsLastfm = 1108,
 ///<summary>Brands last.fm Square</summary>
 ///<see href="https://fontawesome.com/icons/lastfm-square?style=brands"/>
 [Description("Brands last.fm Square"), IconID("fab-lastfm-square"), IconUnicodeGlyph(0xf203)]
-BrandsLastFmSquare = 1109,
+BrandsLastfmSquare = 1109,
 ///<summary>Solid Layer Group</summary>
 ///<see href="https://fontawesome.com/icons/layer-group?style=solid"/>
 [Description("Solid Layer Group"), IconID("fas-layer-group"), IconUnicodeGlyph(0xf5fd)]
@@ -4479,7 +4479,7 @@ SolidLessThan = 1118,
 ///<summary>Solid Less Than Equal To</summary>
 ///<see href="https://fontawesome.com/icons/less-than-equal?style=solid"/>
 [Description("Solid Less Than Equal To"), IconID("fas-less-than-equal"), IconUnicodeGlyph(0xf537)]
-SolidLessThanEqualTo = 1119,
+SolidLessThanEqual = 1119,
 ///<summary>Solid Life Ring</summary>
 ///<see href="https://fontawesome.com/icons/life-ring?style=solid"/>
 [Description("Solid Life Ring"), IconID("fas-life-ring"), IconUnicodeGlyph(0xf1cd)]
@@ -4531,7 +4531,7 @@ BrandsLinux = 1131,
 ///<summary>Solid Turkish Lira Sign</summary>
 ///<see href="https://fontawesome.com/icons/lira-sign?style=solid"/>
 [Description("Solid Turkish Lira Sign"), IconID("fas-lira-sign"), IconUnicodeGlyph(0xf195)]
-SolidTurkishLiraSign = 1132,
+SolidLiraSign = 1132,
 ///<summary>Solid List</summary>
 ///<see href="https://fontawesome.com/icons/list?style=solid"/>
 [Description("Solid List"), IconID("fas-list"), IconUnicodeGlyph(0xf03a)]
@@ -4567,7 +4567,7 @@ SolidLocationDot = 1140,
 ///<summary>Solid Location</summary>
 ///<see href="https://fontawesome.com/icons/location-pin?style=solid"/>
 [Description("Solid Location"), IconID("fas-location-pin"), IconUnicodeGlyph(0xf041)]
-SolidLocation = 1141,
+SolidLocationPin = 1141,
 ///<summary>Solid Location Pin-lock</summary>
 ///<see href="https://fontawesome.com/icons/location-pin-lock?style=solid"/>
 [Description("Solid Location Pin-lock"), IconID("fas-location-pin-lock"), IconUnicodeGlyph(0xe51f)]
@@ -4723,7 +4723,7 @@ SolidMask = 1179,
 ///<summary>Solid Face Mask</summary>
 ///<see href="https://fontawesome.com/icons/mask-face?style=solid"/>
 [Description("Solid Face Mask"), IconID("fas-mask-face"), IconUnicodeGlyph(0xe1d7)]
-SolidFaceMask = 1180,
+SolidMaskFace = 1180,
 ///<summary>Solid Mask Ventilator</summary>
 ///<see href="https://fontawesome.com/icons/mask-ventilator?style=solid"/>
 [Description("Solid Mask Ventilator"), IconID("fas-mask-ventilator"), IconUnicodeGlyph(0xe524)]
@@ -4751,7 +4751,7 @@ SolidMaximize = 1186,
 ///<summary>Brands Material Design for Bootstrap</summary>
 ///<see href="https://fontawesome.com/icons/mdb?style=brands"/>
 [Description("Brands Material Design for Bootstrap"), IconID("fab-mdb"), IconUnicodeGlyph(0xf8ca)]
-BrandsMaterialDesignForBootstrap = 1187,
+BrandsMdb = 1187,
 ///<summary>Solid Medal</summary>
 ///<see href="https://fontawesome.com/icons/medal?style=solid"/>
 [Description("Solid Medal"), IconID("fas-medal"), IconUnicodeGlyph(0xf5a2)]
@@ -4767,7 +4767,7 @@ BrandsMedium = 1190,
 ///<summary>Brands MRT</summary>
 ///<see href="https://fontawesome.com/icons/medrt?style=brands"/>
 [Description("Brands MRT"), IconID("fab-medrt"), IconUnicodeGlyph(0xf3c8)]
-BrandsMRT = 1191,
+BrandsMedrt = 1191,
 ///<summary>Brands Meetup</summary>
 ///<see href="https://fontawesome.com/icons/meetup?style=brands"/>
 [Description("Brands Meetup"), IconID("fab-meetup"), IconUnicodeGlyph(0xf2e0)]
@@ -4807,7 +4807,7 @@ SolidMeteor = 1200,
 ///<summary>Brands Micro.blog</summary>
 ///<see href="https://fontawesome.com/icons/microblog?style=brands"/>
 [Description("Brands Micro.blog"), IconID("fab-microblog"), IconUnicodeGlyph(0xe01a)]
-BrandsMicroBlog = 1201,
+BrandsMicroblog = 1201,
 ///<summary>Solid Microchip</summary>
 ///<see href="https://fontawesome.com/icons/microchip?style=solid"/>
 [Description("Solid Microchip"), IconID("fas-microchip"), IconUnicodeGlyph(0xf2db)]
@@ -4891,7 +4891,7 @@ SolidMobileScreenButton = 1221,
 ///<summary>Brands MODX</summary>
 ///<see href="https://fontawesome.com/icons/modx?style=brands"/>
 [Description("Brands MODX"), IconID("fab-modx"), IconUnicodeGlyph(0xf285)]
-BrandsMODX = 1222,
+BrandsModx = 1222,
 ///<summary>Brands Monero</summary>
 ///<see href="https://fontawesome.com/icons/monero?style=brands"/>
 [Description("Brands Monero"), IconID("fab-monero"), IconUnicodeGlyph(0xf3d0)]
@@ -4923,7 +4923,7 @@ SolidMoneyBillTrendUp = 1229,
 ///<summary>Solid Wavy Money Bill</summary>
 ///<see href="https://fontawesome.com/icons/money-bill-wave?style=solid"/>
 [Description("Solid Wavy Money Bill"), IconID("fas-money-bill-wave"), IconUnicodeGlyph(0xf53a)]
-SolidWavyMoneyBill = 1230,
+SolidMoneyBillWave = 1230,
 ///<summary>Solid Money Bill-wheat</summary>
 ///<see href="https://fontawesome.com/icons/money-bill-wheat?style=solid"/>
 [Description("Solid Money Bill-wheat"), IconID("fas-money-bill-wheat"), IconUnicodeGlyph(0xe52a)]
@@ -5019,7 +5019,7 @@ BrandsNeos = 1253,
 ///<summary>Solid Wired Network</summary>
 ///<see href="https://fontawesome.com/icons/network-wired?style=solid"/>
 [Description("Solid Wired Network"), IconID("fas-network-wired"), IconUnicodeGlyph(0xf6ff)]
-SolidWiredNetwork = 1254,
+SolidNetworkWired = 1254,
 ///<summary>Solid Neuter</summary>
 ///<see href="https://fontawesome.com/icons/neuter?style=solid"/>
 [Description("Solid Neuter"), IconID("fas-neuter"), IconUnicodeGlyph(0xf22c)]
@@ -5035,11 +5035,11 @@ RegularNewspaper = 1257,
 ///<summary>Brands NFC Directional</summary>
 ///<see href="https://fontawesome.com/icons/nfc-directional?style=brands"/>
 [Description("Brands NFC Directional"), IconID("fab-nfc-directional"), IconUnicodeGlyph(0xe530)]
-BrandsNFCDirectional = 1258,
+BrandsNfcDirectional = 1258,
 ///<summary>Brands NFC Simplified</summary>
 ///<see href="https://fontawesome.com/icons/nfc-symbol?style=brands"/>
 [Description("Brands NFC Simplified"), IconID("fab-nfc-symbol"), IconUnicodeGlyph(0xe531)]
-BrandsNFCSimplified = 1259,
+BrandsNfcSymbol = 1259,
 ///<summary>Brands Nimblr</summary>
 ///<see href="https://fontawesome.com/icons/nimblr?style=brands"/>
 [Description("Brands Nimblr"), IconID("fab-nimblr"), IconUnicodeGlyph(0xf5a8)]
@@ -5047,11 +5047,11 @@ BrandsNimblr = 1260,
 ///<summary>Brands Node.js</summary>
 ///<see href="https://fontawesome.com/icons/node?style=brands"/>
 [Description("Brands Node.js"), IconID("fab-node"), IconUnicodeGlyph(0xf419)]
-BrandsNodeJs = 1261,
+BrandsNode = 1261,
 ///<summary>Brands Node.js JS</summary>
 ///<see href="https://fontawesome.com/icons/node-js?style=brands"/>
 [Description("Brands Node.js JS"), IconID("fab-node-js"), IconUnicodeGlyph(0xf3d3)]
-BrandsNodeJsJS = 1262,
+BrandsNodeJs = 1262,
 ///<summary>Solid Not Equal</summary>
 ///<see href="https://fontawesome.com/icons/not-equal?style=solid"/>
 [Description("Solid Not Equal"), IconID("fas-not-equal"), IconUnicodeGlyph(0xf53e)]
@@ -5067,7 +5067,7 @@ RegularNoteSticky = 1265,
 ///<summary>Solid Medical Notes</summary>
 ///<see href="https://fontawesome.com/icons/notes-medical?style=solid"/>
 [Description("Solid Medical Notes"), IconID("fas-notes-medical"), IconUnicodeGlyph(0xf481)]
-SolidMedicalNotes = 1266,
+SolidNotesMedical = 1266,
 ///<summary>Brands npm</summary>
 ///<see href="https://fontawesome.com/icons/npm?style=brands"/>
 [Description("Brands npm"), IconID("fab-npm"), IconUnicodeGlyph(0xf3d4)]
@@ -5075,7 +5075,7 @@ BrandsNpm = 1267,
 ///<summary>Brands NS8</summary>
 ///<see href="https://fontawesome.com/icons/ns8?style=brands"/>
 [Description("Brands NS8"), IconID("fab-ns8"), IconUnicodeGlyph(0xf3d5)]
-BrandsNS8 = 1268,
+BrandsNs8 = 1268,
 ///<summary>Brands Nutritionix</summary>
 ///<see href="https://fontawesome.com/icons/nutritionix?style=brands"/>
 [Description("Brands Nutritionix"), IconID("fab-nutritionix"), IconUnicodeGlyph(0xf3d6)]
@@ -5147,11 +5147,11 @@ BrandsOptinMonster = 1285,
 ///<summary>Brands ORCID</summary>
 ///<see href="https://fontawesome.com/icons/orcid?style=brands"/>
 [Description("Brands ORCID"), IconID("fab-orcid"), IconUnicodeGlyph(0xf8d2)]
-BrandsORCID = 1286,
+BrandsOrcid = 1286,
 ///<summary>Brands Open Source Initiative</summary>
 ///<see href="https://fontawesome.com/icons/osi?style=brands"/>
 [Description("Brands Open Source Initiative"), IconID("fab-osi"), IconUnicodeGlyph(0xf41a)]
-BrandsOpenSourceInitiative = 1287,
+BrandsOsi = 1287,
 ///<summary>Solid Otter</summary>
 ///<see href="https://fontawesome.com/icons/otter?style=solid"/>
 [Description("Solid Otter"), IconID("fas-otter"), IconUnicodeGlyph(0xf700)]
@@ -5171,7 +5171,7 @@ BrandsPadlet = 1291,
 ///<summary>Brands page4 Corporation</summary>
 ///<see href="https://fontawesome.com/icons/page4?style=brands"/>
 [Description("Brands page4 Corporation"), IconID("fab-page4"), IconUnicodeGlyph(0xf3d7)]
-BrandsPage4Corporation = 1292,
+BrandsPage4 = 1292,
 ///<summary>Brands Pagelines</summary>
 ///<see href="https://fontawesome.com/icons/pagelines?style=brands"/>
 [Description("Brands Pagelines"), IconID("fab-pagelines"), IconUnicodeGlyph(0xf18c)]
@@ -5187,7 +5187,7 @@ SolidPaintRoller = 1295,
 ///<summary>Solid Paint Brush</summary>
 ///<see href="https://fontawesome.com/icons/paintbrush?style=solid"/>
 [Description("Solid Paint Brush"), IconID("fas-paintbrush"), IconUnicodeGlyph(0xf1fc)]
-SolidPaintBrush = 1296,
+SolidPaintbrush = 1296,
 ///<summary>Solid Palette</summary>
 ///<see href="https://fontawesome.com/icons/palette?style=solid"/>
 [Description("Solid Palette"), IconID("fas-palette"), IconUnicodeGlyph(0xf53f)]
@@ -5319,7 +5319,7 @@ SolidPeopleRoof = 1328,
 ///<summary>Solid Hot Pepper</summary>
 ///<see href="https://fontawesome.com/icons/pepper-hot?style=solid"/>
 [Description("Solid Hot Pepper"), IconID("fas-pepper-hot"), IconUnicodeGlyph(0xf816)]
-SolidHotPepper = 1329,
+SolidPepperHot = 1329,
 ///<summary>Brands PerByte</summary>
 ///<see href="https://fontawesome.com/icons/perbyte?style=brands"/>
 [Description("Brands PerByte"), IconID("fab-perbyte"), IconUnicodeGlyph(0xe083)]
@@ -5351,7 +5351,7 @@ SolidPersonBiking = 1336,
 ///<summary>Solid Person Entering Booth</summary>
 ///<see href="https://fontawesome.com/icons/person-booth?style=solid"/>
 [Description("Solid Person Entering Booth"), IconID("fas-person-booth"), IconUnicodeGlyph(0xf756)]
-SolidPersonEnteringBooth = 1337,
+SolidPersonBooth = 1337,
 ///<summary>Solid Person Breastfeeding</summary>
 ///<see href="https://fontawesome.com/icons/person-breastfeeding?style=solid"/>
 [Description("Solid Person Breastfeeding"), IconID("fas-person-breastfeeding"), IconUnicodeGlyph(0xe53a)]
@@ -5559,27 +5559,27 @@ SolidPhotoFilm = 1388,
 ///<summary>Brands PHP</summary>
 ///<see href="https://fontawesome.com/icons/php?style=brands"/>
 [Description("Brands PHP"), IconID("fab-php"), IconUnicodeGlyph(0xf457)]
-BrandsPHP = 1389,
+BrandsPhp = 1389,
 ///<summary>Brands Pied Piper Logo</summary>
 ///<see href="https://fontawesome.com/icons/pied-piper?style=brands"/>
 [Description("Brands Pied Piper Logo"), IconID("fab-pied-piper"), IconUnicodeGlyph(0xf2ae)]
-BrandsPiedPiperLogo = 1390,
+BrandsPiedPiper = 1390,
 ///<summary>Brands Alternate Pied Piper Logo (Old)</summary>
 ///<see href="https://fontawesome.com/icons/pied-piper-alt?style=brands"/>
 [Description("Brands Alternate Pied Piper Logo (Old)"), IconID("fab-pied-piper-alt"), IconUnicodeGlyph(0xf1a8)]
-BrandsAlternatePiedPiperLogoOld = 1391,
+BrandsPiedPiperAlt = 1391,
 ///<summary>Brands Pied Piper Hat (Old)</summary>
 ///<see href="https://fontawesome.com/icons/pied-piper-hat?style=brands"/>
 [Description("Brands Pied Piper Hat (Old)"), IconID("fab-pied-piper-hat"), IconUnicodeGlyph(0xf4e5)]
-BrandsPiedPiperHatOld = 1392,
+BrandsPiedPiperHat = 1392,
 ///<summary>Brands Pied Piper PP Logo (Old)</summary>
 ///<see href="https://fontawesome.com/icons/pied-piper-pp?style=brands"/>
 [Description("Brands Pied Piper PP Logo (Old)"), IconID("fab-pied-piper-pp"), IconUnicodeGlyph(0xf1a7)]
-BrandsPiedPiperPPLogoOld = 1393,
+BrandsPiedPiperPp = 1393,
 ///<summary>Brands Pied Piper Square Logo (Old)</summary>
 ///<see href="https://fontawesome.com/icons/pied-piper-square?style=brands"/>
 [Description("Brands Pied Piper Square Logo (Old)"), IconID("fab-pied-piper-square"), IconUnicodeGlyph(0xe01e)]
-BrandsPiedPiperSquareLogoOld = 1394,
+BrandsPiedPiperSquare = 1394,
 ///<summary>Solid Piggy Bank</summary>
 ///<see href="https://fontawesome.com/icons/piggy-bank?style=solid"/>
 [Description("Solid Piggy Bank"), IconID("fas-piggy-bank"), IconUnicodeGlyph(0xf4d3)]
@@ -5711,7 +5711,7 @@ SolidPoo = 1426,
 ///<summary>Solid Poo bolt</summary>
 ///<see href="https://fontawesome.com/icons/poo-storm?style=solid"/>
 [Description("Solid Poo bolt"), IconID("fas-poo-storm"), IconUnicodeGlyph(0xf75a)]
-SolidPooBolt = 1427,
+SolidPooStorm = 1427,
 ///<summary>Solid Poop</summary>
 ///<see href="https://fontawesome.com/icons/poop?style=solid"/>
 [Description("Solid Poop"), IconID("fas-poop"), IconUnicodeGlyph(0xf619)]
@@ -5767,7 +5767,7 @@ SolidQ = 1440,
 ///<summary>Brands QQ</summary>
 ///<see href="https://fontawesome.com/icons/qq?style=brands"/>
 [Description("Brands QQ"), IconID("fab-qq"), IconUnicodeGlyph(0xf1d6)]
-BrandsQQ = 1441,
+BrandsQq = 1441,
 ///<summary>Solid qrcode</summary>
 ///<see href="https://fontawesome.com/icons/qrcode?style=solid"/>
 [Description("Solid qrcode"), IconID("fas-qrcode"), IconUnicodeGlyph(0xf029)]
@@ -5839,7 +5839,7 @@ BrandsReadme = 1458,
 ///<summary>Brands Rebel Alliance</summary>
 ///<see href="https://fontawesome.com/icons/rebel?style=brands"/>
 [Description("Brands Rebel Alliance"), IconID("fab-rebel"), IconUnicodeGlyph(0xf1d0)]
-BrandsRebelAlliance = 1459,
+BrandsRebel = 1459,
 ///<summary>Solid Receipt</summary>
 ///<see href="https://fontawesome.com/icons/receipt?style=solid"/>
 [Description("Solid Receipt"), IconID("fas-receipt"), IconUnicodeGlyph(0xf543)]
@@ -5863,11 +5863,11 @@ RegularRectangleList = 1464,
 ///<summary>Solid Rectangle X Mark</summary>
 ///<see href="https://fontawesome.com/icons/rectangle-xmark?style=solid"/>
 [Description("Solid Rectangle X Mark"), IconID("fas-rectangle-xmark"), IconUnicodeGlyph(0xf410)]
-SolidRectangleXMark = 1465,
+SolidRectangleXmark = 1465,
 ///<summary>Regular Rectangle X Mark</summary>
 ///<see href="https://fontawesome.com/icons/rectangle-xmark?style=regular"/>
 [Description("Regular Rectangle X Mark"), IconID("far-rectangle-xmark"), IconUnicodeGlyph(0xf410)]
-RegularRectangleXMark = 1466,
+RegularRectangleXmark = 1466,
 ///<summary>Solid Recycle</summary>
 ///<see href="https://fontawesome.com/icons/recycle?style=solid"/>
 [Description("Solid Recycle"), IconID("fas-recycle"), IconUnicodeGlyph(0xf1b8)]
@@ -5879,7 +5879,7 @@ BrandsRedRiver = 1468,
 ///<summary>Brands reddit Logo</summary>
 ///<see href="https://fontawesome.com/icons/reddit?style=brands"/>
 [Description("Brands reddit Logo"), IconID("fab-reddit"), IconUnicodeGlyph(0xf1a1)]
-BrandsRedditLogo = 1469,
+BrandsReddit = 1469,
 ///<summary>Brands reddit Alien</summary>
 ///<see href="https://fontawesome.com/icons/reddit-alien?style=brands"/>
 [Description("Brands reddit Alien"), IconID("fab-reddit-alien"), IconUnicodeGlyph(0xf281)]
@@ -5895,11 +5895,11 @@ BrandsRedhat = 1472,
 ///<summary>Solid Registered Trademark</summary>
 ///<see href="https://fontawesome.com/icons/registered?style=solid"/>
 [Description("Solid Registered Trademark"), IconID("fas-registered"), IconUnicodeGlyph(0xf25d)]
-SolidRegisteredTrademark = 1473,
+SolidRegistered = 1473,
 ///<summary>Regular Registered Trademark</summary>
 ///<see href="https://fontawesome.com/icons/registered?style=regular"/>
 [Description("Regular Registered Trademark"), IconID("far-registered"), IconUnicodeGlyph(0xf25d)]
-RegularRegisteredTrademark = 1474,
+RegularRegistered = 1474,
 ///<summary>Brands Renren</summary>
 ///<see href="https://fontawesome.com/icons/renren?style=brands"/>
 [Description("Brands Renren"), IconID("fab-renren"), IconUnicodeGlyph(0xf18b)]
@@ -5943,7 +5943,7 @@ SolidRetweet = 1484,
 ///<summary>Brands Rev.io</summary>
 ///<see href="https://fontawesome.com/icons/rev?style=brands"/>
 [Description("Brands Rev.io"), IconID("fab-rev"), IconUnicodeGlyph(0xf5b2)]
-BrandsRevIo = 1485,
+BrandsRev = 1485,
 ///<summary>Solid Ribbon</summary>
 ///<see href="https://fontawesome.com/icons/ribbon?style=solid"/>
 [Description("Solid Ribbon"), IconID("fas-ribbon"), IconUnicodeGlyph(0xf4d6)]
@@ -6011,7 +6011,7 @@ SolidRocket = 1501,
 ///<summary>Brands Rocket.Chat</summary>
 ///<see href="https://fontawesome.com/icons/rocketchat?style=brands"/>
 [Description("Brands Rocket.Chat"), IconID("fab-rocketchat"), IconUnicodeGlyph(0xf3e8)]
-BrandsRocketChat = 1502,
+BrandsRocketchat = 1502,
 ///<summary>Brands Rockrms</summary>
 ///<see href="https://fontawesome.com/icons/rockrms?style=brands"/>
 [Description("Brands Rockrms"), IconID("fab-rockrms"), IconUnicodeGlyph(0xf3e9)]
@@ -6063,7 +6063,7 @@ SolidRulerVertical = 1514,
 ///<summary>Solid Indian Rupee Sign</summary>
 ///<see href="https://fontawesome.com/icons/rupee-sign?style=solid"/>
 [Description("Solid Indian Rupee Sign"), IconID("fas-rupee-sign"), IconUnicodeGlyph(0xf156)]
-SolidIndianRupeeSign = 1515,
+SolidRupeeSign = 1515,
 ///<summary>Solid Rupiah Sign</summary>
 ///<see href="https://fontawesome.com/icons/rupiah-sign?style=solid"/>
 [Description("Solid Rupiah Sign"), IconID("fas-rupiah-sign"), IconUnicodeGlyph(0xe23d)]
@@ -6079,7 +6079,7 @@ SolidS = 1518,
 ///<summary>Solid Sack of Money</summary>
 ///<see href="https://fontawesome.com/icons/sack-dollar?style=solid"/>
 [Description("Solid Sack of Money"), IconID("fas-sack-dollar"), IconUnicodeGlyph(0xf81d)]
-SolidSackOfMoney = 1519,
+SolidSackDollar = 1519,
 ///<summary>Solid Sack Xmark</summary>
 ///<see href="https://fontawesome.com/icons/sack-xmark?style=solid"/>
 [Description("Solid Sack Xmark"), IconID("fas-sack-xmark"), IconUnicodeGlyph(0xe56a)]
@@ -6123,7 +6123,7 @@ SolidScaleUnbalancedFlip = 1529,
 ///<summary>Brands SCHLIX</summary>
 ///<see href="https://fontawesome.com/icons/schlix?style=brands"/>
 [Description("Brands SCHLIX"), IconID("fab-schlix"), IconUnicodeGlyph(0xf3ea)]
-BrandsSCHLIX = 1530,
+BrandsSchlix = 1530,
 ///<summary>Solid School</summary>
 ///<see href="https://fontawesome.com/icons/school?style=solid"/>
 [Description("Solid School"), IconID("fas-school"), IconUnicodeGlyph(0xf549)]
@@ -6267,11 +6267,11 @@ SolidShip = 1565,
 ///<summary>Solid T-Shirt</summary>
 ///<see href="https://fontawesome.com/icons/shirt?style=solid"/>
 [Description("Solid T-Shirt"), IconID("fas-shirt"), IconUnicodeGlyph(0xf553)]
-SolidTShirt = 1566,
+SolidShirt = 1566,
 ///<summary>Brands Shirts in Bulk</summary>
 ///<see href="https://fontawesome.com/icons/shirtsinbulk?style=brands"/>
 [Description("Brands Shirts in Bulk"), IconID("fab-shirtsinbulk"), IconUnicodeGlyph(0xf214)]
-BrandsShirtsInBulk = 1567,
+BrandsShirtsinbulk = 1567,
 ///<summary>Solid Shoe Prints</summary>
 ///<see href="https://fontawesome.com/icons/shoe-prints?style=solid"/>
 [Description("Solid Shoe Prints"), IconID("fas-shoe-prints"), IconUnicodeGlyph(0xf54b)]
@@ -6331,7 +6331,7 @@ SolidSignsPost = 1581,
 ///<summary>Solid SIM Card</summary>
 ///<see href="https://fontawesome.com/icons/sim-card?style=solid"/>
 [Description("Solid SIM Card"), IconID("fas-sim-card"), IconUnicodeGlyph(0xf7c4)]
-SolidSIMCard = 1582,
+SolidSimCard = 1582,
 ///<summary>Brands SimplyBuilt</summary>
 ///<see href="https://fontawesome.com/icons/simplybuilt?style=brands"/>
 [Description("Brands SimplyBuilt"), IconID("fab-simplybuilt"), IconUnicodeGlyph(0xf215)]
@@ -6343,7 +6343,7 @@ SolidSink = 1584,
 ///<summary>Brands SISTRIX</summary>
 ///<see href="https://fontawesome.com/icons/sistrix?style=brands"/>
 [Description("Brands SISTRIX"), IconID("fab-sistrix"), IconUnicodeGlyph(0xf3ee)]
-BrandsSISTRIX = 1585,
+BrandsSistrix = 1585,
 ///<summary>Solid Sitemap</summary>
 ///<see href="https://fontawesome.com/icons/sitemap?style=solid"/>
 [Description("Solid Sitemap"), IconID("fas-sitemap"), IconUnicodeGlyph(0xf0e8)]
@@ -6379,7 +6379,7 @@ BrandsSkype = 1593,
 ///<summary>Brands Slack Logo</summary>
 ///<see href="https://fontawesome.com/icons/slack?style=brands"/>
 [Description("Brands Slack Logo"), IconID("fab-slack"), IconUnicodeGlyph(0xf198)]
-BrandsSlackLogo = 1594,
+BrandsSlack = 1594,
 ///<summary>Solid Slash</summary>
 ///<see href="https://fontawesome.com/icons/slash?style=solid"/>
 [Description("Solid Slash"), IconID("fas-slash"), IconUnicodeGlyph(0xf715)]
@@ -6447,11 +6447,11 @@ SolidSort = 1610,
 ///<summary>Solid Sort Down (Descending)</summary>
 ///<see href="https://fontawesome.com/icons/sort-down?style=solid"/>
 [Description("Solid Sort Down (Descending)"), IconID("fas-sort-down"), IconUnicodeGlyph(0xf0dd)]
-SolidSortDownDescending = 1611,
+SolidSortDown = 1611,
 ///<summary>Solid Sort Up (Ascending)</summary>
 ///<see href="https://fontawesome.com/icons/sort-up?style=solid"/>
 [Description("Solid Sort Up (Ascending)"), IconID("fas-sort-up"), IconUnicodeGlyph(0xf0de)]
-SolidSortUpAscending = 1612,
+SolidSortUp = 1612,
 ///<summary>Brands SoundCloud</summary>
 ///<see href="https://fontawesome.com/icons/soundcloud?style=brands"/>
 [Description("Brands SoundCloud"), IconID("fab-soundcloud"), IconUnicodeGlyph(0xf1be)]
@@ -6567,11 +6567,11 @@ SolidSquareEnvelope = 1640,
 ///<summary>Brands Font Awesome in Square</summary>
 ///<see href="https://fontawesome.com/icons/square-font-awesome?style=brands"/>
 [Description("Brands Font Awesome in Square"), IconID("fab-square-font-awesome"), IconUnicodeGlyph(0xf425)]
-BrandsFontAwesomeInSquare = 1641,
+BrandsSquareFontAwesome = 1641,
 ///<summary>Brands Font Awesome in Square with Stroke Outline</summary>
 ///<see href="https://fontawesome.com/icons/square-font-awesome-stroke?style=brands"/>
 [Description("Brands Font Awesome in Square with Stroke Outline"), IconID("fab-square-font-awesome-stroke"), IconUnicodeGlyph(0xf35c)]
-BrandsFontAwesomeInSquareWithStrokeOutline = 1642,
+BrandsSquareFontAwesomeStroke = 1642,
 ///<summary>Solid Square Full</summary>
 ///<see href="https://fontawesome.com/icons/square-full?style=solid"/>
 [Description("Solid Square Full"), IconID("fas-square-full"), IconUnicodeGlyph(0xf45c)]
@@ -6655,7 +6655,7 @@ SolidSquareVirus = 1662,
 ///<summary>Solid Square X Mark</summary>
 ///<see href="https://fontawesome.com/icons/square-xmark?style=solid"/>
 [Description("Solid Square X Mark"), IconID("fas-square-xmark"), IconUnicodeGlyph(0xf2d3)]
-SolidSquareXMark = 1663,
+SolidSquareXmark = 1663,
 ///<summary>Brands Squarespace</summary>
 ///<see href="https://fontawesome.com/icons/squarespace?style=brands"/>
 [Description("Brands Squarespace"), IconID("fab-squarespace"), IconUnicodeGlyph(0xf5be)]
@@ -6795,11 +6795,11 @@ SolidStroopwafel = 1697,
 ///<summary>Brands Studio Vinari</summary>
 ///<see href="https://fontawesome.com/icons/studiovinari?style=brands"/>
 [Description("Brands Studio Vinari"), IconID("fab-studiovinari"), IconUnicodeGlyph(0xf3f8)]
-BrandsStudioVinari = 1698,
+BrandsStudiovinari = 1698,
 ///<summary>Brands StumbleUpon Logo</summary>
 ///<see href="https://fontawesome.com/icons/stumbleupon?style=brands"/>
 [Description("Brands StumbleUpon Logo"), IconID("fab-stumbleupon"), IconUnicodeGlyph(0xf1a4)]
-BrandsStumbleuponLogo = 1699,
+BrandsStumbleupon = 1699,
 ///<summary>Brands StumbleUpon Circle</summary>
 ///<see href="https://fontawesome.com/icons/stumbleupon-circle?style=brands"/>
 [Description("Brands StumbleUpon Circle"), IconID("fab-stumbleupon-circle"), IconUnicodeGlyph(0xf1a3)]
@@ -6979,11 +6979,11 @@ SolidTemperatureHalf = 1743,
 ///<summary>Solid High Temperature</summary>
 ///<see href="https://fontawesome.com/icons/temperature-high?style=solid"/>
 [Description("Solid High Temperature"), IconID("fas-temperature-high"), IconUnicodeGlyph(0xf769)]
-SolidHighTemperature = 1744,
+SolidTemperatureHigh = 1744,
 ///<summary>Solid Low Temperature</summary>
 ///<see href="https://fontawesome.com/icons/temperature-low?style=solid"/>
 [Description("Solid Low Temperature"), IconID("fas-temperature-low"), IconUnicodeGlyph(0xf76b)]
-SolidLowTemperature = 1745,
+SolidTemperatureLow = 1745,
 ///<summary>Solid Temperature quarter</summary>
 ///<see href="https://fontawesome.com/icons/temperature-quarter?style=solid"/>
 [Description("Solid Temperature quarter"), IconID("fas-temperature-quarter"), IconUnicodeGlyph(0xf2ca)]
@@ -7279,7 +7279,7 @@ SolidTruckMoving = 1818,
 ///<summary>Solid Truck Side</summary>
 ///<see href="https://fontawesome.com/icons/truck-pickup?style=solid"/>
 [Description("Solid Truck Side"), IconID("fas-truck-pickup"), IconUnicodeGlyph(0xf63c)]
-SolidTruckSide = 1819,
+SolidTruckPickup = 1819,
 ///<summary>Solid Truck Plane</summary>
 ///<see href="https://fontawesome.com/icons/truck-plane?style=solid"/>
 [Description("Solid Truck Plane"), IconID("fas-truck-plane"), IconUnicodeGlyph(0xe58f)]
@@ -7291,7 +7291,7 @@ SolidTruckRampBox = 1821,
 ///<summary>Solid TTY</summary>
 ///<see href="https://fontawesome.com/icons/tty?style=solid"/>
 [Description("Solid TTY"), IconID("fas-tty"), IconUnicodeGlyph(0xf1e4)]
-SolidTTY = 1822,
+SolidTty = 1822,
 ///<summary>Brands Tumblr</summary>
 ///<see href="https://fontawesome.com/icons/tumblr?style=brands"/>
 [Description("Brands Tumblr"), IconID("fab-tumblr"), IconUnicodeGlyph(0xf173)]
@@ -7315,7 +7315,7 @@ SolidTurnUp = 1827,
 ///<summary>Solid Television</summary>
 ///<see href="https://fontawesome.com/icons/tv?style=solid"/>
 [Description("Solid Television"), IconID("fas-tv"), IconUnicodeGlyph(0xf26c)]
-SolidTelevision = 1828,
+SolidTv = 1828,
 ///<summary>Brands Twitch</summary>
 ///<see href="https://fontawesome.com/icons/twitch?style=brands"/>
 [Description("Brands Twitch"), IconID("fab-twitch"), IconUnicodeGlyph(0xf1e8)]
@@ -7363,7 +7363,7 @@ SolidUmbrellaBeach = 1839,
 ///<summary>Brands Uncharted Software</summary>
 ///<see href="https://fontawesome.com/icons/uncharted?style=brands"/>
 [Description("Brands Uncharted Software"), IconID("fab-uncharted"), IconUnicodeGlyph(0xe084)]
-BrandsUnchartedSoftware = 1840,
+BrandsUncharted = 1840,
 ///<summary>Solid Underline</summary>
 ///<see href="https://fontawesome.com/icons/underline?style=solid"/>
 [Description("Solid Underline"), IconID("fas-underline"), IconUnicodeGlyph(0xf0cd)]
@@ -7375,7 +7375,7 @@ BrandsUniregistry = 1842,
 ///<summary>Brands Unity 3D</summary>
 ///<see href="https://fontawesome.com/icons/unity?style=brands"/>
 [Description("Brands Unity 3D"), IconID("fab-unity"), IconUnicodeGlyph(0xe049)]
-BrandsUnity3D = 1843,
+BrandsUnity = 1843,
 ///<summary>Solid Universal Access</summary>
 ///<see href="https://fontawesome.com/icons/universal-access?style=solid"/>
 [Description("Solid Universal Access"), IconID("fas-universal-access"), IconUnicodeGlyph(0xf29a)]
@@ -7423,11 +7423,11 @@ SolidUpload = 1854,
 ///<summary>Brands UPS</summary>
 ///<see href="https://fontawesome.com/icons/ups?style=brands"/>
 [Description("Brands UPS"), IconID("fab-ups"), IconUnicodeGlyph(0xf7e0)]
-BrandsUPS = 1855,
+BrandsUps = 1855,
 ///<summary>Brands USB</summary>
 ///<see href="https://fontawesome.com/icons/usb?style=brands"/>
 [Description("Brands USB"), IconID("fab-usb"), IconUnicodeGlyph(0xf287)]
-BrandsUSB = 1856,
+BrandsUsb = 1856,
 ///<summary>Solid User</summary>
 ///<see href="https://fontawesome.com/icons/user?style=solid"/>
 [Description("Solid User"), IconID("fas-user"), IconUnicodeGlyph(0xf007)]
@@ -7491,7 +7491,7 @@ SolidUserNinja = 1871,
 ///<summary>Solid Nurse</summary>
 ///<see href="https://fontawesome.com/icons/user-nurse?style=solid"/>
 [Description("Solid Nurse"), IconID("fas-user-nurse"), IconUnicodeGlyph(0xf82f)]
-SolidNurse = 1872,
+SolidUserNurse = 1872,
 ///<summary>Solid User pen</summary>
 ///<see href="https://fontawesome.com/icons/user-pen?style=solid"/>
 [Description("Solid User pen"), IconID("fas-user-pen"), IconUnicodeGlyph(0xf4ff)]
@@ -7523,7 +7523,7 @@ SolidUserTie = 1879,
 ///<summary>Solid User X Mark</summary>
 ///<see href="https://fontawesome.com/icons/user-xmark?style=solid"/>
 [Description("Solid User X Mark"), IconID("fas-user-xmark"), IconUnicodeGlyph(0xf235)]
-SolidUserXMark = 1880,
+SolidUserXmark = 1880,
 ///<summary>Solid Users</summary>
 ///<see href="https://fontawesome.com/icons/users?style=solid"/>
 [Description("Solid Users"), IconID("fas-users"), IconUnicodeGlyph(0xf0c0)]
@@ -7559,11 +7559,11 @@ SolidUsersViewfinder = 1888,
 ///<summary>Brands United States Postal Service</summary>
 ///<see href="https://fontawesome.com/icons/usps?style=brands"/>
 [Description("Brands United States Postal Service"), IconID("fab-usps"), IconUnicodeGlyph(0xf7e1)]
-BrandsUnitedStatesPostalService = 1889,
+BrandsUsps = 1889,
 ///<summary>Brands us-Sunnah Foundation</summary>
 ///<see href="https://fontawesome.com/icons/ussunnah?style=brands"/>
 [Description("Brands us-Sunnah Foundation"), IconID("fab-ussunnah"), IconUnicodeGlyph(0xf407)]
-BrandsUsSunnahFoundation = 1890,
+BrandsUssunnah = 1890,
 ///<summary>Solid Utensils</summary>
 ///<see href="https://fontawesome.com/icons/utensils?style=solid"/>
 [Description("Solid Utensils"), IconID("fas-utensils"), IconUnicodeGlyph(0xf2e7)]
@@ -7663,7 +7663,7 @@ BrandsVimeoSquare = 1914,
 ///<summary>Brands Vimeo</summary>
 ///<see href="https://fontawesome.com/icons/vimeo-v?style=brands"/>
 [Description("Brands Vimeo"), IconID("fab-vimeo-v"), IconUnicodeGlyph(0xf27d)]
-BrandsVimeo = 1915,
+BrandsVimeoV = 1915,
 ///<summary>Brands Vine</summary>
 ///<see href="https://fontawesome.com/icons/vine?style=brands"/>
 [Description("Brands Vine"), IconID("fab-vine"), IconUnicodeGlyph(0xf1ca)]
@@ -7691,11 +7691,11 @@ SolidViruses = 1921,
 ///<summary>Brands VK</summary>
 ///<see href="https://fontawesome.com/icons/vk?style=brands"/>
 [Description("Brands VK"), IconID("fab-vk"), IconUnicodeGlyph(0xf189)]
-BrandsVK = 1922,
+BrandsVk = 1922,
 ///<summary>Brands VNV</summary>
 ///<see href="https://fontawesome.com/icons/vnv?style=brands"/>
 [Description("Brands VNV"), IconID("fab-vnv"), IconUnicodeGlyph(0xf40b)]
-BrandsVNV = 1923,
+BrandsVnv = 1923,
 ///<summary>Solid Voicemail</summary>
 ///<see href="https://fontawesome.com/icons/voicemail?style=solid"/>
 [Description("Solid Voicemail"), IconID("fas-voicemail"), IconUnicodeGlyph(0xf897)]
@@ -7707,7 +7707,7 @@ SolidVolcano = 1925,
 ///<summary>Solid Volleyball Ball</summary>
 ///<see href="https://fontawesome.com/icons/volleyball?style=solid"/>
 [Description("Solid Volleyball Ball"), IconID("fas-volleyball"), IconUnicodeGlyph(0xf45f)]
-SolidVolleyballBall = 1926,
+SolidVolleyball = 1926,
 ///<summary>Solid Volume high</summary>
 ///<see href="https://fontawesome.com/icons/volume-high?style=solid"/>
 [Description("Solid Volume high"), IconID("fas-volume-high"), IconUnicodeGlyph(0xf028)]
@@ -7723,15 +7723,15 @@ SolidVolumeOff = 1929,
 ///<summary>Solid Volume X Mark</summary>
 ///<see href="https://fontawesome.com/icons/volume-xmark?style=solid"/>
 [Description("Solid Volume X Mark"), IconID("fas-volume-xmark"), IconUnicodeGlyph(0xf6a9)]
-SolidVolumeXMark = 1930,
+SolidVolumeXmark = 1930,
 ///<summary>Solid Cardboard VR</summary>
 ///<see href="https://fontawesome.com/icons/vr-cardboard?style=solid"/>
 [Description("Solid Cardboard VR"), IconID("fas-vr-cardboard"), IconUnicodeGlyph(0xf729)]
-SolidCardboardVR = 1931,
+SolidVrCardboard = 1931,
 ///<summary>Brands Vue.js</summary>
 ///<see href="https://fontawesome.com/icons/vuejs?style=brands"/>
 [Description("Brands Vue.js"), IconID("fab-vuejs"), IconUnicodeGlyph(0xf41f)]
-BrandsVueJs = 1932,
+BrandsVuejs = 1932,
 ///<summary>Solid W</summary>
 ///<see href="https://fontawesome.com/icons/w?style=solid"/>
 [Description("Solid W"), IconID("fas-w"), IconUnicodeGlyph(0x57)]
@@ -7775,7 +7775,7 @@ SolidWaterLadder = 1942,
 ///<summary>Solid Square Wave</summary>
 ///<see href="https://fontawesome.com/icons/wave-square?style=solid"/>
 [Description("Solid Square Wave"), IconID("fas-wave-square"), IconUnicodeGlyph(0xf83e)]
-SolidSquareWave = 1943,
+SolidWaveSquare = 1943,
 ///<summary>Brands Waze</summary>
 ///<see href="https://fontawesome.com/icons/waze?style=brands"/>
 [Description("Brands Waze"), IconID("fab-waze"), IconUnicodeGlyph(0xf83f)]
@@ -7791,7 +7791,7 @@ BrandsWeibo = 1946,
 ///<summary>Solid Hanging Weight</summary>
 ///<see href="https://fontawesome.com/icons/weight-hanging?style=solid"/>
 [Description("Solid Hanging Weight"), IconID("fas-weight-hanging"), IconUnicodeGlyph(0xf5cd)]
-SolidHangingWeight = 1947,
+SolidWeightHanging = 1947,
 ///<summary>Solid Weight scale</summary>
 ///<see href="https://fontawesome.com/icons/weight-scale?style=solid"/>
 [Description("Solid Weight scale"), IconID("fas-weight-scale"), IconUnicodeGlyph(0xf496)]
@@ -7799,15 +7799,15 @@ SolidWeightScale = 1948,
 ///<summary>Brands Weixin (WeChat)</summary>
 ///<see href="https://fontawesome.com/icons/weixin?style=brands"/>
 [Description("Brands Weixin (WeChat)"), IconID("fab-weixin"), IconUnicodeGlyph(0xf1d7)]
-BrandsWeixinWechat = 1949,
+BrandsWeixin = 1949,
 ///<summary>Brands What's App</summary>
 ///<see href="https://fontawesome.com/icons/whatsapp?style=brands"/>
 [Description("Brands What's App"), IconID("fab-whatsapp"), IconUnicodeGlyph(0xf232)]
-BrandsWhatSApp = 1950,
+BrandsWhatsapp = 1950,
 ///<summary>Brands What's App Square</summary>
 ///<see href="https://fontawesome.com/icons/whatsapp-square?style=brands"/>
 [Description("Brands What's App Square"), IconID("fab-whatsapp-square"), IconUnicodeGlyph(0xf40c)]
-BrandsWhatSAppSquare = 1951,
+BrandsWhatsappSquare = 1951,
 ///<summary>Solid Wheat awn</summary>
 ///<see href="https://fontawesome.com/icons/wheat-awn?style=solid"/>
 [Description("Solid Wheat awn"), IconID("fas-wheat-awn"), IconUnicodeGlyph(0xe2cd)]
@@ -7831,7 +7831,7 @@ SolidWhiskeyGlass = 1956,
 ///<summary>Brands WHMCS</summary>
 ///<see href="https://fontawesome.com/icons/whmcs?style=brands"/>
 [Description("Brands WHMCS"), IconID("fab-whmcs"), IconUnicodeGlyph(0xf40d)]
-BrandsWHMCS = 1957,
+BrandsWhmcs = 1957,
 ///<summary>Solid WiFi</summary>
 ///<see href="https://fontawesome.com/icons/wifi?style=solid"/>
 [Description("Solid WiFi"), IconID("fas-wifi"), IconUnicodeGlyph(0xf1eb)]
@@ -7911,7 +7911,7 @@ SolidWonSign = 1976,
 ///<summary>Brands WordPress Logo</summary>
 ///<see href="https://fontawesome.com/icons/wordpress?style=brands"/>
 [Description("Brands WordPress Logo"), IconID("fab-wordpress"), IconUnicodeGlyph(0xf19a)]
-BrandsWordpressLogo = 1977,
+BrandsWordpress = 1977,
 ///<summary>Brands Wordpress Simple</summary>
 ///<see href="https://fontawesome.com/icons/wordpress-simple?style=brands"/>
 [Description("Brands Wordpress Simple"), IconID("fab-wordpress-simple"), IconUnicodeGlyph(0xf411)]
@@ -7963,7 +7963,7 @@ BrandsXingSquare = 1989,
 ///<summary>Solid X Mark</summary>
 ///<see href="https://fontawesome.com/icons/xmark?style=solid"/>
 [Description("Solid X Mark"), IconID("fas-xmark"), IconUnicodeGlyph(0xf00d)]
-SolidXMark = 1990,
+SolidXmark = 1990,
 ///<summary>Solid Xmarks Lines</summary>
 ///<see href="https://fontawesome.com/icons/xmarks-lines?style=solid"/>
 [Description("Solid Xmarks Lines"), IconID("fas-xmarks-lines"), IconUnicodeGlyph(0xe59a)]
@@ -7979,7 +7979,7 @@ BrandsYCombinator = 1993,
 ///<summary>Brands Yahoo Logo</summary>
 ///<see href="https://fontawesome.com/icons/yahoo?style=brands"/>
 [Description("Brands Yahoo Logo"), IconID("fab-yahoo"), IconUnicodeGlyph(0xf19e)]
-BrandsYahooLogo = 1994,
+BrandsYahoo = 1994,
 ///<summary>Brands Yammer</summary>
 ///<see href="https://fontawesome.com/icons/yammer?style=brands"/>
 [Description("Brands Yammer"), IconID("fab-yammer"), IconUnicodeGlyph(0xf840)]
