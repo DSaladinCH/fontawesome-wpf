@@ -9,16 +9,16 @@
     <Authors>DSaladin</Authors>
     <Product>FontAwesome WPF</Product>
     <Description>Use all free FontAwesome Icons in WPF with custom controls and integrated properties</Description>
-    <Copyright>Copyright © DSaladin 2021</Copyright>
+    <Copyright>Copyright © DSaladin 2022</Copyright>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageIcon>FontAwesomeLogo.png</PackageIcon>
     <RepositoryUrl>https://github.com/DSaladinCH/fontawesome-wpf</RepositoryUrl>
-    <PackageTags>FontAwesome,Icon</PackageTags>
+    <PackageTags>FontAwesome,Icon,v6,WPF</PackageTags>
     <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon></ApplicationIcon>
     <PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
-    <PackageReleaseNotes>Added support for ContentControl rotation</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to FontAwesome 6 with 396 new icons to use</PackageReleaseNotes>
     <RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
     <AssemblyVersion>6.1.1</AssemblyVersion>
     <FileVersion>6.1.1</FileVersion>
