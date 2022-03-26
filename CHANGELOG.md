@@ -1,5 +1,12 @@
 # Change Log
 
+## [6.1.1] - 03/26/2022
+### Added
+- Xmlns definition to include the package without the namespace
+
+### Updated
+- FontAwesome version to the new release 6.0 (6.1.1)
+
 ## [5.15.4.3] - 10/24/2021
 ### Added
 - Support for control rotation with Content.IconRotation
@@ -30,6 +37,7 @@
 ### Updated
 - FontAwesome Version to 5.15.3
 
+[6.1.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4.2...v6.1.1
 [5.15.4.2]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4.1...v5.15.4.2
 [5.15.4.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4...v5.15.4.1
 [5.15.4]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.3.10...v5.15.4
