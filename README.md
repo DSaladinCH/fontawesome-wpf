@@ -4,7 +4,7 @@
 WPF Controls with FontAwesome Icons.
 
 **FontAwesome Website:** https://fontawesome.com/icons  
-**Current FontAwesome Version:** 5.15.4
+**Current FontAwesome Version:** 6.1.1
 
 ### Changes in the newest version of FontAwesome
 https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md
@@ -12,7 +12,7 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md
 ## How to use
 ### Include in Window / UserControl / ResourceDictionary
 ```
-xmlns:fa="clr-namespace:DSaladin.FontAwesome.WPF;assembly=DSaladin.FontAwesome.WPF"
+xmlns:fa="https://dsaladin.dev/products/fontawesome/wpf/xaml"
 ```
 
 ### Step 2 - Set icon in Control
