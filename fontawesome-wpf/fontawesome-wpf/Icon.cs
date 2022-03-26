@@ -8,13 +8,6 @@ namespace DSaladin.FontAwesome.WPF
 {
     public static class Content
     {
-        /// <summary>
-        /// FontAwesome FontFamily.
-        /// </summary>
-        public static readonly FontFamily FontAwesomeSolid = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Solid");
-        public static readonly FontFamily FontAwesomeRegular = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Free Regular");
-        public static readonly FontFamily FontAwesomeBrand = new FontFamily(new Uri("pack://application:,,,/DSaladin.FontAwesome.WPF;component/"), "./#Font Awesome 5 Brands Regular");
-
         #region Icon
         /// <summary>
         /// The dependencyproperty for a FontAwesome icon on a ContentControl
@@ -48,35 +41,35 @@ namespace DSaladin.FontAwesome.WPF
         #endregion
 
         #region IconRotation
-        /// <summary>
-        /// The dependencyproperty for the icon rotation on a ContentControl
-        /// </summary>
-        public static readonly DependencyProperty IconRotationProperty =
-            DependencyProperty.RegisterAttached(
-                "IconRotation",
-                typeof(double),
-                typeof(ContentControl),
-                new PropertyMetadata(default(double), RotationChanged));
+        ///// <summary>
+        ///// The dependencyproperty for the icon rotation on a ContentControl
+        ///// </summary>
+        //public static readonly DependencyProperty IconRotationProperty =
+        //    DependencyProperty.RegisterAttached(
+        //        "IconRotation",
+        //        typeof(double),
+        //        typeof(ContentControl),
+        //        new PropertyMetadata(default(double), RotationChanged));
 
-        /// <summary>
-        /// Gets the icon rotation of the ContentControl
-        /// </summary>
-        /// <param name="target">The target ContentControl</param>
-        /// <returns>Returns the current icon rotation</returns>
-        public static double GetIconRotation(DependencyObject target)
-        {
-            return (double)target.GetValue(IconRotationProperty);
-        }
+        ///// <summary>
+        ///// Gets the icon rotation of the ContentControl
+        ///// </summary>
+        ///// <param name="target">The target ContentControl</param>
+        ///// <returns>Returns the current icon rotation</returns>
+        //public static double GetIconRotation(DependencyObject target)
+        //{
+        //    return (double)target.GetValue(IconRotationProperty);
+        //}
 
-        /// <summary>
-        /// Sets the icon rotation on the ContentControl
-        /// </summary>
-        /// <param name="target">The target ContentControl</param>
-        /// <param name="value">The new icon rotation value</param>
-        public static void SetIconRotation(DependencyObject target, double value)
-        {
-            target.SetValue(IconRotationProperty, value);
-        }
+        ///// <summary>
+        ///// Sets the icon rotation on the ContentControl
+        ///// </summary>
+        ///// <param name="target">The target ContentControl</param>
+        ///// <param name="value">The new icon rotation value</param>
+        //public static void SetIconRotation(DependencyObject target, double value)
+        //{
+        //    target.SetValue(IconRotationProperty, value);
+        //}
         #endregion
 
         private static void IconChanged(DependencyObject sender, DependencyPropertyChangedEventArgs evt)
@@ -93,23 +86,23 @@ namespace DSaladin.FontAwesome.WPF
 
             string iconID = symbolIcon.GetIconID();
             if (iconID.StartsWith("far"))
-                target.FontFamily = FontAwesomeRegular;
+                target.FontFamily = Management.FontAwesomeRegular;
             else if (iconID.StartsWith("fab"))
-                target.FontFamily = FontAwesomeBrand;
+                target.FontFamily = Management.FontAwesomeBrand;
             else
-                target.FontFamily = FontAwesomeSolid;
+                target.FontFamily = Management.FontAwesomeSolid;
 
             target.Content = symbolChar;
         }
 
-        private static void RotationChanged(DependencyObject sender, DependencyPropertyChangedEventArgs evt)
-        {
-            if (!(sender is ContentControl)) return;
+        //private static void RotationChanged(DependencyObject sender, DependencyPropertyChangedEventArgs evt)
+        //{
+        //    if (!(sender is ContentControl)) return;
 
-            ContentControl target = (ContentControl)sender;
+        //    ContentControl target = (ContentControl)sender;
 
-            if (!double.TryParse(evt.NewValue.ToString(), out double value)) return;
-            target.SetRotation(value);
-        }
+        //    if (!double.TryParse(evt.NewValue.ToString(), out double value)) return;
+        //    target.SetRotation(value);
+        //}
     }
 }
