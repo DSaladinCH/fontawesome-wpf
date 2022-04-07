@@ -16,8 +16,8 @@ namespace DSaladin.FontAwesome.WPF
             DependencyProperty.RegisterAttached(
                 "Icon",
                 typeof(FontAwesomeIcon),
-                typeof(ContentControl),
-                new PropertyMetadata(FontAwesomeIcon.None, IconChanged));
+                typeof(Content),
+                new FrameworkPropertyMetadata(FontAwesomeIcon.None, new PropertyChangedCallback(IconChanged)));
 
         /// <summary>
         /// Gets the content of a ContentControl, expressed as a FontAwesome icon.

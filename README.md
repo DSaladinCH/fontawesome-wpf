@@ -9,6 +9,9 @@ WPF Controls with FontAwesome Icons.
 ### Changes in the newest version of FontAwesome
 https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md
 
+### Changed in this package
+https://github.com/DSaladinCH/fontawesome-wpf/blob/master/CHANGELOG.md
+
 ## How to use
 ### Include in Window / UserControl / ResourceDictionary
 ```
