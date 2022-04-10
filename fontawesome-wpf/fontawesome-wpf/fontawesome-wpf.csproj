@@ -20,13 +20,13 @@
     <PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
     <PackageReleaseNotes>Updated to FontAwesome 6 with 396 new icons to use</PackageReleaseNotes>
     <RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
-    <AssemblyVersion>6.1.1.1</AssemblyVersion>
-    <FileVersion>6.1.1.1</FileVersion>
-    <Version>6.1.1.1</Version>
+    <AssemblyVersion>6.1.1.2</AssemblyVersion>
+    <FileVersion>6.1.1.2</FileVersion>
+    <Version>6.1.1.2</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <TargetFrameworks>net40;net452;net462;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net452;net462;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">

@@ -1,5 +1,9 @@
 # Change Log
 
+## [6.1.1.2] - 04/10/2022
+### Fixed
+- Exception thrown while initializing FontAwesomeImage
+
 ## [6.1.1.1] - 04/07/2022
 ### Fixed
 - Exception thrown when binding icons to controls
@@ -44,6 +48,7 @@
 ### Updated
 - FontAwesome Version to 5.15.3
 
+[6.1.1.2]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v6.1.1.1...v6.1.1.2
 [6.1.1.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v6.1.1...v6.1.1.1
 [6.1.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4.2...v6.1.1
 [5.15.4.2]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v5.15.4.1...v5.15.4.2
