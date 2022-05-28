@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace demo_testing
+namespace demo_testing_net6_0
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
