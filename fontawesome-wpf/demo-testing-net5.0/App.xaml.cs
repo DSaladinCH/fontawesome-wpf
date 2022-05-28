@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace demo_testing
+namespace demo_testing_net5_0
 {
     /// <summary>
     /// Interaction logic for App.xaml

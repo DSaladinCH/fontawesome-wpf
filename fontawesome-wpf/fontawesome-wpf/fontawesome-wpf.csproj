@@ -18,11 +18,11 @@
     <AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon></ApplicationIcon>
     <PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
-    <PackageReleaseNotes>Updated to FontAwesome 6 with 396 new icons to use</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed FontAwesomeImage control not rendering</PackageReleaseNotes>
     <RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
-    <AssemblyVersion>6.1.1.2</AssemblyVersion>
-    <FileVersion>6.1.1.2</FileVersion>
-    <Version>6.1.1.2</Version>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <Version>6.1.2</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
     <PackageReadmeFile>README.md</PackageReadmeFile>
