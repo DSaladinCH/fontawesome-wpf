@@ -143,10 +143,10 @@ namespace DSaladin.FontAwesome.WPF
                 else if (iconID.StartsWith("fab"))
                     temp = FontAwesomeTypefaceBrand;
 
-#if (NET5_0 || NETCOREAPP3_1)
+#if NETCOREAPP3_1_OR_GREATER
                 drawingContext.DrawText(new FormattedText(charIcon, CultureInfo.InvariantCulture, FlowDirection.LeftToRight, temp, emSize, foregroundBrush, 125)
                 { TextAlignment = TextAlignment.Center }, new Point(0, 0));
-#elif (NET45 || NET40)
+#elif NETFRAMEWORK
                 drawingContext.DrawText(new FormattedText(charIcon, CultureInfo.InvariantCulture, FlowDirection.LeftToRight, temp, emSize, foregroundBrush)
                 { TextAlignment = TextAlignment.Center }, new Point(0, 0));
 #endif
