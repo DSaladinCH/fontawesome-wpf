@@ -22,11 +22,11 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build fontawesome-wpf.csproj -c Release
+      run: dotnet build fontawesome-wpf/fontawesome-wpf/fontawesome-wpf.csproj -c Release
     - name: Test
-      run: dotnet test fontawesome-wpf.csproj -c Release --no-build
+      run: dotnet test fontawesome-wpf/fontawesome-wpf/fontawesome-wpf.csproj -c Release --no-build
     - name: Pack nugets
-      run: dotnet pack fontawesome-wpf.csproj -c Release --no-build --output .
+      run: dotnet pack fontawesome-wpf/fontawesome-wpf/fontawesome-wpf.csproj -c Release --no-build --output .
     - name: Add NuGet source
       run: dotnet nuget add source --username DSaladinCH --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/DSaladinCH/index.json"
     - name: Push to GitHub Packages
