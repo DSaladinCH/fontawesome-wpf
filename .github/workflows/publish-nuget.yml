@@ -20,7 +20,7 @@ jobs:
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore fontawesome-wpf/fontawesome-wpf/fontawesome-wpf.csproj
     - name: Build
       run: dotnet build fontawesome-wpf/fontawesome-wpf/fontawesome-wpf.csproj -c Release
     - name: Test
