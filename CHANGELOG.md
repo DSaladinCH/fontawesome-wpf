@@ -1,5 +1,9 @@
 # Change Log
 
+## [6.2.0]      - 09/28/2022
+### Updated
+- FontAwesome version to 6.2.0
+
 ## [6.1.2]      - 05/28/2022
 ### Fixed
 - FontAwesomeImage control not rendering in .NET 6.0 - [Issue #12](https://github.com/DSaladinCH/fontawesome-wpf/issues/12)
