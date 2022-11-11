@@ -39,7 +39,7 @@ namespace demo_testing_net6_0
         {
             InitializeComponent();
             DataContext = this;
-            TestIcon = FontAwesomeIcon.BrandsGg;
+            //TestIcon = FontAwesomeIcon.BrandsGg;
             //lblIcon.SetRotation(90);
         }
 

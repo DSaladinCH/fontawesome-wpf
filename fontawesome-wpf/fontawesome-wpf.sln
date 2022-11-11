@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo-testing-net6.0", "demo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo-testing-net47", "demo-testing-net47\demo-testing-net47.csproj", "{5BF641C7-B1DD-47BD-BCDE-329AC0EA2067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fontawesome-extractor", "fontawesome-extractor\fontawesome-extractor.csproj", "{32423434-53BB-45A3-9679-2718EB03A564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5BF641C7-B1DD-47BD-BCDE-329AC0EA2067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF641C7-B1DD-47BD-BCDE-329AC0EA2067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF641C7-B1DD-47BD-BCDE-329AC0EA2067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32423434-53BB-45A3-9679-2718EB03A564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32423434-53BB-45A3-9679-2718EB03A564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32423434-53BB-45A3-9679-2718EB03A564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32423434-53BB-45A3-9679-2718EB03A564}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

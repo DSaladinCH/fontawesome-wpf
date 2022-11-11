@@ -9,7 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Font Awesome 6 Pro-Solid-900.otf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\fontawesome-wpf\fontawesome-wpf.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Font Awesome 6 Pro-Solid-900.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

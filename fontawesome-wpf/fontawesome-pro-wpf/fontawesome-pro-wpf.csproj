@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks Condition="'$(LibraryFrameworks)'==''">net45;net40;netcoreapp3.1;net5.0-windows</TargetFrameworks>
+		<TargetFrameworks Condition="'$(LibraryFrameworks)'!=''">$(LibraryFrameworks)</TargetFrameworks>
+		<RootNamespace>fontawesome_pro_wpf</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>DSaladin.FontAwesome.Pro.WPF</PackageId>
+		<Authors>DSaladin</Authors>
+		<Product>FontAwesome Pro WPF</Product>
+		<Description>Use all free and pro FontAwesome Icons in WPF with custom controls and integrated properties</Description>
+		<Copyright>Copyright © DSaladin 2022</Copyright>
+		<PackageLicenseExpression></PackageLicenseExpression>
+		<PackageIcon>FontAwesomeLogo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/DSaladinCH/fontawesome-wpf</RepositoryUrl>
+		<PackageTags>FontAwesome,FontAwesome Pro,Icon,v6,WPF</PackageTags>
+		<ApplicationIcon></ApplicationIcon>
+		<PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
+		<RootNamespace>DSaladin.FontAwesome.Pro.WPF</RootNamespace>
+		<AssemblyVersion></AssemblyVersion>
+		<FileVersion></FileVersion>
+		<Version>6.2.0</Version>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<AssemblyName>DSaladin.FontAwesome.Pro.WPF</AssemblyName>
+		<PackageReadmeFile>README-NuGet.md</PackageReadmeFile>
+		<TargetFrameworks>net452;net462;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<Optimize>true</Optimize>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="fonts\**" />
+		<EmbeddedResource Remove="fonts\**" />
+		<None Remove="fonts\**" />
+		<None Include="..\..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<Page Remove="fonts\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="FontAwesome6BrandsRegular.otf" />
+		<None Remove="FontAwesome6FreeRegular.otf" />
+		<None Remove="FontAwesome6FreeSolid.otf" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="FontAwesomeLogo.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="FontAwesome6BrandsRegular.otf">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="FontAwesome6FreeRegular.otf">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="FontAwesome6FreeSolid.otf">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="README-NuGet.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>

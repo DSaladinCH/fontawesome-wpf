@@ -18,9 +18,9 @@ namespace DSaladin.FontAwesome.WPF
         /// <summary>
         /// Typeface used to generate FontAwesome icon.
         /// </summary>
-        private static readonly Typeface FontAwesomeTypefaceSolid = new Typeface(Management.FontAwesomeSolid, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
-        private static readonly Typeface FontAwesomeTypefaceRegular = new Typeface(Management.FontAwesomeRegular, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
-        private static readonly Typeface FontAwesomeTypefaceBrand = new Typeface(Management.FontAwesomeBrand, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+        private static readonly Typeface FontAwesomeTypefaceSolid = new Typeface(Management.FontAwesomeFreeSolid, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+        private static readonly Typeface FontAwesomeTypefaceRegular = new Typeface(Management.FontAwesomeFreeRegular, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+        private static readonly Typeface FontAwesomeTypefaceBrand = new Typeface(Management.FontAwesomeBrandsRegular, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
 
         /// <summary>
         /// Identifies the FontAwesome.WPF.ImageAwesome.Foreground dependency property.
