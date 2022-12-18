@@ -14,7 +14,7 @@
 [![GitHub license](https://img.shields.io/github/license/DSaladinCH/fontawesome-wpf?style=for-the-badge)](https://github.com/DSaladinCH/fontawesome-wpf/blob/master/LICENSE.txt)
 [![NuGet version (DSaladin.FontAwesome.WPF)](https://img.shields.io/nuget/v/DSaladin.FontAwesome.WPF.svg?style=for-the-badge)](https://www.nuget.org/packages/DSaladin.FontAwesome.WPF/)  
 
-[!["Buy Me A Coffee"](https://github.com/DSaladinCH/fontawesome-wpf/blob/main/images/buy_me_a_coffee.png)](https://www.buymeacoffee.com/dsaladin)
+[!["Buy Me A Coffee"](https://raw.githubusercontent.com/DSaladinCH/fontawesome-wpf/v6.2.1/images/buy_me_a_coffee.png)](https://www.buymeacoffee.com/dsaladin)
 
 </div>
     <a href="https://www.nuget.org/packages/DSaladin.FontAwesome.WPF">Download</a>
