@@ -22,7 +22,7 @@
 		<RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
 		<AssemblyVersion></AssemblyVersion>
 		<FileVersion></FileVersion>
-		<Version>6.2.0</Version>
+		<Version>6.2.1</Version>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
 		<PackageReadmeFile>README-NuGet.md</PackageReadmeFile>
