@@ -3,6 +3,8 @@
 [![GitHub license](https://img.shields.io/github/license/DSaladinCH/fontawesome-wpf?style=for-the-badge)](https://github.com/DSaladinCH/fontawesome-wpf/blob/master/LICENSE.txt)
 [![NuGet version (DSaladin.FontAwesome.WPF)](https://img.shields.io/nuget/v/DSaladin.FontAwesome.WPF.svg?style=for-the-badge)](https://www.nuget.org/packages/DSaladin.FontAwesome.WPF/)  
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dsaladin)
+
 **FontAwesome Website:** [FontAwesome Website](https://fontawesome.com/icons)
 **Current FontAwesome Version:** 6.2.0
 **Official FontAwesome Changelog:** [GitHub Changelog](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md)
