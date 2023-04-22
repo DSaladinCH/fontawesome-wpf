@@ -27,7 +27,7 @@
 
 # About This Project
 **FontAwesome Website:** [FontAwesome Website](https://fontawesome.com/icons) \
-**Current FontAwesome Version:** 6.2.0 \
+**Current FontAwesome Version:** 6.4.0 \
 **Official FontAwesome Changelog:** [GitHub Changelog](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md) \
 **Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/master/CHANGELOG.md) \
 

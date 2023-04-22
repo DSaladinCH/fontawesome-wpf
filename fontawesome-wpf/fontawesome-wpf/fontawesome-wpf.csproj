@@ -9,7 +9,7 @@
 		<Authors>DSaladin</Authors>
 		<Product>FontAwesome WPF</Product>
 		<Description>Use all free FontAwesome Icons in WPF with custom controls and integrated properties</Description>
-		<Copyright>Copyright © DSaladin 2022</Copyright>
+		<Copyright>Copyright © DSaladin 2023</Copyright>
 		<PackageLicenseExpression></PackageLicenseExpression>
 		<PackageIcon>FontAwesomeLogo.png</PackageIcon>
 		<RepositoryUrl>https://github.com/DSaladinCH/fontawesome-wpf</RepositoryUrl>
@@ -18,15 +18,16 @@
 		<AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
 		<ApplicationIcon></ApplicationIcon>
 		<PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
-		<PackageReleaseNotes>Fixed FontAwesomeImage control not rendering</PackageReleaseNotes>
+		<PackageReleaseNotes>Update FontAwesome version to 6.4.0</PackageReleaseNotes>
 		<RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
 		<AssemblyVersion></AssemblyVersion>
 		<FileVersion></FileVersion>
-		<Version>6.2.1</Version>
+		<Version>6.3.0</Version>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
 		<PackageReadmeFile>README-NuGet.md</PackageReadmeFile>
-		<TargetFrameworks>net452;net462;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+		<TargetFrameworks>net452;net462;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
+		<Title>FontAwesome WPF by DSaladin</Title>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">

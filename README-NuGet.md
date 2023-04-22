@@ -5,10 +5,10 @@
 
 [!["Buy Me A Coffee"](https://raw.githubusercontent.com/DSaladinCH/fontawesome-wpf/v6.2.1/images/buy_me_a_coffee.png)](https://www.buymeacoffee.com/dsaladin)
 
-**FontAwesome Website:** [FontAwesome Website](https://fontawesome.com/icons)
-**Current FontAwesome Version:** 6.2.0
-**Official FontAwesome Changelog:** [GitHub Changelog](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md)
-**Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/master/CHANGELOG.md) 
+- **FontAwesome Website:** [FontAwesome Website](https://fontawesome.com/icons)
+- **Current FontAwesome Version:** 6.4.0
+- **Official FontAwesome Changelog:** [GitHub Changelog](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md)
+- **Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/master/CHANGELOG.md)
 
 # How to use
 ## Step 1 - Include in Window / UserControl / ResourceDictionary
@@ -32,7 +32,7 @@ This package also contains two custom controls.
 
 # Troubleshooting
 ## Error CS8630 - Invalid 'nullable' value
-The package uses nullable values (for example `string?`), this was officially added in C# 8.0. This version (or higher) is used from .NET Core 3.x onwards. <br />
+The package uses nullable values (for example `string?`), this was officially added in C# 8.0. This version (or higher) is used from .NET Core 3.x onwards.
 In .NET Framework the default is C# 7.3. So in order to use the package you have to set the project language version to 8.0 (or higher).
 ### Set language version
 1. Open the .csproj file
