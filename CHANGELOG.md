@@ -1,5 +1,12 @@
 # Change Log
 
+## [6.7.0]		- 2024-12-02
+### Add
+- Support for .NET 9
+
+### Update
+- FontAwesome version to 6.7.1
+
 ## [6.3.0]		- 2023-04-22
 ### Update
 - FontAwesome version to 6.4.0

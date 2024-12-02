@@ -11,10 +11,10 @@
 <div>
 
 [![GitHub issues](https://img.shields.io/github/issues/DSaladinCH/fontawesome-wpf?style=for-the-badge)](https://github.com/DSaladinCH/fontawesome-wpf/issues)
-[![GitHub license](https://img.shields.io/github/license/DSaladinCH/fontawesome-wpf?style=for-the-badge)](https://github.com/DSaladinCH/fontawesome-wpf/blob/master/LICENSE.txt)
+[![GitHub license](https://img.shields.io/github/license/DSaladinCH/fontawesome-wpf?style=for-the-badge)](https://github.com/DSaladinCH/fontawesome-wpf/blob/main/LICENSE.txt)
 [![NuGet version (DSaladin.FontAwesome.WPF)](https://img.shields.io/nuget/v/DSaladin.FontAwesome.WPF.svg?style=for-the-badge)](https://www.nuget.org/packages/DSaladin.FontAwesome.WPF/)  
 
-[!["Buy Me A Coffee"](https://raw.githubusercontent.com/DSaladinCH/fontawesome-wpf/v6.2.1/images/buy_me_a_coffee.png)](https://www.buymeacoffee.com/dsaladin)
+[!["Buy Me A Coffee"](https://raw.githubusercontent.com/DSaladinCH/fontawesome-wpf/main/images/buy_me_a_coffee.png)](https://www.buymeacoffee.com/dsaladin)
 
 </div>
     <a href="https://www.nuget.org/packages/DSaladin.FontAwesome.WPF">Download</a>
@@ -27,9 +27,9 @@
 
 # About This Project
 **FontAwesome Website:** [FontAwesome Website](https://fontawesome.com/icons) \
-**Current FontAwesome Version:** 6.4.0 \
-**Official FontAwesome Changelog:** [GitHub Changelog](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md) \
-**Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/master/CHANGELOG.md) \
+**Current FontAwesome Version:** 6.7.1 \
+**Official FontAwesome Changelog:** [GitHub Changelog](https://fontawesome.com/changelog) \
+**Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/main/CHANGELOG.md) \
 
 # How to use
 ## Step 1 - Include in Window / UserControl / ResourceDictionary
