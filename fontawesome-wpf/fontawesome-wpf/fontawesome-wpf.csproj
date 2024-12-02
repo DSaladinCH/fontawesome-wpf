@@ -8,20 +8,23 @@
 		<Authors>DSaladin</Authors>
 		<Product>FontAwesome WPF</Product>
 		<Description>Use all free FontAwesome Icons in WPF with custom controls and integrated properties</Description>
-		<Copyright>Copyright © DSaladin 2023</Copyright>
+		<Copyright>Copyright © DSaladin 2024</Copyright>
 		<PackageLicenseExpression></PackageLicenseExpression>
 		<PackageIcon>FontAwesomeLogo.png</PackageIcon>
 		<RepositoryUrl>https://github.com/DSaladinCH/fontawesome-wpf</RepositoryUrl>
 		<PackageTags>FontAwesome,Icon,v6,WPF</PackageTags>
 		<SignAssembly>False</SignAssembly>
-		<AssemblyOriginatorKeyFile>FontAwesomeWPF.pfx</AssemblyOriginatorKeyFile>
 		<ApplicationIcon></ApplicationIcon>
 		<PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
-		<PackageReleaseNotes>Update FontAwesome version to 6.4.0</PackageReleaseNotes>
+		<PackageReleaseNotes>## Add
+- Support for .NET 9
+
+## Update
+- FontAwesome version to 6.7.1</PackageReleaseNotes>
 		<RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
 		<AssemblyVersion></AssemblyVersion>
 		<FileVersion></FileVersion>
-		<Version>6.3.0</Version>
+		<Version>6.7.0</Version>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
 		<PackageReadmeFile>README-NuGet.md</PackageReadmeFile>
