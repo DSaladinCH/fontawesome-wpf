@@ -1,5 +1,9 @@
 # Change Log
 
+## [6.7.1]		- 2024-12-02
+### Update
+- FontAwesome version to 6.7.2
+
 ## [6.7.0]		- 2024-12-02
 ### Add
 - Support for .NET 9
@@ -71,6 +75,8 @@
 ### Update
 - FontAwesome Version to 5.15.3
 
+[6.7.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v6.7.0...v6.7.1
+[6.7.0]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v6.3.0...v6.7.0
 [6.3.0]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v6.2.1...v6.3.0
 [6.2.1]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v6.2.0...v6.2.1
 [6.2.0]: https://github.com/DSaladinCH/fontawesome-wpf/compare/v6.1.2...v6.2.0

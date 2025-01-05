@@ -27,9 +27,9 @@
 
 # About This Project
 **FontAwesome Website:** [FontAwesome Website](https://fontawesome.com/icons) \
-**Current FontAwesome Version:** 6.7.1 \
-**Official FontAwesome Changelog:** [GitHub Changelog](https://fontawesome.com/changelog) \
-**Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/main/CHANGELOG.md) \
+**Current FontAwesome Version:** 6.7.2 \
+**Official FontAwesome Changelog:** [Changelog](https://fontawesome.com/changelog) \
+**Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/main/CHANGELOG.md)
 
 # How to use
 ## Step 1 - Include in Window / UserControl / ResourceDictionary

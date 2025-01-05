@@ -6,7 +6,7 @@
 [!["Buy Me A Coffee"](https://raw.githubusercontent.com/DSaladinCH/fontawesome-wpf/main/images/buy_me_a_coffee.png)](https://www.buymeacoffee.com/dsaladin)
 
 - **FontAwesome Website:** [FontAwesome Website](https://fontawesome.com/icons)
-- **Current FontAwesome Version:** 6.7.1
+- **Current FontAwesome Version:** 6.7.2
 - **Official FontAwesome Changelog:** [Changelog](https://fontawesome.com/changelog)
 - **Package Changelog:** [GitHub Changelog](https://github.com/DSaladinCH/fontawesome-wpf/blob/main/CHANGELOG.md)
 
