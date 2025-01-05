@@ -16,15 +16,12 @@
 		<SignAssembly>False</SignAssembly>
 		<ApplicationIcon></ApplicationIcon>
 		<PackageProjectUrl>https://github.com/DSaladinCH/fontawesome-wpf</PackageProjectUrl>
-		<PackageReleaseNotes>## Add
-- Support for .NET 9
-
-## Update
-- FontAwesome version to 6.7.1</PackageReleaseNotes>
+		<PackageReleaseNotes>## Update
+- FontAwesome version to 6.7.2</PackageReleaseNotes>
 		<RootNamespace>DSaladin.FontAwesome.WPF</RootNamespace>
 		<AssemblyVersion></AssemblyVersion>
 		<FileVersion></FileVersion>
-		<Version>6.7.0</Version>
+		<Version>6.7.1</Version>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<AssemblyName>DSaladin.FontAwesome.WPF</AssemblyName>
 		<PackageReadmeFile>README-NuGet.md</PackageReadmeFile>
